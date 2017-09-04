@@ -1,0 +1,38 @@
+/**
+	@name com.justep.cordova.plugin.baidulocation
+	@class 
+	@description 百度地图插件
+	@model Native
+	@category plugin
+	@declareVar navigator.baiduLocation
+*/
+
+/**
+	@name com.justep.cordova.plugin.baidulocation.getCurrentPosition
+	@function
+ 	@param {Function} onSuccess 执行成功的回调
+ 	@param {Function} onError 执行失败的回调
+ 	@returns {void}
+ 	@description 获取当前地理位置
+*/
+
+/**
+	@name com.justep.cordova.plugin.baidulocation.stop
+	@function
+ 	@param {Function} onSuccess 执行成功的回调
+ 	@param {Function} onError 执行失败的回调
+ 	@returns {void}
+ 	@description 停止获取地理位置
+*/
+/**
+	@name com.justep.cordova.plugin.baidulocation.transform
+	@function
+ 	@param {Function} onSuccess 执行成功的回调
+ 	@param {Function} onError 执行失败的回调
+	@param {String} longitude 待转换的经度
+ 	@param {String} latitude  待转换的纬度
+	@param {String} fromCoordinateType 原始坐标系
+ 	@param {String} toCoordinateType 转换后的坐标系
+ 	@returns {void}
+ 	@description 转换后的地理位置
+*/

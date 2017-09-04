@@ -1,0 +1,30 @@
+/**
+	@name com.justep.cordova.plugin.alipay
+	@class 
+	@description 支付宝支付插件
+	@model Native
+	@category plugin
+	@declareVar navigator.alipay
+*/
+
+/**
+	@name com.justep.cordova.plugin.alipay.pay
+ 	@function
+ 	@param {object} orderInfo 支付信息
+  	<br/><b>参数格式：</b>
+	<xmp>
+		{
+			"seller":String - 卖家支付宝账号或对应的支付宝唯一用户号,
+			"subject":String - 商品名称,
+ 	 		"body":String - 商品详情,
+ 	 		"price"Number - 价格,单位人民币:元,
+ 	 		"tradeNo":String - 唯一订单号,
+ 	 		"timeout":String - 超时时间设置,
+ 	 		"notifyUrl":String - 服务器通知路径:
+		}
+	</xmp>	
+ 	@param {Function} onSuccess 执行成功回调函数
+ 	@param {Function} onError 执行失败回调函数
+ 	@returns {void}
+ 	@description 支付宝支付
+*/

@@ -1,0 +1,109 @@
+/**
+	@name cordova-plugin-http
+	@class 
+	@description 与HTTP服务器交互的cordova插件，支持iOS，Android
+	@model Native
+	@category plugin
+	@declareVar CordovaHttpPlugin
+*/
+
+
+/**
+	@name cordova-plugin-http.getBasicAuthHeader
+	@function
+	@param {String} username 
+	@param {String} password 
+	@returns {Object}
+	@description 获取一个标准的HTTP请求头
+*/
+
+/**
+	@name cordova-plugin-http.useBasicAuth
+	@function
+	@param {String} username 
+	@param {String} password 
+	@returns {void}
+	@description 通过给定的用户名和密码来设置所有的基础身份验证请求
+*/
+/**
+	@name cordova-plugin-http.setHeader
+	@function
+	@param {String} Header 
+	@param {String} Value 
+	@returns {void}
+	@description 给所有的请求设置请求头
+*/
+/**
+	@name cordova-plugin-http.enableSSLPinning
+	@function
+	@param {Boolean} enable 是否启用SSL
+	@param {Function} success 成功回调函数
+	@param {Function} failure 失败回调函数 
+	@returns {void}
+	@description 启用/禁用SSL，默认为禁用
+*/
+/**
+	@name cordova-plugin-http.acceptAllCerts
+	@function
+	@param {Boolean} allow 是否允许
+	@param {Function} success 成功回调函数
+	@param {Function} failure 失败回调函数 
+	@returns {void}
+	@description 是否接受所有的SSL证书，默认为否
+*/
+/**
+	@name cordova-plugin-http.validateDomainName
+	@function
+	@param {Boolean} validate 是否验证
+	@param {Function} success 成功回调函数
+	@param {Function} failure 失败回调函数
+	@returns {void}
+	@description 是否验证域名证书，默认为是
+*/
+/**
+	@name cordova-plugin-http.post
+	@function
+	@param {String} url 请求地址
+	@param {Object} params 请求参数
+	@param {Object} headers 请求头
+	@param {Function} success 成功回调函数
+	@param {Function} failure 失败回调函数
+	@returns {void}
+	@description 通过 HTTP POST 请求载入 JSON 数据。
+*/
+/**
+	@name cordova-plugin-http.get
+	@function
+	@param {String} url 请求地址
+	@param {Object} params 请求参数
+	@param {Object} headers 请求头
+	@param {Function} success 成功回调函数
+	@param {Function} failure 失败回调函数
+	@returns {void}
+	@description 通过 HTTP GET 请求载入 JSON 数据。
+*/
+/**
+	@name cordova-plugin-http.uploadFile
+	@function
+	@param {String} url 请求地址
+	@param {Object} params 请求参数
+	@param {Object} headers 请求头
+	@param {String} filePath 文件路径
+	@param {String} name 文件名
+	@param {Function} success 成功回调函数
+	@param {Function} failure 失败回调函数
+	@returns {void}
+	@description 上传文件
+*/
+/**
+	@name cordova-plugin-http.downloadFile
+	@function
+	@param {String} url 请求地址
+	@param {Object} params 请求参数
+	@param {Object} headers 请求头
+	@param {String} filePath 文件路径
+	@param {Function} success 成功回调函数
+	@param {Function} failure 失败回调函数
+	@returns {void}
+	@description 下载文件
+*/

@@ -1,0 +1,1 @@
+ios开源库，AFNetworking，打包时候不需要主动勾选，被依赖插件。AF版本号3.x，GitHub地址：https://github.com/AFNetworking/AFNetworking

@@ -1,0 +1,27 @@
+/**
+	@name cordova-plugin-spinner-dialog
+	@class 
+	@model Native
+	@category plugin
+	@description 本地等待和进度对话框
+	@declareVar window.plugins.spinnerDialog
+*/
+
+/**
+	@name cordova-plugin-spinner-dialog.show
+	@function
+	@param {String} title  可选参数 标题 仅Android系统有效
+	@param {String} message 可选参数  信息
+	@param {Function} cancelCallback 取消的回调
+ 	@returns {void}
+ 	@description 打开对话框
+*/
+
+/**
+	@name cordova-plugin-spinner-dialog.hide
+	@function
+	@param {Function} success 请求成功的回调 
+	@param {String} fail 请求失败的回调
+ 	@returns {void}
+ 	@description 关闭对话框
+*/

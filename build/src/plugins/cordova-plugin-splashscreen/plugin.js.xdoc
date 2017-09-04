@@ -1,0 +1,22 @@
+/**
+	@name cordova-plugin-splashscreen
+	@class
+	@description 闪屏插件
+	@model Native
+	@category plugin
+	@declareVar navigator.splashscreen
+*/
+
+/**
+ 	@name cordova-plugin-splashscreen.show
+ 	@function
+ 	@returns {void}
+ 	@description 启用应用画面开启
+*/
+
+/**
+ 	@name cordova-plugin-splashscreen.hide
+ 	@function
+ 	@returns {void}
+ 	@description 启用应用画面关闭
+*/

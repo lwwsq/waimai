@@ -1,0 +1,60 @@
+/**
+	@name org.apache.cordova.keyboard
+	@class 
+	@description 键盘插件
+	@model Native
+	@category plugin
+	@declareVar window.Keyboard
+*/
+
+/**
+	@name org.apache.cordova.keyboard.shrinkView
+	@function
+	@param {Boolean} shrink 是否收缩视图。true/false
+	@returns {void}
+	@description 是否显示的时候收缩视图,适用于IOS
+*/
+
+/**
+	@name org.apache.cordova.keyboard.hideFormAccessoryBar
+	@function
+	@param {Boolean} hide 是否隐藏键盘工具栏。true/false
+	@returns {void}
+	@description 是否隐藏键盘工具栏,适用于IOS
+*/
+
+/**
+	@name org.apache.cordova.keyboard.disableScrollingInShrinkView
+	@function
+	@param {Boolean} disable 是否禁止滚动。true/false
+	@returns {void}
+	@description 视图收缩的时候是否禁用滚动
+*/
+
+/**
+	@name org.apache.cordova.keyboard.show
+	@function
+	@returns {void}
+	@description 显示键盘，适用于android
+*/
+
+/**
+	@name org.apache.cordova.keyboard.hide
+	@function
+	@returns {void}
+	@description 隐藏键盘，适用于android
+*/
+
+/**
+	@name org.apache.cordova.keyboard.isVisible
+	@property
+	@type Boolean
+	@description 键盘显示状态，适用于IOS
+*/
+
+/**
+	@name org.apache.cordova.keyboard.automaticScrollToTopOnHiding
+	@property
+	@type Boolean
+	@description 键盘隐藏的时候，页面内容是否移动到页面顶部，适用于IOS
+*/

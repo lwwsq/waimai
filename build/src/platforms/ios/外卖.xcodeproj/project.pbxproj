@@ -1,0 +1,1181 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
+		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
+		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
+		305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */; };
+		3088BBBD154F3926009F9C59 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBB7154F3926009F9C59 /* Default-Landscape@2x~ipad.png */; };
+		3088BBBE154F3926009F9C59 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBB8154F3926009F9C59 /* Default-Landscape~ipad.png */; };
+		3088BBBF154F3926009F9C59 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBB9154F3926009F9C59 /* Default-Portrait@2x~ipad.png */; };
+		3088BBC0154F3926009F9C59 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBBA154F3926009F9C59 /* Default-Portrait~ipad.png */; };
+		3088BBC1154F3926009F9C59 /* Default@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBBB154F3926009F9C59 /* Default@2x~iphone.png */; };
+		3088BBC2154F3926009F9C59 /* Default~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 3088BBBC154F3926009F9C59 /* Default~iphone.png */; };
+		308D05371370CCF300D202BF /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 308D052E1370CCF300D202BF /* icon-72.png */; };
+		308D05381370CCF300D202BF /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 308D052F1370CCF300D202BF /* icon.png */; };
+		308D05391370CCF300D202BF /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308D05301370CCF300D202BF /* icon@2x.png */; };
+		30B4F30019D5E07200D9F7D8 /* Default-667h.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B4F2FD19D5E07200D9F7D8 /* Default-667h.png */; };
+		30B4F30119D5E07200D9F7D8 /* Default-736h.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B4F2FE19D5E07200D9F7D8 /* Default-736h.png */; };
+		30B4F30219D5E07200D9F7D8 /* Default-Landscape-736h.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B4F2FF19D5E07200D9F7D8 /* Default-Landscape-736h.png */; };
+		30C1856619D5FC0A00212699 /* icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30C1856519D5FC0A00212699 /* icon-60@3x.png */; };
+		30FC414916E50CA1004E6F35 /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FC414816E50CA1004E6F35 /* icon-72@2x.png */; };
+		5B1594DD16A7569C00FEF299 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */; };
+		7E7966DE1810823500FA85AD /* icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D41810823500FA85AD /* icon-40.png */; };
+		7E7966DF1810823500FA85AD /* icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D51810823500FA85AD /* icon-40@2x.png */; };
+		7E7966E01810823500FA85AD /* icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D61810823500FA85AD /* icon-50.png */; };
+		7E7966E11810823500FA85AD /* icon-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D71810823500FA85AD /* icon-50@2x.png */; };
+		7E7966E21810823500FA85AD /* icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D81810823500FA85AD /* icon-60.png */; };
+		7E7966E31810823500FA85AD /* icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966D91810823500FA85AD /* icon-60@2x.png */; };
+		7E7966E41810823500FA85AD /* icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DA1810823500FA85AD /* icon-76.png */; };
+		7E7966E51810823500FA85AD /* icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DB1810823500FA85AD /* icon-76@2x.png */; };
+		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
+		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
+		B46F96951C55B9C700098207 /* JustepURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = B46F96921C55B9C700098207 /* JustepURLProtocol.m */; };
+		B46F96961C55B9C700098207 /* NSData+AES128.m in Sources */ = {isa = PBXBuildFile; fileRef = B46F96941C55B9C700098207 /* NSData+AES128.m */; };
+		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
+		A8725C6481ED476C96B4A3BC /* CDVFile.m in Sources */ = {isa = PBXBuildFile; fileRef = A08827029D8B445F8DBDCF08 /* CDVFile.m */; };
+		BC507BBC826D472ABE0EC2F3 /* CDVLocalFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 614475875E27461A8E5D8A49 /* CDVLocalFilesystem.m */; };
+		9D776B116FBE42B080D04B2A /* CDVAssetLibraryFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = E01716A183C644B38E7648C6 /* CDVAssetLibraryFilesystem.m */; };
+		06B80A220C774F72BAE3D260 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5AB68A30A54BACA68D84A1 /* AFHTTPSessionManager.m */; };
+		3A1CDBCC8AE9480EBCBC405E /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C7BB09133F42D7AC686F75 /* AFNetworkReachabilityManager.m */; };
+		AC00FBFD8B5F4355849FB7B1 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = C76F072B053A4A62A653B1A1 /* AFSecurityPolicy.m */; };
+		E9AC3E31D40A4A7AAFDCF7C3 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A28F6375E7A4A8090B30D51 /* AFURLRequestSerialization.m */; };
+		5F4DB5F1889E46CBBEFFC0B7 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB87B0724234B58AFC723C4 /* AFURLResponseSerialization.m */; };
+		06EAAD94710D4590AA6842B6 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6A1046615A4C3AACBEB8EF /* AFURLSessionManager.m */; };
+		7823BF94EBCF4A36AA44318B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9908F1E62BD4E5492FF9BEE /* Security.framework */; };
+		76E4FD8FDA5649FFBBB0E93F /* CordovaHttpPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 830FF449CC0A4876A3C79CDC /* CordovaHttpPlugin.m */; };
+		1ED75B5154E54081B8698E67 /* TextResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 332E6E6F146F4E729E97C626 /* TextResponseSerializer.m */; };
+		B46E6E1CB6134DFC9CFEA4C0 /* CDVWeixin.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FB4CE23E5848939CB51473 /* CDVWeixin.m */; };
+		8E888B45ECCA41C88478B6A5 /* CDVWeixinV3.m in Sources */ = {isa = PBXBuildFile; fileRef = DC820ECFA0B843A39B196A9D /* CDVWeixinV3.m */; };
+		099779E786F34A30AB197FA8 /* ApiXml.mm in Resources */ = {isa = PBXBuildFile; fileRef = B036EDF2691C4F2BBADA5972 /* ApiXml.mm */; };
+		CEBD9558E70E43A597A63CD1 /* PayOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = A111A6CE37A64F1BB0222B3F /* PayOrder.m */; };
+		803A5F0778D94F069C6039EE /* WXHttpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 368805B7C021447C92EBD358 /* WXHttpUtil.m */; };
+		CBB8A7DADC564E39BE4D3B6B /* WXUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4032E30579284B3FA74F4C68 /* WXUtil.m */; };
+		C6D1674802E04E8AA5A1D199 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84331065C15F4ED0A5D3FED7 /* libWeChatSDK.a */; };
+		4FE6F79FFB534491B86746BA /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F51C745321684872A2F0D97D /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0D2D09037ABB4DD88633B0DE /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E656BD7AA2EB4DCC97E92646 /* libsqlite3.dylib */; };
+		93D2EFE44AE9445F89C445AD /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 12024BCC805645089A68139F /* libz.dylib */; };
+		120DA48709C446C7B6038A94 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 209827CC45D645819C9D5CBB /* libc++.dylib */; };
+		F45860A1314245349E4E9FE9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58091BF4D3CA430680E5C783 /* SystemConfiguration.framework */; };
+		677E560B73134FB69C17B5E8 /* JPushPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = B11B940EB9B14708854BB40B /* JPushPlugin.m */; };
+		0440AF0440D14847B5698910 /* jpush-ios-2.1.7.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3987C40C850B446DB18D75B1 /* jpush-ios-2.1.7.a */; };
+		882B149CAB0F4508A6468F62 /* AppDelegate+JPush.m in Sources */ = {isa = PBXBuildFile; fileRef = C803AD5C266849F4A51429CD /* AppDelegate+JPush.m */; };
+		76E949BEA52147379EF7CE5B /* PushConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1D276625B9D4660B389A599 /* PushConfig.plist */; };
+		6851C3DD36D740C996DE607C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A83EC17001864303B0918B45 /* CFNetwork.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		5578B50CE88E4A288B410CE8 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE580A3E90D64409AAC5F4AA /* CoreFoundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6CB5F1B6FDFC4F03B3FD4785 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70FA18CC93674858AB904102 /* CoreTelephony.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		38B8B86497E14DDEAD7310F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361EB7D109DD449197F5328E /* Foundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		DD293C779DD44FB290FE36AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35045CEC480B4F6A9C3E2EEA /* UIKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		8D2200616FC947B8B33A80C0 /* libz.tbd in Resources */ = {isa = PBXBuildFile; fileRef = F6E1ABEB8294465DB59295E4 /* libz.tbd */; settings = {ATTRIBUTES = (Weak, ); }; };
+		5781D3E5812D4AB98EAA4050 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6EAD964949044C298BF3CB7 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		11DF73F13B2A44C48317AAAF /* CDVUnionpay.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E9D012B29D4FCBBDC84DED /* CDVUnionpay.m */; };
+		88860AB3D66F476B8B8E49C8 /* libUPPayPlugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D561156718D04050BB17968B /* libUPPayPlugin.a */; };
+		9BFA406C902B47BC9EB575D9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F0D0D11ACDE4160B4231009 /* QuartzCore.framework */; };
+		80F3BE4ED0474DA9AAA0456F /* CDVAlipay.m in Sources */ = {isa = PBXBuildFile; fileRef = B58045B076F54D96B2058EB8 /* CDVAlipay.m */; };
+		E11CE8089AD94716824B20A1 /* AlipayOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2525E07646488B8F71266C /* AlipayOrder.m */; };
+		694A0CCB27FC48C9852485BD /* base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 0119BFD0D96842FB991F74ED /* base64.m */; };
+		EB270352416E496E843DD55F /* DataSigner.m in Sources */ = {isa = PBXBuildFile; fileRef = B92B4AAF39A345DAAA7D984B /* DataSigner.m */; };
+		45121AF219C54113BA64DAC9 /* DataVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 43DB7AC0A0F644FD8AB91041 /* DataVerifier.m */; };
+		673A0388155449CC8B5FAE43 /* MD5DataSigner.m in Sources */ = {isa = PBXBuildFile; fileRef = 5843FF33D9B344FE9326BAA3 /* MD5DataSigner.m */; };
+		AC2A9C643E534D679C0D3A64 /* NSDataEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D742442ED644EB91DD291F /* NSDataEx.m */; };
+		17FA220561204A6589B818D1 /* openssl_wrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 43099DD61C3F4574B6BA7AA4 /* openssl_wrapper.m */; };
+		88DAAA6B9FAE4EF889AD8EDA /* RSADataSigner.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EBE5FDEE4A4EE8ACDFB66C /* RSADataSigner.m */; };
+		6310653A198548F6B581B8FA /* RSADataVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D1830FC5C44CE3B0AF5BF1 /* RSADataVerifier.m */; };
+		7AFE567AF68F4DB3B0E3D14A /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E75B301FD58D43AA9D4BAA60 /* libcrypto.a */; };
+		A880DC33AE08407C9CF4051D /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 294F47742B4A4B6689E95DBF /* libssl.a */; };
+		D1E71405A8844335B6812BC1 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F283C32F61242B38175E750 /* AlipaySDK.framework */; };
+		CAF6F3989E364D1F89F5500C /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13D5BD42A8F4BC39654BC02 /* CoreMotion.framework */; };
+		7CBC685077DD473ABF0DD685 /* libc++.tbd in Resources */ = {isa = PBXBuildFile; fileRef = 8154358B90784E9AB6B3EEB9 /* libc++.tbd */; };
+		CED4EA6FD8FC4505B8CE9174 /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 691532145D3C4E0A905E83BB /* CDVSplashScreen.m */; };
+		4E12196316484CF996460503 /* CDVViewController+SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A44A1DD51764DF9AB4477F2 /* CDVViewController+SplashScreen.m */; };
+		670296D1C4034795AB923D02 /* AppPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E44C6B9AA04A31BCA7F1CB /* AppPreferences.m */; };
+		36A5583F1B4549DEA4B436BD /* CDVFileTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0978469BDEEE45AF82558B3D /* CDVFileTransfer.m */; };
+		82B238704D534B37A5259297 /* CDVConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = AB12CE37EEB248C3ABF6FA98 /* CDVConnection.m */; };
+		07FC44DB6A8F44EEB188234F /* CDVReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 134E3B8BFB104F6BB31A9C42 /* CDVReachability.m */; };
+		CDFDD0D810F24C1F9A56ACD3 /* ZipPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = C20C378F93294FC8AD3EA59B /* ZipPlugin.m */; };
+		125725A28C364A91A342E1C9 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B1F80E83694F3F9ED8F21F /* SSZipArchive.m */; };
+		2609354D8CBB4CEFBF820C81 /* zip.c in Resources */ = {isa = PBXBuildFile; fileRef = FC2CDC5B5C0A425FA57F64A6 /* zip.c */; };
+		ECDCF8DA49A3410A8621798E /* unzip.c in Resources */ = {isa = PBXBuildFile; fileRef = D5EA230C6B034E60A8C15A82 /* unzip.c */; };
+		6EE344E469144D959F3973DE /* mztools.c in Resources */ = {isa = PBXBuildFile; fileRef = 9218BA30C9F44B518FFBECCF /* mztools.c */; };
+		8E4E644BB4F046E59F41F73F /* ioapi.c in Resources */ = {isa = PBXBuildFile; fileRef = 2970D1C104C540F083B38ABE /* ioapi.c */; };
+		C8057999EDE2445DBE3B9947 /* CDVInAppBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = E97BDAB2DA5C420E86813505 /* CDVInAppBrowser.m */; };
+		435F677521534D14A61803BB /* Toast+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9EE4BC026345C7A856B453 /* Toast+UIView.m */; };
+		FF2E72BB127F4021B038AF80 /* Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B59ADE783B44F19AB962C5 /* Toast.m */; };
+		7AC8827007C94A0CB43CEDA2 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC480F430D34B7CB3F1890D /* CDVDevice.m */; };
+		9AD5ABFA90B54CB6BCDA49DF /* AppVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = E43D8CF1039F4567B4373751 /* AppVersion.m */; };
+		846F98BBF97842F3B832EA51 /* CDVSpinnerDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = DA536851B1584A80849AC89F /* CDVSpinnerDialog.m */; };
+		CE68F00423044F9591483787 /* CDVKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E596CE347144D5875A9D49 /* CDVKeyboard.m */; };
+		FA0EC0AD76F6481FBBFE501E /* CDVLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = F817E05D82F64D47BDA78B88 /* CDVLocation.m */; };
+		036C0ED715934BA08CF6B4AD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CBF465814A64BD38EF7F6DD /* CoreLocation.framework */; };
+		E6F516A0A8EE4EFEA0B9A1CD /* AppAvailability.m in Sources */ = {isa = PBXBuildFile; fileRef = 61228B53977E48EEA5B66A04 /* AppAvailability.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		301BF534109A57CC0062928A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+		301BF550109A68C00062928A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* 外卖.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "外卖.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F766FDD13BBADB100FB74C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		1F766FE013BBADB100FB74C0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Localizable.strings; sourceTree = "<group>"; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
+		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
+		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		302D95EF14D2391D003F00A1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		302D95F014D2391D003F00A1 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		3088BBB7154F3926009F9C59 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		3088BBB8154F3926009F9C59 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		3088BBB9154F3926009F9C59 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		3088BBBA154F3926009F9C59 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		3088BBBB154F3926009F9C59 /* Default@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x~iphone.png"; sourceTree = "<group>"; };
+		3088BBBC154F3926009F9C59 /* Default~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~iphone.png"; sourceTree = "<group>"; };
+		308D052E1370CCF300D202BF /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72.png"; sourceTree = "<group>"; };
+		308D052F1370CCF300D202BF /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		308D05301370CCF300D202BF /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		30B4F2FD19D5E07200D9F7D8 /* Default-667h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h.png"; sourceTree = "<group>"; };
+		30B4F2FE19D5E07200D9F7D8 /* Default-736h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h.png"; sourceTree = "<group>"; };
+		30B4F2FF19D5E07200D9F7D8 /* Default-Landscape-736h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape-736h.png"; sourceTree = "<group>"; };
+		30C1856519D5FC0A00212699 /* icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60@3x.png"; sourceTree = "<group>"; };
+		30FC414816E50CA1004E6F35 /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72@2x.png"; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* 外卖-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "外卖-Prefix.pch"; sourceTree = "<group>"; };
+		5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		7E7966D41810823500FA85AD /* icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40.png"; sourceTree = "<group>"; };
+		7E7966D51810823500FA85AD /* icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40@2x.png"; sourceTree = "<group>"; };
+		7E7966D61810823500FA85AD /* icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-50.png"; sourceTree = "<group>"; };
+		7E7966D71810823500FA85AD /* icon-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-50@2x.png"; sourceTree = "<group>"; };
+		7E7966D81810823500FA85AD /* icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60.png"; sourceTree = "<group>"; };
+		7E7966D91810823500FA85AD /* icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60@2x.png"; sourceTree = "<group>"; };
+		7E7966DA1810823500FA85AD /* icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-76.png"; sourceTree = "<group>"; };
+		7E7966DB1810823500FA85AD /* icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-76@2x.png"; sourceTree = "<group>"; };
+		7E7966DC1810823500FA85AD /* icon-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small.png"; sourceTree = "<group>"; };
+		7E7966DD1810823500FA85AD /* icon-small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small@2x.png"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* 外卖-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "外卖-Info.plist"; path = "../外卖-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		B46F96911C55B9C700098207 /* JustepURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JustepURLProtocol.h; sourceTree = "<group>"; };
+		B46F96921C55B9C700098207 /* JustepURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JustepURLProtocol.m; sourceTree = "<group>"; };
+		B46F96931C55B9C700098207 /* NSData+AES128.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES128.h"; sourceTree = "<group>"; };
+		B46F96941C55B9C700098207 /* NSData+AES128.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES128.m"; sourceTree = "<group>"; };
+		D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
+		EB87FDF21871DA7A0020F90C /* merges */ = {isa = PBXFileReference; lastKnownFileType = folder; name = merges; path = ../../merges; sourceTree = "<group>"; };
+		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
+		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
+		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "外卖/config.xml"; sourceTree = "<group>"; };
+		A08827029D8B445F8DBDCF08 /* CDVFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVFile.m"; path = "cordova-plugin-file/CDVFile.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		614475875E27461A8E5D8A49 /* CDVLocalFilesystem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVLocalFilesystem.m"; path = "cordova-plugin-file/CDVLocalFilesystem.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		E01716A183C644B38E7648C6 /* CDVAssetLibraryFilesystem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVAssetLibraryFilesystem.m"; path = "cordova-plugin-file/CDVAssetLibraryFilesystem.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		D8D7BD10F71E4261BF719EAD /* CDVFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVFile.h"; path = "cordova-plugin-file/CDVFile.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		BA8A0D94DCED4BE8BCB229C4 /* CDVLocalFilesystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVLocalFilesystem.h"; path = "cordova-plugin-file/CDVLocalFilesystem.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		4F81CEAC84404BB0B8BA10B1 /* CDVAssetLibraryFilesystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVAssetLibraryFilesystem.h"; path = "cordova-plugin-file/CDVAssetLibraryFilesystem.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		BF5AB68A30A54BACA68D84A1 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AFHTTPSessionManager.m"; path = "com.justep.cordova.plugin.AFNetworking/AFHTTPSessionManager.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		75C7BB09133F42D7AC686F75 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AFNetworkReachabilityManager.m"; path = "com.justep.cordova.plugin.AFNetworking/AFNetworkReachabilityManager.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		C76F072B053A4A62A653B1A1 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AFSecurityPolicy.m"; path = "com.justep.cordova.plugin.AFNetworking/AFSecurityPolicy.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		1A28F6375E7A4A8090B30D51 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AFURLRequestSerialization.m"; path = "com.justep.cordova.plugin.AFNetworking/AFURLRequestSerialization.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		CEB87B0724234B58AFC723C4 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AFURLResponseSerialization.m"; path = "com.justep.cordova.plugin.AFNetworking/AFURLResponseSerialization.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		FB6A1046615A4C3AACBEB8EF /* AFURLSessionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AFURLSessionManager.m"; path = "com.justep.cordova.plugin.AFNetworking/AFURLSessionManager.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		672525342308499C886B6EC7 /* AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AFNetworking.h"; path = "com.justep.cordova.plugin.AFNetworking/AFNetworking.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		9AB6C4ABBF4A42349197269D /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AFHTTPSessionManager.h"; path = "com.justep.cordova.plugin.AFNetworking/AFHTTPSessionManager.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		EABB34A408EA48D881147168 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AFNetworkReachabilityManager.h"; path = "com.justep.cordova.plugin.AFNetworking/AFNetworkReachabilityManager.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		E99295FA224C4948B2EF5A0F /* AFSecurityPolicy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AFSecurityPolicy.h"; path = "com.justep.cordova.plugin.AFNetworking/AFSecurityPolicy.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		B70A1F69C4B44F259C051BFB /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AFURLRequestSerialization.h"; path = "com.justep.cordova.plugin.AFNetworking/AFURLRequestSerialization.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		432AADDEC601457B96FB0100 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AFURLResponseSerialization.h"; path = "com.justep.cordova.plugin.AFNetworking/AFURLResponseSerialization.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		8E6E730BD7B043B9AD3E7D32 /* AFURLSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AFURLSessionManager.h"; path = "com.justep.cordova.plugin.AFNetworking/AFURLSessionManager.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		F9908F1E62BD4E5492FF9BEE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Security.framework"; path = "System/Library/Frameworks/Security.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		830FF449CC0A4876A3C79CDC /* CordovaHttpPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CordovaHttpPlugin.m"; path = "cordova-plugin-http/CordovaHttpPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		332E6E6F146F4E729E97C626 /* TextResponseSerializer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "TextResponseSerializer.m"; path = "cordova-plugin-http/TextResponseSerializer.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		9DA98CE362934550A0822982 /* CordovaHttpPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CordovaHttpPlugin.h"; path = "cordova-plugin-http/CordovaHttpPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		51E8EE7DBE2A43428E2333D7 /* TextResponseSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TextResponseSerializer.h"; path = "cordova-plugin-http/TextResponseSerializer.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		49FB4CE23E5848939CB51473 /* CDVWeixin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVWeixin.m"; path = "com.justep.cordova.plugin.weixin.v3/CDVWeixin.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		DC820ECFA0B843A39B196A9D /* CDVWeixinV3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVWeixinV3.m"; path = "com.justep.cordova.plugin.weixin.v3/CDVWeixinV3.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		B036EDF2691C4F2BBADA5972 /* ApiXml.mm */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "ApiXml.mm"; path = "com.justep.cordova.plugin.weixin.v3/ApiXml.mm"; sourceTree = "<group>"; fileEncoding = 4; };
+		A111A6CE37A64F1BB0222B3F /* PayOrder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "PayOrder.m"; path = "com.justep.cordova.plugin.weixin.v3/PayOrder.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		368805B7C021447C92EBD358 /* WXHttpUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "WXHttpUtil.m"; path = "com.justep.cordova.plugin.weixin.v3/WXHttpUtil.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		4032E30579284B3FA74F4C68 /* WXUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "WXUtil.m"; path = "com.justep.cordova.plugin.weixin.v3/WXUtil.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		84331065C15F4ED0A5D3FED7 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libWeChatSDK.a"; path = "外卖/Plugins/com.justep.cordova.plugin.weixin.v3/libWeChatSDK.a"; sourceTree = "<group>"; fileEncoding = 4; };
+		F51C745321684872A2F0D97D /* JSONKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "JSONKit.m"; path = "com.justep.cordova.plugin.weixin.v3/JSONKit.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		5163C93DC9C44A2E9323972C /* CDVWeixin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVWeixin.h"; path = "com.justep.cordova.plugin.weixin.v3/CDVWeixin.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		1CAF7536CF1C438197470E86 /* CDVWeixinV3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVWeixinV3.h"; path = "com.justep.cordova.plugin.weixin.v3/CDVWeixinV3.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		1DBC34255CC44C9AB580EA6C /* ApiXml.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ApiXml.h"; path = "com.justep.cordova.plugin.weixin.v3/ApiXml.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		F72B53E854CA44648C7117F4 /* PayOrder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PayOrder.h"; path = "com.justep.cordova.plugin.weixin.v3/PayOrder.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		04A0352AFF4E4A29A7A4E97B /* WXHttpUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "WXHttpUtil.h"; path = "com.justep.cordova.plugin.weixin.v3/WXHttpUtil.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		CA6AA7B68ED345EA807CA75A /* WXUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "WXUtil.h"; path = "com.justep.cordova.plugin.weixin.v3/WXUtil.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		8F3DCE98CFF247D09B10F246 /* WXApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "WXApi.h"; path = "com.justep.cordova.plugin.weixin.v3/WXApi.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		681F6D95798B4CA2937628AF /* WXApiObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "WXApiObject.h"; path = "com.justep.cordova.plugin.weixin.v3/WXApiObject.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		792D9C3EF0A54420AE03FE0E /* JSONKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "JSONKit.h"; path = "com.justep.cordova.plugin.weixin.v3/JSONKit.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		E656BD7AA2EB4DCC97E92646 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsqlite3.dylib"; path = "usr/lib/libsqlite3.dylib"; sourceTree = SDKROOT; fileEncoding = 4; };
+		12024BCC805645089A68139F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libz.dylib"; path = "usr/lib/libz.dylib"; sourceTree = SDKROOT; fileEncoding = 4; };
+		209827CC45D645819C9D5CBB /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; fileEncoding = 4; };
+		58091BF4D3CA430680E5C783 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		B11B940EB9B14708854BB40B /* JPushPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "JPushPlugin.m"; path = "cn.jpush.phonegap.JPushPlugin/JPushPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		3987C40C850B446DB18D75B1 /* jpush-ios-2.1.7.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "jpush-ios-2.1.7.a"; path = "外卖/Plugins/cn.jpush.phonegap.JPushPlugin/jpush-ios-2.1.7.a"; sourceTree = "<group>"; fileEncoding = 4; };
+		C803AD5C266849F4A51429CD /* AppDelegate+JPush.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate+JPush.m"; path = "cn.jpush.phonegap.JPushPlugin/AppDelegate+JPush.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		0112F0783360437A9B49410A /* JPushPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "JPushPlugin.h"; path = "cn.jpush.phonegap.JPushPlugin/JPushPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		36B5DA247A1B406982FA3328 /* JPUSHService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "JPUSHService.h"; path = "cn.jpush.phonegap.JPushPlugin/JPUSHService.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		C6D08F65B6204F98BD31BC4D /* AppDelegate+JPush.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate+JPush.h"; path = "cn.jpush.phonegap.JPushPlugin/AppDelegate+JPush.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		B1D276625B9D4660B389A599 /* PushConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "PushConfig.plist"; path = "PushConfig.plist"; sourceTree = "<group>"; fileEncoding = 4; };
+		A83EC17001864303B0918B45 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CFNetwork.framework"; path = "System/Library/Frameworks/CFNetwork.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		CE580A3E90D64409AAC5F4AA /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreFoundation.framework"; path = "System/Library/Frameworks/CoreFoundation.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		70FA18CC93674858AB904102 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreTelephony.framework"; path = "System/Library/Frameworks/CoreTelephony.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		361EB7D109DD449197F5328E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		35045CEC480B4F6A9C3E2EEA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		F6E1ABEB8294465DB59295E4 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "libz.tbd"; path = "libz.tbd"; sourceTree = "<group>"; fileEncoding = 4; };
+		F6EAD964949044C298BF3CB7 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AdSupport.framework"; path = "System/Library/Frameworks/AdSupport.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		44E9D012B29D4FCBBDC84DED /* CDVUnionpay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVUnionpay.m"; path = "com.justep.cordova.plugin.unionpay/CDVUnionpay.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		D561156718D04050BB17968B /* libUPPayPlugin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libUPPayPlugin.a"; path = "外卖/Plugins/com.justep.cordova.plugin.unionpay/libUPPayPlugin.a"; sourceTree = "<group>"; fileEncoding = 4; };
+		23136D33F9924FBC91A3CA6C /* CDVUnionpay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVUnionpay.h"; path = "com.justep.cordova.plugin.unionpay/CDVUnionpay.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		031602414D984454B32C171D /* UPPayPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UPPayPlugin.h"; path = "com.justep.cordova.plugin.unionpay/UPPayPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		4EBE7D2F751D4FF9848661BE /* UPPayPluginDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UPPayPluginDelegate.h"; path = "com.justep.cordova.plugin.unionpay/UPPayPluginDelegate.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		8F0D0D11ACDE4160B4231009 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "QuartzCore.framework"; path = "System/Library/Frameworks/QuartzCore.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		B58045B076F54D96B2058EB8 /* CDVAlipay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVAlipay.m"; path = "com.justep.cordova.plugin.alipay/CDVAlipay.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		AC2525E07646488B8F71266C /* AlipayOrder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AlipayOrder.m"; path = "com.justep.cordova.plugin.alipay/AlipayOrder.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		0119BFD0D96842FB991F74ED /* base64.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "base64.m"; path = "com.justep.cordova.plugin.alipay/base64.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		B92B4AAF39A345DAAA7D984B /* DataSigner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "DataSigner.m"; path = "com.justep.cordova.plugin.alipay/DataSigner.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		43DB7AC0A0F644FD8AB91041 /* DataVerifier.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "DataVerifier.m"; path = "com.justep.cordova.plugin.alipay/DataVerifier.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		5843FF33D9B344FE9326BAA3 /* MD5DataSigner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MD5DataSigner.m"; path = "com.justep.cordova.plugin.alipay/MD5DataSigner.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		65D742442ED644EB91DD291F /* NSDataEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSDataEx.m"; path = "com.justep.cordova.plugin.alipay/NSDataEx.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		43099DD61C3F4574B6BA7AA4 /* openssl_wrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "openssl_wrapper.m"; path = "com.justep.cordova.plugin.alipay/openssl_wrapper.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		52EBE5FDEE4A4EE8ACDFB66C /* RSADataSigner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "RSADataSigner.m"; path = "com.justep.cordova.plugin.alipay/RSADataSigner.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		72D1830FC5C44CE3B0AF5BF1 /* RSADataVerifier.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "RSADataVerifier.m"; path = "com.justep.cordova.plugin.alipay/RSADataVerifier.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		E75B301FD58D43AA9D4BAA60 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libcrypto.a"; path = "外卖/Plugins/com.justep.cordova.plugin.alipay/libcrypto.a"; sourceTree = "<group>"; fileEncoding = 4; };
+		294F47742B4A4B6689E95DBF /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libssl.a"; path = "外卖/Plugins/com.justep.cordova.plugin.alipay/libssl.a"; sourceTree = "<group>"; fileEncoding = 4; };
+		FD3367FFBFE24962BF59B9AF /* CDVAlipay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVAlipay.h"; path = "com.justep.cordova.plugin.alipay/CDVAlipay.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		2713A9D05BC9496F8117842D /* AlipayOrder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AlipayOrder.h"; path = "com.justep.cordova.plugin.alipay/AlipayOrder.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		E2F7DD4D571E4AC3835F6B87 /* aes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "aes.h"; path = "com.justep.cordova.plugin.alipay/openssl/aes.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		F7720B334F234EA39E367D94 /* asn1_mac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "asn1_mac.h"; path = "com.justep.cordova.plugin.alipay/openssl/asn1_mac.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		9AFCC90DBFCF4A3B9E362123 /* asn1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "asn1.h"; path = "com.justep.cordova.plugin.alipay/openssl/asn1.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		590BE37611314C98BF7F8D03 /* asn1t.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "asn1t.h"; path = "com.justep.cordova.plugin.alipay/openssl/asn1t.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		FB9F8303B4024C3E829DAB93 /* bio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "bio.h"; path = "com.justep.cordova.plugin.alipay/openssl/bio.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		6A36F25D54464F8F929A7CC2 /* blowfish.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "blowfish.h"; path = "com.justep.cordova.plugin.alipay/openssl/blowfish.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		E8D704BAAF8A427F8D4633C4 /* bn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "bn.h"; path = "com.justep.cordova.plugin.alipay/openssl/bn.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		FE9BA9F1B4094511B8A9F6CC /* buffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "buffer.h"; path = "com.justep.cordova.plugin.alipay/openssl/buffer.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		17F07AFE1E8A478A8C57B8DA /* camellia.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "camellia.h"; path = "com.justep.cordova.plugin.alipay/openssl/camellia.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		0D9672733BE344DC888ED7EE /* cast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "cast.h"; path = "com.justep.cordova.plugin.alipay/openssl/cast.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		CF61144D012A41E5B67D4944 /* cmac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "cmac.h"; path = "com.justep.cordova.plugin.alipay/openssl/cmac.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		8CAD0D11387F46D09827B5AA /* cms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "cms.h"; path = "com.justep.cordova.plugin.alipay/openssl/cms.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		4C53C1EB7A264C718028B2FC /* comp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "comp.h"; path = "com.justep.cordova.plugin.alipay/openssl/comp.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		07C6DEC3E939449BB44EBF6F /* conf_api.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "conf_api.h"; path = "com.justep.cordova.plugin.alipay/openssl/conf_api.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		8FDEB9BC55954816ABDFB4ED /* conf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "conf.h"; path = "com.justep.cordova.plugin.alipay/openssl/conf.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		B3D590EC889C444592AB1FFA /* crypto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "crypto.h"; path = "com.justep.cordova.plugin.alipay/openssl/crypto.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		D404CED52F8A4FCE827DB5C7 /* des_old.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "des_old.h"; path = "com.justep.cordova.plugin.alipay/openssl/des_old.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		01A1B6A1BD0E4B519CCAC8FF /* des.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "des.h"; path = "com.justep.cordova.plugin.alipay/openssl/des.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		2DDE6A2284DF43118A95F14B /* dh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "dh.h"; path = "com.justep.cordova.plugin.alipay/openssl/dh.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		697FBF867CB546BC9D657164 /* dsa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "dsa.h"; path = "com.justep.cordova.plugin.alipay/openssl/dsa.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		81A84BFCF0FB431485FE980E /* dso.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "dso.h"; path = "com.justep.cordova.plugin.alipay/openssl/dso.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		1EAF8A9A1F294F918C0C0C99 /* dtls1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "dtls1.h"; path = "com.justep.cordova.plugin.alipay/openssl/dtls1.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		8F35A67A37FD4CFC979EEFC8 /* e_os2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "e_os2.h"; path = "com.justep.cordova.plugin.alipay/openssl/e_os2.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		219B6CA9962E4F6BAC5A243C /* ebcdic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ebcdic.h"; path = "com.justep.cordova.plugin.alipay/openssl/ebcdic.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		13851C59B5B04A7BB27145F1 /* ec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ec.h"; path = "com.justep.cordova.plugin.alipay/openssl/ec.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		54DE43A2C222441487B62273 /* ecdh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ecdh.h"; path = "com.justep.cordova.plugin.alipay/openssl/ecdh.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		9AD07A3C202244B595D584AE /* ecdsa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ecdsa.h"; path = "com.justep.cordova.plugin.alipay/openssl/ecdsa.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		F0E9B0FC96914048B213F3E1 /* engine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "engine.h"; path = "com.justep.cordova.plugin.alipay/openssl/engine.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		7E6C89972A7547B9B1F7669D /* err.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "err.h"; path = "com.justep.cordova.plugin.alipay/openssl/err.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		184510F1974B486E8697BC1B /* evp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "evp.h"; path = "com.justep.cordova.plugin.alipay/openssl/evp.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		313D428DCA5B4FB789C199A0 /* hmac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "hmac.h"; path = "com.justep.cordova.plugin.alipay/openssl/hmac.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		5C51C269FA104E8CA77C0477 /* idea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "idea.h"; path = "com.justep.cordova.plugin.alipay/openssl/idea.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		3374C7FD73AB4111ADC0B5F0 /* krb5_asn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "krb5_asn.h"; path = "com.justep.cordova.plugin.alipay/openssl/krb5_asn.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		6DCB0271C1B142F1AE01E871 /* kssl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "kssl.h"; path = "com.justep.cordova.plugin.alipay/openssl/kssl.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		081630733E95484692022D2F /* lhash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "lhash.h"; path = "com.justep.cordova.plugin.alipay/openssl/lhash.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		940E6996E09B4B81B879549F /* md4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "md4.h"; path = "com.justep.cordova.plugin.alipay/openssl/md4.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		434C52F0B6DD4754AEEAF27F /* md5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "md5.h"; path = "com.justep.cordova.plugin.alipay/openssl/md5.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		31BEE1B59BF14722BC0E8E86 /* mdc2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "mdc2.h"; path = "com.justep.cordova.plugin.alipay/openssl/mdc2.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		E1A14546E42C48CF998F1B65 /* modes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "modes.h"; path = "com.justep.cordova.plugin.alipay/openssl/modes.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		B0950A3BF3F44F898C96ADBC /* obj_mac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "obj_mac.h"; path = "com.justep.cordova.plugin.alipay/openssl/obj_mac.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		4BA7A4638CDD41C6BEAF8ED1 /* objects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "objects.h"; path = "com.justep.cordova.plugin.alipay/openssl/objects.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		4F8E773BB9C64C6BB6BF68AA /* ocsp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ocsp.h"; path = "com.justep.cordova.plugin.alipay/openssl/ocsp.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		D69EBE44B0AD41D0B88E919F /* opensslconf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "opensslconf.h"; path = "com.justep.cordova.plugin.alipay/openssl/opensslconf.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		DFBD406D82A74FB5B3D2B70C /* opensslv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "opensslv.h"; path = "com.justep.cordova.plugin.alipay/openssl/opensslv.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		5AD36991813F48E788BB7330 /* ossl_typ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ossl_typ.h"; path = "com.justep.cordova.plugin.alipay/openssl/ossl_typ.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		FD32BCDE1551442DBAE29A60 /* pem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "pem.h"; path = "com.justep.cordova.plugin.alipay/openssl/pem.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		C9904F95BC7F4C67A0E7C02A /* pem2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "pem2.h"; path = "com.justep.cordova.plugin.alipay/openssl/pem2.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		21C55D564716480BA2BAFFAE /* pkcs12.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "pkcs12.h"; path = "com.justep.cordova.plugin.alipay/openssl/pkcs12.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		4C12D2025DAA4A5AA420DDC0 /* pkcs7.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "pkcs7.h"; path = "com.justep.cordova.plugin.alipay/openssl/pkcs7.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		48EB4509CF1548E08116E57B /* pqueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "pqueue.h"; path = "com.justep.cordova.plugin.alipay/openssl/pqueue.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		52ED0A2F1B9A482FB8CA1B7C /* rand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "rand.h"; path = "com.justep.cordova.plugin.alipay/openssl/rand.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		CC3FF381772F4EC2B006CC49 /* rc2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "rc2.h"; path = "com.justep.cordova.plugin.alipay/openssl/rc2.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		EF4D23D9E2D243D0AE72A2CD /* rc4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "rc4.h"; path = "com.justep.cordova.plugin.alipay/openssl/rc4.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		505C7CAFF3AF47E1A9BF1652 /* ripemd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ripemd.h"; path = "com.justep.cordova.plugin.alipay/openssl/ripemd.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		1A00728CF40745C69B937C31 /* rsa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "rsa.h"; path = "com.justep.cordova.plugin.alipay/openssl/rsa.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		7FECF0E85E5244A191E6D578 /* safestack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "safestack.h"; path = "com.justep.cordova.plugin.alipay/openssl/safestack.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		DD551AAB214D4CA88F79701D /* seed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "seed.h"; path = "com.justep.cordova.plugin.alipay/openssl/seed.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		EB7C73BAD38645B69196CE56 /* sha.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "sha.h"; path = "com.justep.cordova.plugin.alipay/openssl/sha.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		EE817259F85B4C2D871DBDBC /* srp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "srp.h"; path = "com.justep.cordova.plugin.alipay/openssl/srp.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		3BB9A0FC0CBF46CFAB66E648 /* srtp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "srtp.h"; path = "com.justep.cordova.plugin.alipay/openssl/srtp.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		5092D7F79A964BACAA40A6D7 /* ssl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ssl.h"; path = "com.justep.cordova.plugin.alipay/openssl/ssl.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		B5E2C30236254204ABC3EFE8 /* ssl2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ssl2.h"; path = "com.justep.cordova.plugin.alipay/openssl/ssl2.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		4AEF28902B884FB7A5564F39 /* ssl23.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ssl23.h"; path = "com.justep.cordova.plugin.alipay/openssl/ssl23.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		C25B550C092D4D1581DCD129 /* ssl3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ssl3.h"; path = "com.justep.cordova.plugin.alipay/openssl/ssl3.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		5F7D8543A7D04468930270A1 /* stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "stack.h"; path = "com.justep.cordova.plugin.alipay/openssl/stack.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		D3A949AD710B472CBD658407 /* symhacks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "symhacks.h"; path = "com.justep.cordova.plugin.alipay/openssl/symhacks.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		9CC48D88B7C64526970CD435 /* tls1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "tls1.h"; path = "com.justep.cordova.plugin.alipay/openssl/tls1.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		AF6DD053ABB54303A5241430 /* ts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ts.h"; path = "com.justep.cordova.plugin.alipay/openssl/ts.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		9D280C12BCF2461E85B66B73 /* txt_db.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "txt_db.h"; path = "com.justep.cordova.plugin.alipay/openssl/txt_db.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		D2D8933455CE43B99F4ECB9B /* ui_compat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ui_compat.h"; path = "com.justep.cordova.plugin.alipay/openssl/ui_compat.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		2003E7124C414D088954FCEA /* ui.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ui.h"; path = "com.justep.cordova.plugin.alipay/openssl/ui.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		05B2189B0EEE4421A2D78E01 /* whrlpool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "whrlpool.h"; path = "com.justep.cordova.plugin.alipay/openssl/whrlpool.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		9B4EE9CB68AA4120A8832E81 /* x509_vfy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "x509_vfy.h"; path = "com.justep.cordova.plugin.alipay/openssl/x509_vfy.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		409B3B4DD7334C10B043B923 /* x509.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "x509.h"; path = "com.justep.cordova.plugin.alipay/openssl/x509.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		09D5DDE9BB4042BA800CBDF3 /* x509v3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "x509v3.h"; path = "com.justep.cordova.plugin.alipay/openssl/x509v3.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		C3A5E2C9C7284A32B285778D /* base64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "base64.h"; path = "com.justep.cordova.plugin.alipay/base64.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		5E2DABF0AEB6455EA90537C3 /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "config.h"; path = "com.justep.cordova.plugin.alipay/config.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		0B5AA29007B64AFB9F30BE40 /* DataSigner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "DataSigner.h"; path = "com.justep.cordova.plugin.alipay/DataSigner.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		9EC6469B7F0744408EAB7096 /* DataVerifier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "DataVerifier.h"; path = "com.justep.cordova.plugin.alipay/DataVerifier.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		38CCE564873C47DD90D4992F /* MD5DataSigner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MD5DataSigner.h"; path = "com.justep.cordova.plugin.alipay/MD5DataSigner.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		F442B2BA620B4305B6147C05 /* NSDataEx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSDataEx.h"; path = "com.justep.cordova.plugin.alipay/NSDataEx.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		10EA33022E47498C81EB7C04 /* openssl_wrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "openssl_wrapper.h"; path = "com.justep.cordova.plugin.alipay/openssl_wrapper.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		21CD56B798F84D61B7CCA62F /* RSADataSigner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RSADataSigner.h"; path = "com.justep.cordova.plugin.alipay/RSADataSigner.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		37C060618E334CE2A933127C /* RSADataVerifier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RSADataVerifier.h"; path = "com.justep.cordova.plugin.alipay/RSADataVerifier.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		9F283C32F61242B38175E750 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AlipaySDK.framework"; path = "外卖/Plugins/com.justep.cordova.plugin.alipay/AlipaySDK.framework"; sourceTree = "<group>"; };
+		F13D5BD42A8F4BC39654BC02 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreMotion.framework"; path = "System/Library/Frameworks/CoreMotion.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		8154358B90784E9AB6B3EEB9 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "libc++.tbd"; path = "libc++.tbd"; sourceTree = "<group>"; fileEncoding = 4; };
+		691532145D3C4E0A905E83BB /* CDVSplashScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVSplashScreen.m"; path = "cordova-plugin-splashscreen/CDVSplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		5A44A1DD51764DF9AB4477F2 /* CDVViewController+SplashScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVViewController+SplashScreen.m"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		FB022139774E4441A94787C2 /* CDVSplashScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVSplashScreen.h"; path = "cordova-plugin-splashscreen/CDVSplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		AD78F6DF246F45829BF515A6 /* CDVViewController+SplashScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVViewController+SplashScreen.h"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		F1E44C6B9AA04A31BCA7F1CB /* AppPreferences.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppPreferences.m"; path = "cordova-plugin-app-preferences/AppPreferences.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		760D06C242F9417B9D225836 /* AppPreferences.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppPreferences.h"; path = "cordova-plugin-app-preferences/AppPreferences.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		0978469BDEEE45AF82558B3D /* CDVFileTransfer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVFileTransfer.m"; path = "cordova-plugin-file-transfer/CDVFileTransfer.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		FBA9A72349574A7EB0745D41 /* CDVFileTransfer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVFileTransfer.h"; path = "cordova-plugin-file-transfer/CDVFileTransfer.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		AB12CE37EEB248C3ABF6FA98 /* CDVConnection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVConnection.m"; path = "cordova-plugin-network-information/CDVConnection.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		134E3B8BFB104F6BB31A9C42 /* CDVReachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVReachability.m"; path = "cordova-plugin-network-information/CDVReachability.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		3802F548CBD54F21B2CDB2DC /* CDVConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVConnection.h"; path = "cordova-plugin-network-information/CDVConnection.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		13C110684C3C4C67853C172C /* CDVReachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVReachability.h"; path = "cordova-plugin-network-information/CDVReachability.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		C20C378F93294FC8AD3EA59B /* ZipPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ZipPlugin.m"; path = "cordova-plugin-zip/ZipPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		F4B1F80E83694F3F9ED8F21F /* SSZipArchive.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "SSZipArchive.m"; path = "cordova-plugin-zip/Plugins/minizip/SSZipArchive.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		FC2CDC5B5C0A425FA57F64A6 /* zip.c */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "zip.c"; path = "cordova-plugin-zip/Plugins/minizip/zip.c"; sourceTree = "<group>"; fileEncoding = 4; };
+		D5EA230C6B034E60A8C15A82 /* unzip.c */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "unzip.c"; path = "cordova-plugin-zip/Plugins/minizip/unzip.c"; sourceTree = "<group>"; fileEncoding = 4; };
+		9218BA30C9F44B518FFBECCF /* mztools.c */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "mztools.c"; path = "cordova-plugin-zip/Plugins/minizip/mztools.c"; sourceTree = "<group>"; fileEncoding = 4; };
+		2970D1C104C540F083B38ABE /* ioapi.c */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "ioapi.c"; path = "cordova-plugin-zip/Plugins/minizip/ioapi.c"; sourceTree = "<group>"; fileEncoding = 4; };
+		FA9C6642A4584F33B07486CD /* ZipPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ZipPlugin.h"; path = "cordova-plugin-zip/ZipPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		7408721DE64042AA9135E933 /* SSZipArchive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SSZipArchive.h"; path = "cordova-plugin-zip/Plugins/minizip/SSZipArchive.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		D0B8AEB24DF54EC2A2679915 /* zip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "zip.h"; path = "cordova-plugin-zip/Plugins/minizip/zip.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		D2E594584E914435BA578F46 /* unzip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "unzip.h"; path = "cordova-plugin-zip/Plugins/minizip/unzip.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		196A644C5B6F4BD4BBD44740 /* mztools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "mztools.h"; path = "cordova-plugin-zip/Plugins/minizip/mztools.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		A8BA096883374B42B995B677 /* ioapi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ioapi.h"; path = "cordova-plugin-zip/Plugins/minizip/ioapi.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		23CD0DA34E25439297913685 /* crypt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "crypt.h"; path = "cordova-plugin-zip/Plugins/minizip/crypt.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		E97BDAB2DA5C420E86813505 /* CDVInAppBrowser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVInAppBrowser.m"; path = "cordova-plugin-inappbrowser/CDVInAppBrowser.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		7C533BEBD2F54721A3647767 /* CDVInAppBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVInAppBrowser.h"; path = "cordova-plugin-inappbrowser/CDVInAppBrowser.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		7E9EE4BC026345C7A856B453 /* Toast+UIView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Toast+UIView.m"; path = "cordova-plugin-x-toast/Toast+UIView.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		55B59ADE783B44F19AB962C5 /* Toast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Toast.m"; path = "cordova-plugin-x-toast/Toast.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		919EDB786C474AEBBBE48DAB /* Toast+UIView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Toast+UIView.h"; path = "cordova-plugin-x-toast/Toast+UIView.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		426549E188F94EFDBF31FE9E /* Toast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Toast.h"; path = "cordova-plugin-x-toast/Toast.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		5FC480F430D34B7CB3F1890D /* CDVDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVDevice.m"; path = "cordova-plugin-device/CDVDevice.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		63DE94D2B7244448BB3E1100 /* CDVDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVDevice.h"; path = "cordova-plugin-device/CDVDevice.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		E43D8CF1039F4567B4373751 /* AppVersion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppVersion.m"; path = "cordova-plugin-app-version/AppVersion.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		82C2D8795F2E459E883696D7 /* AppVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppVersion.h"; path = "cordova-plugin-app-version/AppVersion.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		DA536851B1584A80849AC89F /* CDVSpinnerDialog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVSpinnerDialog.m"; path = "cordova-plugin-spinner-dialog/CDVSpinnerDialog.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		5C1F8B98DCFC4F6BAA1DE0C3 /* CDVSpinnerDialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVSpinnerDialog.h"; path = "cordova-plugin-spinner-dialog/CDVSpinnerDialog.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		33E596CE347144D5875A9D49 /* CDVKeyboard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVKeyboard.m"; path = "cordova-plugin-keyboard/CDVKeyboard.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		B10EF8D308DB4A648D6D4136 /* CDVKeyboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVKeyboard.h"; path = "cordova-plugin-keyboard/CDVKeyboard.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		F817E05D82F64D47BDA78B88 /* CDVLocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVLocation.m"; path = "cordova-plugin-geolocation/CDVLocation.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		A7AB229158C049D08D1875A5 /* CDVLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVLocation.h"; path = "cordova-plugin-geolocation/CDVLocation.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		2CBF465814A64BD38EF7F6DD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreLocation.framework"; path = "System/Library/Frameworks/CoreLocation.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		61228B53977E48EEA5B66A04 /* AppAvailability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppAvailability.m"; path = "cordova-plugin-appavailability/AppAvailability.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		8A774DE34BC846FDA5F98DF8 /* AppAvailability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppAvailability.h"; path = "cordova-plugin-appavailability/AppAvailability.h"; sourceTree = "<group>"; fileEncoding = 4; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1594DD16A7569C00FEF299 /* AssetsLibrary.framework in Frameworks */,
+				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
+				7823BF94EBCF4A36AA44318B /* Security.framework in Frameworks */,
+				C6D1674802E04E8AA5A1D199 /* libWeChatSDK.a in Frameworks */,
+				0D2D09037ABB4DD88633B0DE /* libsqlite3.dylib in Frameworks */,
+				93D2EFE44AE9445F89C445AD /* libz.dylib in Frameworks */,
+				120DA48709C446C7B6038A94 /* libc++.dylib in Frameworks */,
+				F45860A1314245349E4E9FE9 /* SystemConfiguration.framework in Frameworks */,
+				0440AF0440D14847B5698910 /* jpush-ios-2.1.7.a in Frameworks */,
+				6851C3DD36D740C996DE607C /* CFNetwork.framework in Frameworks */,
+				5578B50CE88E4A288B410CE8 /* CoreFoundation.framework in Frameworks */,
+				6CB5F1B6FDFC4F03B3FD4785 /* CoreTelephony.framework in Frameworks */,
+				38B8B86497E14DDEAD7310F1 /* Foundation.framework in Frameworks */,
+				DD293C779DD44FB290FE36AD /* UIKit.framework in Frameworks */,
+				8D2200616FC947B8B33A80C0 /* libz.tbd in Resources */,
+				5781D3E5812D4AB98EAA4050 /* AdSupport.framework in Frameworks */,
+				88860AB3D66F476B8B8E49C8 /* libUPPayPlugin.a in Frameworks */,
+				9BFA406C902B47BC9EB575D9 /* QuartzCore.framework in Frameworks */,
+				7AFE567AF68F4DB3B0E3D14A /* libcrypto.a in Frameworks */,
+				A880DC33AE08407C9CF4051D /* libssl.a in Frameworks */,
+				D1E71405A8844335B6812BC1 /* AlipaySDK.framework in Frameworks */,
+				CAF6F3989E364D1F89F5500C /* CoreMotion.framework in Frameworks */,
+				7CBC685077DD473ABF0DD685 /* libc++.tbd in Resources */,
+				036C0ED715934BA08CF6B4AD /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B46F96911C55B9C700098207 /* JustepURLProtocol.h */,
+				B46F96921C55B9C700098207 /* JustepURLProtocol.m */,
+				B46F96931C55B9C700098207 /* NSData+AES128.h */,
+				B46F96941C55B9C700098207 /* NSData+AES128.m */,
+				302D95EE14D2391D003F00A1 /* MainViewController.h */,
+				302D95EF14D2391D003F00A1 /* MainViewController.m */,
+				302D95F014D2391D003F00A1 /* MainViewController.xib */,
+				1D3623240D0F684500981E51 /* AppDelegate.h */,
+				1D3623250D0F684500981E51 /* AppDelegate.m */,
+			);
+			name = Classes;
+			path = "外卖/Classes";
+			sourceTree = SOURCE_ROOT;
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* 外卖.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				EB87FDF41871DAF40020F90C /* config.xml */,
+				EB87FDF31871DA8E0020F90C /* www */,
+				EB87FDF21871DA7A0020F90C /* merges */,
+				EB87FDF11871DA420020F90C /* Staging */,
+				301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				307C750510C5A3420062BCA9 /* Plugins */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* 外卖-Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			path = "外卖";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				308D052D1370CCF300D202BF /* icons */,
+				308D05311370CCF300D202BF /* splash */,
+				8D1107310486CEB800E47090 /* 外卖-Info.plist */,
+				B1D276625B9D4660B389A599 /* PushConfig.plist */,
+			);
+			name = Resources;
+			path = "外卖/Resources";
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
+				F9908F1E62BD4E5492FF9BEE /* Security.framework */,
+				84331065C15F4ED0A5D3FED7 /* libWeChatSDK.a */,
+				E656BD7AA2EB4DCC97E92646 /* libsqlite3.dylib */,
+				12024BCC805645089A68139F /* libz.dylib */,
+				209827CC45D645819C9D5CBB /* libc++.dylib */,
+				58091BF4D3CA430680E5C783 /* SystemConfiguration.framework */,
+				3987C40C850B446DB18D75B1 /* jpush-ios-2.1.7.a */,
+				A83EC17001864303B0918B45 /* CFNetwork.framework */,
+				CE580A3E90D64409AAC5F4AA /* CoreFoundation.framework */,
+				70FA18CC93674858AB904102 /* CoreTelephony.framework */,
+				361EB7D109DD449197F5328E /* Foundation.framework */,
+				35045CEC480B4F6A9C3E2EEA /* UIKit.framework */,
+				F6E1ABEB8294465DB59295E4 /* libz.tbd */,
+				F6EAD964949044C298BF3CB7 /* AdSupport.framework */,
+				D561156718D04050BB17968B /* libUPPayPlugin.a */,
+				8F0D0D11ACDE4160B4231009 /* QuartzCore.framework */,
+				E75B301FD58D43AA9D4BAA60 /* libcrypto.a */,
+				294F47742B4A4B6689E95DBF /* libssl.a */,
+				9F283C32F61242B38175E750 /* AlipaySDK.framework */,
+				F13D5BD42A8F4BC39654BC02 /* CoreMotion.framework */,
+				8154358B90784E9AB6B3EEB9 /* libc++.tbd */,
+				2CBF465814A64BD38EF7F6DD /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		301BF52E109A57CC0062928A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				301BF535109A57CC0062928A /* libCordova.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		307C750510C5A3420062BCA9 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				A08827029D8B445F8DBDCF08 /* CDVFile.m */,
+				614475875E27461A8E5D8A49 /* CDVLocalFilesystem.m */,
+				E01716A183C644B38E7648C6 /* CDVAssetLibraryFilesystem.m */,
+				D8D7BD10F71E4261BF719EAD /* CDVFile.h */,
+				BA8A0D94DCED4BE8BCB229C4 /* CDVLocalFilesystem.h */,
+				4F81CEAC84404BB0B8BA10B1 /* CDVAssetLibraryFilesystem.h */,
+				BF5AB68A30A54BACA68D84A1 /* AFHTTPSessionManager.m */,
+				75C7BB09133F42D7AC686F75 /* AFNetworkReachabilityManager.m */,
+				C76F072B053A4A62A653B1A1 /* AFSecurityPolicy.m */,
+				1A28F6375E7A4A8090B30D51 /* AFURLRequestSerialization.m */,
+				CEB87B0724234B58AFC723C4 /* AFURLResponseSerialization.m */,
+				FB6A1046615A4C3AACBEB8EF /* AFURLSessionManager.m */,
+				672525342308499C886B6EC7 /* AFNetworking.h */,
+				9AB6C4ABBF4A42349197269D /* AFHTTPSessionManager.h */,
+				EABB34A408EA48D881147168 /* AFNetworkReachabilityManager.h */,
+				E99295FA224C4948B2EF5A0F /* AFSecurityPolicy.h */,
+				B70A1F69C4B44F259C051BFB /* AFURLRequestSerialization.h */,
+				432AADDEC601457B96FB0100 /* AFURLResponseSerialization.h */,
+				8E6E730BD7B043B9AD3E7D32 /* AFURLSessionManager.h */,
+				830FF449CC0A4876A3C79CDC /* CordovaHttpPlugin.m */,
+				332E6E6F146F4E729E97C626 /* TextResponseSerializer.m */,
+				9DA98CE362934550A0822982 /* CordovaHttpPlugin.h */,
+				51E8EE7DBE2A43428E2333D7 /* TextResponseSerializer.h */,
+				49FB4CE23E5848939CB51473 /* CDVWeixin.m */,
+				DC820ECFA0B843A39B196A9D /* CDVWeixinV3.m */,
+				B036EDF2691C4F2BBADA5972 /* ApiXml.mm */,
+				A111A6CE37A64F1BB0222B3F /* PayOrder.m */,
+				368805B7C021447C92EBD358 /* WXHttpUtil.m */,
+				4032E30579284B3FA74F4C68 /* WXUtil.m */,
+				F51C745321684872A2F0D97D /* JSONKit.m */,
+				5163C93DC9C44A2E9323972C /* CDVWeixin.h */,
+				1CAF7536CF1C438197470E86 /* CDVWeixinV3.h */,
+				1DBC34255CC44C9AB580EA6C /* ApiXml.h */,
+				F72B53E854CA44648C7117F4 /* PayOrder.h */,
+				04A0352AFF4E4A29A7A4E97B /* WXHttpUtil.h */,
+				CA6AA7B68ED345EA807CA75A /* WXUtil.h */,
+				8F3DCE98CFF247D09B10F246 /* WXApi.h */,
+				681F6D95798B4CA2937628AF /* WXApiObject.h */,
+				792D9C3EF0A54420AE03FE0E /* JSONKit.h */,
+				B11B940EB9B14708854BB40B /* JPushPlugin.m */,
+				C803AD5C266849F4A51429CD /* AppDelegate+JPush.m */,
+				0112F0783360437A9B49410A /* JPushPlugin.h */,
+				36B5DA247A1B406982FA3328 /* JPUSHService.h */,
+				C6D08F65B6204F98BD31BC4D /* AppDelegate+JPush.h */,
+				44E9D012B29D4FCBBDC84DED /* CDVUnionpay.m */,
+				23136D33F9924FBC91A3CA6C /* CDVUnionpay.h */,
+				031602414D984454B32C171D /* UPPayPlugin.h */,
+				4EBE7D2F751D4FF9848661BE /* UPPayPluginDelegate.h */,
+				B58045B076F54D96B2058EB8 /* CDVAlipay.m */,
+				AC2525E07646488B8F71266C /* AlipayOrder.m */,
+				0119BFD0D96842FB991F74ED /* base64.m */,
+				B92B4AAF39A345DAAA7D984B /* DataSigner.m */,
+				43DB7AC0A0F644FD8AB91041 /* DataVerifier.m */,
+				5843FF33D9B344FE9326BAA3 /* MD5DataSigner.m */,
+				65D742442ED644EB91DD291F /* NSDataEx.m */,
+				43099DD61C3F4574B6BA7AA4 /* openssl_wrapper.m */,
+				52EBE5FDEE4A4EE8ACDFB66C /* RSADataSigner.m */,
+				72D1830FC5C44CE3B0AF5BF1 /* RSADataVerifier.m */,
+				FD3367FFBFE24962BF59B9AF /* CDVAlipay.h */,
+				2713A9D05BC9496F8117842D /* AlipayOrder.h */,
+				E2F7DD4D571E4AC3835F6B87 /* aes.h */,
+				F7720B334F234EA39E367D94 /* asn1_mac.h */,
+				9AFCC90DBFCF4A3B9E362123 /* asn1.h */,
+				590BE37611314C98BF7F8D03 /* asn1t.h */,
+				FB9F8303B4024C3E829DAB93 /* bio.h */,
+				6A36F25D54464F8F929A7CC2 /* blowfish.h */,
+				E8D704BAAF8A427F8D4633C4 /* bn.h */,
+				FE9BA9F1B4094511B8A9F6CC /* buffer.h */,
+				17F07AFE1E8A478A8C57B8DA /* camellia.h */,
+				0D9672733BE344DC888ED7EE /* cast.h */,
+				CF61144D012A41E5B67D4944 /* cmac.h */,
+				8CAD0D11387F46D09827B5AA /* cms.h */,
+				4C53C1EB7A264C718028B2FC /* comp.h */,
+				07C6DEC3E939449BB44EBF6F /* conf_api.h */,
+				8FDEB9BC55954816ABDFB4ED /* conf.h */,
+				B3D590EC889C444592AB1FFA /* crypto.h */,
+				D404CED52F8A4FCE827DB5C7 /* des_old.h */,
+				01A1B6A1BD0E4B519CCAC8FF /* des.h */,
+				2DDE6A2284DF43118A95F14B /* dh.h */,
+				697FBF867CB546BC9D657164 /* dsa.h */,
+				81A84BFCF0FB431485FE980E /* dso.h */,
+				1EAF8A9A1F294F918C0C0C99 /* dtls1.h */,
+				8F35A67A37FD4CFC979EEFC8 /* e_os2.h */,
+				219B6CA9962E4F6BAC5A243C /* ebcdic.h */,
+				13851C59B5B04A7BB27145F1 /* ec.h */,
+				54DE43A2C222441487B62273 /* ecdh.h */,
+				9AD07A3C202244B595D584AE /* ecdsa.h */,
+				F0E9B0FC96914048B213F3E1 /* engine.h */,
+				7E6C89972A7547B9B1F7669D /* err.h */,
+				184510F1974B486E8697BC1B /* evp.h */,
+				313D428DCA5B4FB789C199A0 /* hmac.h */,
+				5C51C269FA104E8CA77C0477 /* idea.h */,
+				3374C7FD73AB4111ADC0B5F0 /* krb5_asn.h */,
+				6DCB0271C1B142F1AE01E871 /* kssl.h */,
+				081630733E95484692022D2F /* lhash.h */,
+				940E6996E09B4B81B879549F /* md4.h */,
+				434C52F0B6DD4754AEEAF27F /* md5.h */,
+				31BEE1B59BF14722BC0E8E86 /* mdc2.h */,
+				E1A14546E42C48CF998F1B65 /* modes.h */,
+				B0950A3BF3F44F898C96ADBC /* obj_mac.h */,
+				4BA7A4638CDD41C6BEAF8ED1 /* objects.h */,
+				4F8E773BB9C64C6BB6BF68AA /* ocsp.h */,
+				D69EBE44B0AD41D0B88E919F /* opensslconf.h */,
+				DFBD406D82A74FB5B3D2B70C /* opensslv.h */,
+				5AD36991813F48E788BB7330 /* ossl_typ.h */,
+				FD32BCDE1551442DBAE29A60 /* pem.h */,
+				C9904F95BC7F4C67A0E7C02A /* pem2.h */,
+				21C55D564716480BA2BAFFAE /* pkcs12.h */,
+				4C12D2025DAA4A5AA420DDC0 /* pkcs7.h */,
+				48EB4509CF1548E08116E57B /* pqueue.h */,
+				52ED0A2F1B9A482FB8CA1B7C /* rand.h */,
+				CC3FF381772F4EC2B006CC49 /* rc2.h */,
+				EF4D23D9E2D243D0AE72A2CD /* rc4.h */,
+				505C7CAFF3AF47E1A9BF1652 /* ripemd.h */,
+				1A00728CF40745C69B937C31 /* rsa.h */,
+				7FECF0E85E5244A191E6D578 /* safestack.h */,
+				DD551AAB214D4CA88F79701D /* seed.h */,
+				EB7C73BAD38645B69196CE56 /* sha.h */,
+				EE817259F85B4C2D871DBDBC /* srp.h */,
+				3BB9A0FC0CBF46CFAB66E648 /* srtp.h */,
+				5092D7F79A964BACAA40A6D7 /* ssl.h */,
+				B5E2C30236254204ABC3EFE8 /* ssl2.h */,
+				4AEF28902B884FB7A5564F39 /* ssl23.h */,
+				C25B550C092D4D1581DCD129 /* ssl3.h */,
+				5F7D8543A7D04468930270A1 /* stack.h */,
+				D3A949AD710B472CBD658407 /* symhacks.h */,
+				9CC48D88B7C64526970CD435 /* tls1.h */,
+				AF6DD053ABB54303A5241430 /* ts.h */,
+				9D280C12BCF2461E85B66B73 /* txt_db.h */,
+				D2D8933455CE43B99F4ECB9B /* ui_compat.h */,
+				2003E7124C414D088954FCEA /* ui.h */,
+				05B2189B0EEE4421A2D78E01 /* whrlpool.h */,
+				9B4EE9CB68AA4120A8832E81 /* x509_vfy.h */,
+				409B3B4DD7334C10B043B923 /* x509.h */,
+				09D5DDE9BB4042BA800CBDF3 /* x509v3.h */,
+				C3A5E2C9C7284A32B285778D /* base64.h */,
+				5E2DABF0AEB6455EA90537C3 /* config.h */,
+				0B5AA29007B64AFB9F30BE40 /* DataSigner.h */,
+				9EC6469B7F0744408EAB7096 /* DataVerifier.h */,
+				38CCE564873C47DD90D4992F /* MD5DataSigner.h */,
+				F442B2BA620B4305B6147C05 /* NSDataEx.h */,
+				10EA33022E47498C81EB7C04 /* openssl_wrapper.h */,
+				21CD56B798F84D61B7CCA62F /* RSADataSigner.h */,
+				37C060618E334CE2A933127C /* RSADataVerifier.h */,
+				691532145D3C4E0A905E83BB /* CDVSplashScreen.m */,
+				5A44A1DD51764DF9AB4477F2 /* CDVViewController+SplashScreen.m */,
+				FB022139774E4441A94787C2 /* CDVSplashScreen.h */,
+				AD78F6DF246F45829BF515A6 /* CDVViewController+SplashScreen.h */,
+				F1E44C6B9AA04A31BCA7F1CB /* AppPreferences.m */,
+				760D06C242F9417B9D225836 /* AppPreferences.h */,
+				0978469BDEEE45AF82558B3D /* CDVFileTransfer.m */,
+				FBA9A72349574A7EB0745D41 /* CDVFileTransfer.h */,
+				AB12CE37EEB248C3ABF6FA98 /* CDVConnection.m */,
+				134E3B8BFB104F6BB31A9C42 /* CDVReachability.m */,
+				3802F548CBD54F21B2CDB2DC /* CDVConnection.h */,
+				13C110684C3C4C67853C172C /* CDVReachability.h */,
+				C20C378F93294FC8AD3EA59B /* ZipPlugin.m */,
+				F4B1F80E83694F3F9ED8F21F /* SSZipArchive.m */,
+				FC2CDC5B5C0A425FA57F64A6 /* zip.c */,
+				D5EA230C6B034E60A8C15A82 /* unzip.c */,
+				9218BA30C9F44B518FFBECCF /* mztools.c */,
+				2970D1C104C540F083B38ABE /* ioapi.c */,
+				FA9C6642A4584F33B07486CD /* ZipPlugin.h */,
+				7408721DE64042AA9135E933 /* SSZipArchive.h */,
+				D0B8AEB24DF54EC2A2679915 /* zip.h */,
+				D2E594584E914435BA578F46 /* unzip.h */,
+				196A644C5B6F4BD4BBD44740 /* mztools.h */,
+				A8BA096883374B42B995B677 /* ioapi.h */,
+				23CD0DA34E25439297913685 /* crypt.h */,
+				E97BDAB2DA5C420E86813505 /* CDVInAppBrowser.m */,
+				7C533BEBD2F54721A3647767 /* CDVInAppBrowser.h */,
+				7E9EE4BC026345C7A856B453 /* Toast+UIView.m */,
+				55B59ADE783B44F19AB962C5 /* Toast.m */,
+				919EDB786C474AEBBBE48DAB /* Toast+UIView.h */,
+				426549E188F94EFDBF31FE9E /* Toast.h */,
+				5FC480F430D34B7CB3F1890D /* CDVDevice.m */,
+				63DE94D2B7244448BB3E1100 /* CDVDevice.h */,
+				E43D8CF1039F4567B4373751 /* AppVersion.m */,
+				82C2D8795F2E459E883696D7 /* AppVersion.h */,
+				DA536851B1584A80849AC89F /* CDVSpinnerDialog.m */,
+				5C1F8B98DCFC4F6BAA1DE0C3 /* CDVSpinnerDialog.h */,
+				33E596CE347144D5875A9D49 /* CDVKeyboard.m */,
+				B10EF8D308DB4A648D6D4136 /* CDVKeyboard.h */,
+				F817E05D82F64D47BDA78B88 /* CDVLocation.m */,
+				A7AB229158C049D08D1875A5 /* CDVLocation.h */,
+				61228B53977E48EEA5B66A04 /* AppAvailability.m */,
+				8A774DE34BC846FDA5F98DF8 /* AppAvailability.h */,
+			);
+			name = Plugins;
+			path = "外卖/Plugins";
+			sourceTree = SOURCE_ROOT;
+		};
+		308D052D1370CCF300D202BF /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				30C1856519D5FC0A00212699 /* icon-60@3x.png */,
+				7E7966D41810823500FA85AD /* icon-40.png */,
+				7E7966D51810823500FA85AD /* icon-40@2x.png */,
+				7E7966D61810823500FA85AD /* icon-50.png */,
+				7E7966D71810823500FA85AD /* icon-50@2x.png */,
+				7E7966D81810823500FA85AD /* icon-60.png */,
+				7E7966D91810823500FA85AD /* icon-60@2x.png */,
+				7E7966DA1810823500FA85AD /* icon-76.png */,
+				7E7966DB1810823500FA85AD /* icon-76@2x.png */,
+				7E7966DC1810823500FA85AD /* icon-small.png */,
+				7E7966DD1810823500FA85AD /* icon-small@2x.png */,
+				30FC414816E50CA1004E6F35 /* icon-72@2x.png */,
+				308D052E1370CCF300D202BF /* icon-72.png */,
+				308D052F1370CCF300D202BF /* icon.png */,
+				308D05301370CCF300D202BF /* icon@2x.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		308D05311370CCF300D202BF /* splash */ = {
+			isa = PBXGroup;
+			children = (
+				30B4F2FD19D5E07200D9F7D8 /* Default-667h.png */,
+				30B4F2FE19D5E07200D9F7D8 /* Default-736h.png */,
+				30B4F2FF19D5E07200D9F7D8 /* Default-Landscape-736h.png */,
+				D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */,
+				3088BBB7154F3926009F9C59 /* Default-Landscape@2x~ipad.png */,
+				3088BBB8154F3926009F9C59 /* Default-Landscape~ipad.png */,
+				3088BBB9154F3926009F9C59 /* Default-Portrait@2x~ipad.png */,
+				3088BBBA154F3926009F9C59 /* Default-Portrait~ipad.png */,
+				3088BBBB154F3926009F9C59 /* Default@2x~iphone.png */,
+				3088BBBC154F3926009F9C59 /* Default~iphone.png */,
+			);
+			path = splash;
+			sourceTree = "<group>";
+		};
+		EB87FDF11871DA420020F90C /* Staging */ = {
+			isa = PBXGroup;
+			children = (
+				F840E1F0165FE0F500CFE078 /* config.xml */,
+				301BF56E109A69640062928A /* www */,
+			);
+			name = Staging;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* 外卖 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "外卖" */;
+			buildPhases = (
+				304B58A110DAC018002A0835 /* Copy www directory */,
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				301BF551109A68C00062928A /* PBXTargetDependency */,
+			);
+			name = "外卖";
+			productName = "外卖";
+			productReference = 1D6058910D05DD3D006BFB54 /* 外卖.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 510;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "__CLI__" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+				es,
+				de,
+				se,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 301BF52E109A57CC0062928A /* Products */;
+					ProjectRef = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* 外卖 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		301BF535109A57CC0062928A /* libCordova.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCordova.a;
+			remoteRef = 301BF534109A57CC0062928A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7966E41810823500FA85AD /* icon-76.png in Resources */,
+				7E7966DF1810823500FA85AD /* icon-40@2x.png in Resources */,
+				308D05371370CCF300D202BF /* icon-72.png in Resources */,
+				30B4F30119D5E07200D9F7D8 /* Default-736h.png in Resources */,
+				308D05381370CCF300D202BF /* icon.png in Resources */,
+				308D05391370CCF300D202BF /* icon@2x.png in Resources */,
+				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
+				7E7966E01810823500FA85AD /* icon-50.png in Resources */,
+				7E7966E31810823500FA85AD /* icon-60@2x.png in Resources */,
+				7E7966E61810823500FA85AD /* icon-small.png in Resources */,
+				3088BBBD154F3926009F9C59 /* Default-Landscape@2x~ipad.png in Resources */,
+				3088BBBE154F3926009F9C59 /* Default-Landscape~ipad.png in Resources */,
+				3088BBBF154F3926009F9C59 /* Default-Portrait@2x~ipad.png in Resources */,
+				7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */,
+				3088BBC0154F3926009F9C59 /* Default-Portrait~ipad.png in Resources */,
+				30B4F30019D5E07200D9F7D8 /* Default-667h.png in Resources */,
+				7E7966DE1810823500FA85AD /* icon-40.png in Resources */,
+				3088BBC1154F3926009F9C59 /* Default@2x~iphone.png in Resources */,
+				7E7966E21810823500FA85AD /* icon-60.png in Resources */,
+				3088BBC2154F3926009F9C59 /* Default~iphone.png in Resources */,
+				D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */,
+				30B4F30219D5E07200D9F7D8 /* Default-Landscape-736h.png in Resources */,
+				30C1856619D5FC0A00212699 /* icon-60@3x.png in Resources */,
+				7E7966E11810823500FA85AD /* icon-50@2x.png in Resources */,
+				7E7966E51810823500FA85AD /* icon-76@2x.png in Resources */,
+				30FC414916E50CA1004E6F35 /* icon-72@2x.png in Resources */,
+				76E949BEA52147379EF7CE5B /* PushConfig.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		304B58A110DAC018002A0835 /* Copy www directory */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy www directory";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "NODEJS_PATH=/usr/local/bin; NVM_NODE_PATH=~/.nvm/versions/node/`nvm version 2>/dev/null`/bin; N_NODE_PATH=`find /usr/local/n/versions/node/* -maxdepth 0 -type d 2>/dev/null | tail -1`/bin; XCODE_NODE_PATH=`xcode-select --print-path`/usr/share/xcs/Node/bin; PATH=$NODEJS_PATH:$NVM_NODE_PATH:$N_NODE_PATH:$XCODE_NODE_PATH:$PATH && node cordova/lib/copy-www-build-step.js";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
+				B46F96951C55B9C700098207 /* JustepURLProtocol.m in Sources */,
+				B46F96961C55B9C700098207 /* NSData+AES128.m in Sources */,
+				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
+				A8725C6481ED476C96B4A3BC /* CDVFile.m in Sources */,
+				BC507BBC826D472ABE0EC2F3 /* CDVLocalFilesystem.m in Sources */,
+				9D776B116FBE42B080D04B2A /* CDVAssetLibraryFilesystem.m in Sources */,
+				06B80A220C774F72BAE3D260 /* AFHTTPSessionManager.m in Sources */,
+				3A1CDBCC8AE9480EBCBC405E /* AFNetworkReachabilityManager.m in Sources */,
+				AC00FBFD8B5F4355849FB7B1 /* AFSecurityPolicy.m in Sources */,
+				E9AC3E31D40A4A7AAFDCF7C3 /* AFURLRequestSerialization.m in Sources */,
+				5F4DB5F1889E46CBBEFFC0B7 /* AFURLResponseSerialization.m in Sources */,
+				06EAAD94710D4590AA6842B6 /* AFURLSessionManager.m in Sources */,
+				76E4FD8FDA5649FFBBB0E93F /* CordovaHttpPlugin.m in Sources */,
+				1ED75B5154E54081B8698E67 /* TextResponseSerializer.m in Sources */,
+				B46E6E1CB6134DFC9CFEA4C0 /* CDVWeixin.m in Sources */,
+				8E888B45ECCA41C88478B6A5 /* CDVWeixinV3.m in Sources */,
+				099779E786F34A30AB197FA8 /* ApiXml.mm in Resources */,
+				CEBD9558E70E43A597A63CD1 /* PayOrder.m in Sources */,
+				803A5F0778D94F069C6039EE /* WXHttpUtil.m in Sources */,
+				CBB8A7DADC564E39BE4D3B6B /* WXUtil.m in Sources */,
+				4FE6F79FFB534491B86746BA /* JSONKit.m in Sources */,
+				677E560B73134FB69C17B5E8 /* JPushPlugin.m in Sources */,
+				882B149CAB0F4508A6468F62 /* AppDelegate+JPush.m in Sources */,
+				11DF73F13B2A44C48317AAAF /* CDVUnionpay.m in Sources */,
+				80F3BE4ED0474DA9AAA0456F /* CDVAlipay.m in Sources */,
+				E11CE8089AD94716824B20A1 /* AlipayOrder.m in Sources */,
+				694A0CCB27FC48C9852485BD /* base64.m in Sources */,
+				EB270352416E496E843DD55F /* DataSigner.m in Sources */,
+				45121AF219C54113BA64DAC9 /* DataVerifier.m in Sources */,
+				673A0388155449CC8B5FAE43 /* MD5DataSigner.m in Sources */,
+				AC2A9C643E534D679C0D3A64 /* NSDataEx.m in Sources */,
+				17FA220561204A6589B818D1 /* openssl_wrapper.m in Sources */,
+				88DAAA6B9FAE4EF889AD8EDA /* RSADataSigner.m in Sources */,
+				6310653A198548F6B581B8FA /* RSADataVerifier.m in Sources */,
+				CED4EA6FD8FC4505B8CE9174 /* CDVSplashScreen.m in Sources */,
+				4E12196316484CF996460503 /* CDVViewController+SplashScreen.m in Sources */,
+				670296D1C4034795AB923D02 /* AppPreferences.m in Sources */,
+				36A5583F1B4549DEA4B436BD /* CDVFileTransfer.m in Sources */,
+				82B238704D534B37A5259297 /* CDVConnection.m in Sources */,
+				07FC44DB6A8F44EEB188234F /* CDVReachability.m in Sources */,
+				CDFDD0D810F24C1F9A56ACD3 /* ZipPlugin.m in Sources */,
+				125725A28C364A91A342E1C9 /* SSZipArchive.m in Sources */,
+				2609354D8CBB4CEFBF820C81 /* zip.c in Resources */,
+				ECDCF8DA49A3410A8621798E /* unzip.c in Resources */,
+				6EE344E469144D959F3973DE /* mztools.c in Resources */,
+				8E4E644BB4F046E59F41F73F /* ioapi.c in Resources */,
+				C8057999EDE2445DBE3B9947 /* CDVInAppBrowser.m in Sources */,
+				435F677521534D14A61803BB /* Toast+UIView.m in Sources */,
+				FF2E72BB127F4021B038AF80 /* Toast.m in Sources */,
+				7AC8827007C94A0CB43CEDA2 /* CDVDevice.m in Sources */,
+				9AD5ABFA90B54CB6BCDA49DF /* AppVersion.m in Sources */,
+				846F98BBF97842F3B832EA51 /* CDVSpinnerDialog.m in Sources */,
+				CE68F00423044F9591483787 /* CDVKeyboard.m in Sources */,
+				FA0EC0AD76F6481FBBFE501E /* CDVLocation.m in Sources */,
+				E6F516A0A8EE4EFEA0B9A1CD /* AppAvailability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		301BF551109A68C00062928A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CordovaLib;
+			targetProxy = 301BF550109A68C00062928A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "外卖/外卖-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "外卖/外卖-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					CoreFoundation,
+					"-weak_framework",
+					UIKit,
+					"-weak_framework",
+					AVFoundation,
+					"-weak_framework",
+					CoreMedia,
+					"-weak-lSystem",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "外卖";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/外卖/Plugins/com.justep.cordova.plugin.weixin.v3\"",
+					"\"$(SRCROOT)/外卖/Plugins/cn.jpush.phonegap.JPushPlugin\"",
+					"\"$(SRCROOT)/外卖/Plugins/com.justep.cordova.plugin.unionpay\"",
+					"\"$(SRCROOT)/外卖/Plugins/com.justep.cordova.plugin.alipay\"",
+					"\"$(SRCROOT)/外卖/Plugins/com.justep.cordova.plugin.alipay\"",
+				);
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"外卖/Plugins/com.justep.cordova.plugin.alipay\"",
+				);
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "外卖/外卖-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "外卖/外卖-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					CoreFoundation,
+					"-weak_framework",
+					UIKit,
+					"-weak_framework",
+					AVFoundation,
+					"-weak_framework",
+					CoreMedia,
+					"-weak-lSystem",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "外卖";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/外卖/Plugins/com.justep.cordova.plugin.weixin.v3\"",
+					"\"$(SRCROOT)/外卖/Plugins/cn.jpush.phonegap.JPushPlugin\"",
+					"\"$(SRCROOT)/外卖/Plugins/com.justep.cordova.plugin.unionpay\"",
+					"\"$(SRCROOT)/外卖/Plugins/com.justep.cordova.plugin.alipay\"",
+					"\"$(SRCROOT)/外卖/Plugins/com.justep.cordova.plugin.alipay\"",
+				);
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"外卖/Plugins/com.justep.cordova.plugin.alipay\"",
+				);
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(TARGET_BUILD_DIR)/usr/local/lib/include\"",
+					"\"$(OBJROOT)/UninstalledProducts/include\"",
+					"\"$(BUILT_PRODUCTS_DIR)\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					CoreFoundation,
+					"-weak_framework",
+					UIKit,
+					"-weak_framework",
+					AVFoundation,
+					"-weak_framework",
+					CoreMedia,
+					"-weak-lSystem",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(TARGET_BUILD_DIR)/usr/local/lib/include\"",
+					"\"$(OBJROOT)/UninstalledProducts/include\"",
+					"\"$(BUILT_PRODUCTS_DIR)\"",
+					"\"$(OBJROOT)/UninstalledProducts/$(PLATFORM_NAME)/include\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					CoreFoundation,
+					"-weak_framework",
+					UIKit,
+					"-weak_framework",
+					AVFoundation,
+					"-weak_framework",
+					CoreMedia,
+					"-weak-lSystem",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "外卖" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "__CLI__" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

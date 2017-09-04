@@ -1,0 +1,20 @@
+/**
+	@name cordova-plugin-zip
+	@class 
+	@description 解压缩插件
+	@model Native
+	@category plugin
+	@declareVar zip
+*/
+
+/**
+	@name cordova-plugin-zip.unzip
+ 	@function
+ 	@param {String} fileName 文件名
+ 	@param {String} outputDirectory 输出位置
+ 	@param {Function} callback 解压结束回调函数
+ 	@param {Function} progressCallback 解压过程中回调函数
+ 	@returns {void}
+ 	@description 解压文件
+*/
+

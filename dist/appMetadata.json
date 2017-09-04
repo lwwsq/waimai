@@ -1,0 +1,20 @@
+{
+	"appInfo":{
+		"androidApp":{
+			"changeLog":"",
+			"downloadURL":"http://192.168.1.110:8080/takeout/app.apk",
+			"version":"5.3.18"
+		},
+		"iosApp":{
+			"changeLog":"",
+			"downloadURL":"http://192.168.1.110:8080/takeout/app.ipa",
+			"version":"5.3.18"
+		}
+	},
+	"resourceInfo":{
+		"downloadURL":"http://192.168.1.110:8080/takeout/www.zip",
+		"indexURL":"/takeout/index.w",
+		"mode":"1",
+		"version":"v-YfAVJ3-zh_CN-"
+	}
+}

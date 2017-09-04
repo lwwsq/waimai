@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\WX5\model\Native\外卖\build\src\platforms\android\build\intermediates\exploded-aar\android\JustepGetContent\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3720f7e8452a2a5542e6bff489b51fa5ae8c2faf">
+        <dex dex="F:\WX5\model\Native\外卖\build\src\platforms\android\build\intermediates\pre-dexed\debug\android-JustepGetContent-unspecified_4e018fbceaf14a17ec9ff4d55a04ae75fe698c54.jar" />
+    </item>
+    <item
+        jar="F:\WX5\model\Native\外卖\build\src\platforms\android\libs\UPPayPluginEx.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2adb7d37c28757220e1a455dbd5722988aa6c73d">
+        <dex dex="F:\WX5\model\Native\外卖\build\src\platforms\android\build\intermediates\pre-dexed\debug\UPPayPluginEx_a02a5b53a10671fa32fae33b128e048ca62b427b.jar" />
+    </item>
+    <item
+        jar="F:\WX5\model\Native\外卖\build\src\platforms\android\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="F:\WX5\model\Native\外卖\build\src\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-22.2.0_14a812be87df0d8b718740f192ba32a93efb83b1.jar" />
+    </item>
+    <item
+        jar="F:\WX5\model\Native\外卖\build\src\platforms\android\libs\alipaysecsdk.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7413c074c9edf523050267b93d0875151dc4b644">
+        <dex dex="F:\WX5\model\Native\外卖\build\src\platforms\android\build\intermediates\pre-dexed\debug\alipaysecsdk_40de1e72dc58b0a4e5144393625ab8214ee064a4.jar" />
+    </item>
+    <item
+        jar="F:\WX5\model\Native\外卖\build\src\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="F:\WX5\model\Native\外卖\build\src\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-v4-22.2.0_5ce8a8da10910978e7bced62dea37e2be67fa46e.jar" />
+    </item>
+    <item
+        jar="F:\WX5\model\Native\外卖\build\src\platforms\android\libs\tbs_sdk_thirdapp_v2.1.2.1096_36511_shareonly_obfs_20160727_105850.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b64fbda1d47f17fc592f36db608b9e7170e19c1e">
+        <dex dex="F:\WX5\model\Native\外卖\build\src\platforms\android\build\intermediates\pre-dexed\debug\tbs_sdk_thirdapp_v2.1.2.1096_36511_shareonly_obfs_20160727_105850_71b64bcb4383352e58563433f854712cc45cce16.jar" />
+    </item>
+    <item
+        jar="F:\WX5\model\Native\外卖\build\src\platforms\android\libs\alipaysdk.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="33d3102886e819ec70b32dd243a2b4d181ac7089">
+        <dex dex="F:\WX5\model\Native\外卖\build\src\platforms\android\build\intermediates\pre-dexed\debug\alipaysdk_f432c56815d27600090d34d8683e9086ef1a2e33.jar" />
+    </item>
+    <item
+        jar="F:\WX5\tools\adt-sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="F:\WX5\model\Native\外卖\build\src\platforms\android\build\intermediates\pre-dexed\debug\support-annotations-22.2.0_000b0b83314eaeeb8b95c971962670f724b16368.jar" />
+    </item>
+    <item
+        jar="F:\WX5\model\Native\外卖\build\src\platforms\android\libs\jpush-android-2.1.5.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0f26f97f6d6c7cb02247e1ec35034732f234badb">
+        <dex dex="F:\WX5\model\Native\外卖\build\src\platforms\android\build\intermediates\pre-dexed\debug\jpush-android-2.1.5_6e6005c1f1652e8582d86504d91ef03c5cb8e385.jar" />
+    </item>
+    <item
+        jar="F:\WX5\model\Native\外卖\build\src\platforms\android\libs\libammsdk.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d7c2f29c05b35e8c8713be2b81c41cf18f98b64a">
+        <dex dex="F:\WX5\model\Native\外卖\build\src\platforms\android\build\intermediates\pre-dexed\debug\libammsdk_7f7bbf95f5c9d733334e909e208dcbb9baeabace.jar" />
+    </item>
+    <item
+        jar="F:\WX5\model\Native\外卖\build\src\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="F:\WX5\model\Native\外卖\build\src\platforms\android\build\intermediates\pre-dexed\debug\internal_impl-22.2.0_bfbf2f437a274361dc6e318de80edfe0b113ba01.jar" />
+    </item>
+    <item
+        jar="F:\WX5\model\Native\外卖\build\src\platforms\android\libs\alipayutdid.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4345fa0a5a7768f2f9c86aaab7db9e2906765193">
+        <dex dex="F:\WX5\model\Native\外卖\build\src\platforms\android\build\intermediates\pre-dexed\debug\alipayutdid_dc5fb94046ca1123d2fad908e698bb9c64fd3806.jar" />
+    </item>
+    <item
+        jar="F:\WX5\model\Native\外卖\build\src\platforms\android\libs\UPPayAssistEx.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d63c415d9b8c8d48677fe2253b21180ccc1afa0f">
+        <dex dex="F:\WX5\model\Native\外卖\build\src\platforms\android\build\intermediates\pre-dexed\debug\UPPayAssistEx_3e9859ef14d1b691295665cb0723666ac2ca79ea.jar" />
+    </item>
+    <item
+        jar="F:\WX5\model\Native\外卖\build\src\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\debug\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="56e3d64d165b1dd1c50c2fe4d84f1f63a7fa6d49">
+        <dex dex="F:\WX5\model\Native\外卖\build\src\platforms\android\build\intermediates\pre-dexed\debug\CordovaLib-unspecified-debug_73deefb99cf5ebb0eb9547f01c237b865fe502f9.jar" />
+    </item>
+    <item
+        jar="F:\WX5\model\Native\外卖\build\src\platforms\android\libs\locSDK_5.01.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8854f80a1a63f6348276dd5c8e96b9096784a513">
+        <dex dex="F:\WX5\model\Native\外卖\build\src\platforms\android\build\intermediates\pre-dexed\debug\locSDK_5.01_ab5228b7edab66c4f31aaf392780529e2828ae47.jar" />
+    </item>
+
+</items>

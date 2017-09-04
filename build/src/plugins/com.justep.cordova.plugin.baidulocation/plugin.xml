@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:rim="http://www.blackberry.com/ns/widgets"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="com.justep.cordova.plugin.baidulocation"
+    version="5.3.0">
+    <name>BaiduLocation</name>
+    
+     <js-module src="www/geolocationExtends.js" name="geolocationExtends">
+        <merges target="navigator.geolocation" />
+     </js-module>
+    <!-- android -->
+    <platform name="android">
+        <js-module src="www/android/baidulocation.js" name="BaiduLocation">
+            <clobbers target="navigator.baiduLocation" />
+        </js-module>
+ 
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="BaiduLocation">
+                <param name="android-package" value="com.justep.cordova.plugin.baidulocation.BaiduLocation"/>
+            </feature>
+        </config-file> 
+        
+        <config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+            <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+            <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+            <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+            <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission>
+            <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+            <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+            <uses-permission android:name="android.permission.INTERNET" />
+            <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"></uses-permission>
+            <uses-permission android:name="android.permission.READ_LOGS"></uses-permission>
+        </config-file>
+
+        <config-file target="AndroidManifest.xml" parent="/manifest/application">
+        	<meta-data android:name="com.baidu.lbsapi.API_KEY" android:value="8CmRzvUum1x3E40yCkfhwmMi" />
+            <service android:name="com.baidu.location.f" android:enabled="true" android:process=":remote"></service>
+        </config-file>
+        
+        <source-file src="src/android/BaiduLocation.java" target-dir="src/com/justep/cordova/plugin/baidulocation" />   
+        <source-file src="src/android/locSDK_5.01.jar" target-dir="libs"/>
+        <!--	
+		<source-file src="src/android/arm64-v8a/liblocSDK5.so" target-dir="libs/arm64-v8a"/>
+		-->
+		<source-file src="src/android/armeabi/liblocSDK5.so" target-dir="libs/armeabi"/>
+		<source-file src="src/android/armeabi-v7a/liblocSDK5.so" target-dir="libs/armeabi-v7a"/>
+		<source-file src="src/android/mips/liblocSDK5.so" target-dir="libs/mips"/>
+		<source-file src="src/android/mips64/liblocSDK5.so" target-dir="libs/mips64"/>
+		<source-file src="src/android/x86/liblocSDK5.so" target-dir="libs/x86"/>
+		<source-file src="src/android/x86_64/liblocSDK5.so" target-dir="libs/x86_64"/>
+    </platform>    
+</plugin>

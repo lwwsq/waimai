@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.wex5.takeout" version="5.3.18" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="File">
+        <param name="android-package" value="org.apache.cordova.file.FileUtils" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="CordovaHttpPlugin">
+        <param name="android-package" value="com.synconset.CordovaHttpPlugin" />
+    </feature>
+    <preference name="weixin_appid" value="wx7f1cf94ef1ea9163" />
+    <preference name="weixin_secret" value="取用户信息必填" />
+    <preference name="weixin_partner_id" value="1260525001" />
+    <preference name="weixin_api_key" value="C6B64B44003000013DD711AF15089430" />
+    <feature name="Weixin">
+        <param name="android-package" value="com.justep.cordova.plugin.weixin.WeixinV3" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="JPushPlugin">
+        <param name="android-package" value="cn.jpush.phonegap.JPushPlugin" />
+    </feature>
+    <preference name="unionpay_mmode" value="00" />
+    <feature name="Unionpay">
+        <param name="android-package" value="com.justep.cordova.plugin.unionpay.UnionPay" />
+        <param name="onload" value="true" />
+    </feature>
+    <preference name="partner" value="2088811446024912" />
+    <preference name="rsa_private" value="MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAM3NsYcFbce3omzhiXY1Mr8nkxuHkpVFky9JBb+vnLzje+mjZIxbHDGIU//3c88H5F6CO6CPNMa036QJ9nhS6Ea7xmEGQ2JxY0JMM2bnQxhRtwwe1nV67boFzkjrOWD1loThzK3pgVkb6D6gLqANXcPSe3JAqrvouNUYvK/+75O1AgMBAAECgYBy3IdlZUlE+x+DB0lyGPTOrSa0abEM8LzZ2jaEKl4fKhOBbXjzwPH2TzEaniAbfzsc6DChRuvcrxxWcF0IALWzqyJdGNxZjlhwyVhKc4BJnn90AUXohvB83AFd2+cHurHkAE8sEO8ihDsSOon0YpKKkA/haQ8RKshTCO8RZIlugQJBAP2WkR3BbPzgHZxKR8u0woe0ZzIkUCa/+dMr8XELE6ZBj1w3uPTq4ePHto5W9MLwzN3p3lN+WcUkAM/BdzlbUyECQQDPwsf4SYCjV5hTNY7sj1sqcO4O8Ti7HnINHkefb90TsIrQjaBYNYxeEjj028yLxKkNkNUoLZQekt0jDast24IVAkBDvM5yplJYkf0W3HilH1m/Kh9Os4h9cVZoZBqQWaccB/MlbPUI5x0D3TsUdoHW+L+gn3H115BfKqjU1hbkyVJBAkEAryckVTMKayrG9aeahd7Z2e75E8nTrRUey+ZyNX0mYZodfXNY8eS7IPe14uCHEnJKn3Ax9DxwulHQcuPsI64CfQJBAPYgBMhCX6HXpLTKUuIID1dy1ENZyEEUZCouQsuPYwirOO6z4NIi8wSa98wgM0/2NJrVs1W2/l2fn8xVycd4Ykk=" />
+    <preference name="rsa_public" value="MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCnxj/9qwVfgoUh/y2W89L6BkRAFljhNhgPdyPuBV64bfQNN1PjbCzkIM6qRdKBoLPXmKKMiFYnkd6rAoprih3/PrQEB/VsW8OoM8fxn67UDYuyBTqA23MML9q1+ilIZwBC2AQ2UBVOrFXfFl75p6/B5KsiNG9zpgmLCUYuLkxpLQIDAQAB" />
+    <feature name="Alipay">
+        <param name="android-package" value="com.justep.cordova.plugin.alipay.Alipay" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="AppPreferences">
+        <param name="android-package" value="me.apla.cordova.AppPreferences" />
+    </feature>
+    <feature name="FileTransfer">
+        <param name="android-package" value="org.apache.cordova.filetransfer.FileTransfer" />
+    </feature>
+    <feature name="NetworkStatus">
+        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
+    <feature name="Toast">
+        <param name="android-package" value="nl.xservices.plugins.Toast" />
+    </feature>
+    <preference name="webView" value="com.justep.cordova.plugin.engine.tencent.TencentWebViewEngine" />
+    <preference name="webViewEngine" value="auto" />
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="AppVersion">
+        <param name="android-package" value="uk.co.whiteoctober.cordova.AppVersion" />
+    </feature>
+    <feature name="BaiduLocation">
+        <param name="android-package" value="com.justep.cordova.plugin.baidulocation.BaiduLocation" />
+    </feature>
+    <feature name="SpinnerDialog">
+        <param name="android-package" value="hu.dpal.phonegap.plugins.SpinnerDialog" />
+    </feature>
+    <allow-intent href="bdapp://*" />
+    <feature name="AppAvailability">
+        <param name="android-package" value="com.ohh2ahh.appavailability.AppAvailability" />
+    </feature>
+    <feature name="Zip">
+        <param name="android-package" value="org.apache.cordova.Zip" />
+    </feature>
+    <preference name="AndroidPersistentFileLocation" value="Internal" />
+    <feature name="Keyboard">
+        <param name="android-package" onload="true" value="org.apache.cordova.labs.keyboard.Keyboard" />
+    </feature>
+    <allow-intent href="market:*" />
+    <name>外卖</name>
+    <description>Justep WeX5 外卖</description>
+    <author email="x5@justep.com" href="http://www.justep.com">北京起步科技有限公司</author>
+    <content src="http://192.168.1.110:8080/takeout/v-YfAVJ3-zh_CN-/takeout/index.w" />
+    <access origin="*" />
+    <access launch-external="yes" origin="sms:*" />
+    <access launch-external="yes" origin="tel:*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <preference name="AppendUserAgent" value="x5app/5.3.18" />
+    <allow-navigation href="*" />
+    <preference name="BackgroundColor" value="0xffffffff" />
+    <preference name="Orientation" value="default" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="10000" />
+</widget>

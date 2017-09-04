@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-inappbrowser">
+	<name>内置浏览</name>
+	<description>内置浏览本地插件，类似浏览器中js的window.open，用指定模式打开url</description>
+	
+</plugin>

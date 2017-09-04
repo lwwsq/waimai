@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-network-information">
+	<name>网络信息</name>
+	<description>网络信息本地插件，获取网络连接信息</description>
+	
+</plugin>

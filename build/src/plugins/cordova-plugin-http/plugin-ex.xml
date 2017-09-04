@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-http">
+	<name>Http请求插件新版</name>
+	<description>Http请求插件新版本，http请求相关推荐用此版本！</description>
+
+</plugin>

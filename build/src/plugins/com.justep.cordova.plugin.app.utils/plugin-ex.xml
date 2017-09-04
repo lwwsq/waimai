@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="com.justep.cordova.plugin.app.utils" hide="true">
+	<name>appUtils</name>
+	<description>提供app更新 资源包更新能力设置首页等相关能力</description>
+</plugin>

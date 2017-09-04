@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="com.justep.cordova.plugin.alipay">
+	<name>阿里支付</name>
+	<description>阿里支付本地扩展插件</description>
+
+	<!-- common -->
+	<platform name="common">
+		<param name="partner" displayName="阿里商户" />
+		<param name="rsa_private" displayName="阿里支付私钥" />
+		<param name="rsa_public" displayName="阿里支付公钥" />
+	</platform>
+
+	<!-- ios -->
+	<platform name="ios">
+		<param name="alipay_scheme" displayName="阿里url_scheme" />
+	</platform>
+
+	<!-- android -->
+	<platform name="android">
+	</platform>
+
+</plugin>

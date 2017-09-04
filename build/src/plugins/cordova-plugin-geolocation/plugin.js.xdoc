@@ -1,0 +1,173 @@
+/**
+	@name cordova-plugin-geolocation
+	@class 
+	@description 地理定位插件
+	@model Native
+	@category plugin
+	@declareVar navigator.geolocation
+*/
+
+/**
+	@name cordova-plugin-geolocation.getCurrentPosition
+	@function
+	@see cordova-plugin-geolocation.Position
+	@see cordova-plugin-geolocation.PositionError
+	@param {function} successCallback 请求成功的回调，返回cordova-plugin-geolocation.Position对象
+	@param {function} errorCallback 可选参数  请求失败的回调，返回cordova-plugin-geolocation.PositionError对象
+	@param {object} options 可选参数  地理位置参数
+	@returns {void}
+	@description 获取设置地理位置信息
+*/
+
+/**
+	@name cordova-plugin-geolocation.watchPosition
+	@function
+	@param {function} successCallback 检索到地理位置的回调函数
+	@param {function} errorCallback 检索失败的回调函数
+	@param {object} options 地理位置选项
+	<br/><b>参数格式如下</b>
+	<xmp>
+		  {
+		  	"enableHighAccuracy":{Boolean}当设备需要最佳位置信息的提示,
+		  	"timeout":{Number}超时设置，单位毫秒,
+		  	"maximumAge":{Number}使用指定时间内的地理位置缓存，单位毫秒
+		  }
+	</xmp>
+	@returns {String} 返回当前地理位置的表id
+	@description 监听设备地理位置信息，返回值用作clearWatch的参数
+*/
+
+/**
+	@name cordova-plugin-geolocation.clearWatch
+	@function
+	@param {string} watchID watchPosition返回的地理位置表id
+	@returns {void}
+	@description 停止监听
+*/
+
+/**
+	@name cordova-plugin-geolocation.Position
+	@class 
+	@description 地理位置信息
+	@model Native
+	@category EventClass
+	@declareVar Position
+*/
+
+/**
+	@name cordova-plugin-geolocation.Position.coords
+	@property
+	@type Position
+	@see cordova-plugin-geolocation.Position.Coordinates
+	@description 得到地理坐标对象
+*/
+
+/**
+	@name cordova-plugin-geolocation.Position.timestamp
+	@property
+	@type Date
+	@description 时间戳
+*/
+
+
+/**
+	@name cordova-plugin-geolocation.Coordinates
+	@class 
+	@description 地理位置信息
+	@model Native
+	@category EventClass
+	@declareVar Coordinates
+*/
+
+/**
+	@name cordova-plugin-geolocation.Coordinates.latitude
+	@property
+	@type String
+	@description 纬度
+*/
+
+/**
+	@name cordova-plugin-geolocation.Coordinates.longitude
+	@property
+	@type String
+	@description 经度
+*/
+
+/**
+	@name cordova-plugin-geolocation.Coordinates.altitude
+	@property
+	@type String
+	@description 海拔，单位米
+*/
+
+/**
+	@name cordova-plugin-geolocation.Coordinates.accuracy
+	@property
+	@type String
+	@description 经纬度的精确度，单位米
+*/
+
+/**
+	@name cordova-plugin-geolocation.Coordinates.heading
+	@property
+	@type String
+	@description 标题
+*/
+
+/**
+	@name cordova-plugin-geolocation.Coordinates.speed
+	@property
+	@type String
+	@description 速度
+*/
+
+/**
+	@name cordova-plugin-geolocation.Coordinates.altitudeAccuracy
+	@property
+	@type String
+	@description 海拔的精确度，单位米
+*/
+
+/**
+	@name cordova-plugin-geolocation.PositionError
+	@class 
+	@description 地理定位异常类
+	@model Native
+	@category EventClass
+	@declareVar PositionError
+*/
+
+/**
+	@name cordova-plugin-geolocation.PositionError.code
+	@property
+	@type Long
+	@description 错误编码
+*/
+
+/**
+	@name cordova-plugin-geolocation.PositionError.message
+	@property
+	@type String
+	@description 错误信息
+*/
+
+/**
+	@name cordova-plugin-geolocation.PositionError.PERMISSION_DENIED
+	@constant
+	@type Number
+	@description 常量值 1
+*/
+
+/**
+	@name cordova-plugin-geolocation.PositionError.POSITION_UNAVAILABLE
+	@constant
+	@type Number
+	@description 常量值 2
+*/
+
+/**
+	@name cordova-plugin-geolocation.PositionError.TIMEOUT
+	@constant
+	@type Number
+	@description 常量值 3
+*/

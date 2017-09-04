@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="com.justep.cordova.plugin.engine.tencent"
+        version="5.3.6">
+
+    <name>x5 WebView Engine</name>
+    <description>Changes the default WebView to tencent tbs webview</description>
+    <license>MIT</license>
+    <keywords>cordova,chromium,tencent ,tbs,webview</keywords>
+
+    <engines>
+        <engine name="cordova-android" version=">=4"/>
+        <engine name="cordova-plugman" version=">=4.2.0"/>
+    </engines>
+
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <preference name="webView" value="com.justep.cordova.plugin.engine.tencent.TencentWebViewEngine"/>
+            <preference name="webViewEngine" value="auto"/>
+        </config-file>
+
+        <config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+            <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+        </config-file>
+
+		
+		<source-file src="src/android/OfflineTencentWebViewClient.java" target-dir="src/com/justep/cordova/plugin/engine/tencent"/>
+        <source-file src="src/android/TencentCookieManager.java" target-dir="src/com/justep/cordova/plugin/engine/tencent"/>
+        <source-file src="src/android/TencentExposedJsApi.java" target-dir="src/com/justep/cordova/plugin/engine/tencent"/>
+        <source-file src="src/android/TencentWebChromeClient.java" target-dir="src/com/justep/cordova/plugin/engine/tencent"/>
+        <source-file src="src/android/TencentWebView.java" target-dir="src/com/justep/cordova/plugin/engine/tencent"/>
+        <source-file src="src/android/TencentWebViewClient.java" target-dir="src/com/justep/cordova/plugin/engine/tencent"/>
+        <source-file src="src/android/TencentWebViewEngine.java" target-dir="src/com/justep/cordova/plugin/engine/tencent"/>
+        <source-file src="src/android/JustepEnhanceTbsUtils.java" target-dir="src/com/justep/cordova/plugin/engine/tencent"/>
+
+        <source-file src="src/android/tbs_sdk_thirdapp_v2.1.2.1096_36511_shareonly_obfs_20160727_105850.jar" target-dir="libs" />
+        <source-file src="src/android/armeabi/libtbsSDK5.so" target-dir="libs/armeabi" />
+
+
+        <config-file target="AndroidManifest.xml" parent="/manifest">
+          <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+          <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+          <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+          <uses-permission android:name="android.permission.INTERNET" />
+          <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+      </config-file>
+    </platform>
+</plugin>

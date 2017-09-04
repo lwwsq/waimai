@@ -1,0 +1,89 @@
+/**
+	@name cordova-plugin-x-toast
+	@class 
+	@description 浮动提示框插件
+	@model Native
+	@category plugin
+	@declareVar window.plugins.toast
+*/
+
+/**
+	@name cordova-plugin-x-toast.show
+ 	@function
+ 	@param {String} message 文本信息
+ 	@param {String} duration 显示时长，参数取值范围：“short”、“long”
+ 	@param {String} position 显示位置，参数取值范围：“top”、“center”、“bottom”
+ 	@param {Function} successCallback 可选参数  执行成功回调函数
+ 	@param {Function} errorCallback 可选参数  执行失败回调函数
+ 	@returns {void}
+ 	@description 显示浮动提示框
+*/
+
+/**
+	@name cordova-plugin-x-toast.showShortTop
+ 	@function
+ 	@param {String} message 文本信息
+ 	@param {Function} successCallback 可选参数  执行成功回调函数
+ 	@param {Function} errorCallback 可选参数  执行失败回调函数
+ 	@returns {void}
+ 	@description 在屏幕上方显示短时长的信息
+*/
+
+/**
+	@name cordova-plugin-x-toast.showShortCenter
+ 	@function
+ 	@param {String} message 文本信息
+ 	@param {Function} successCallback 可选参数  执行成功回调函数
+ 	@param {Function} errorCallback 可选参数  执行失败回调函数
+ 	@returns {void}
+ 	@description 在屏幕中间显示信息（显示时间短）
+*/
+
+/**
+	@name cordova-plugin-x-toast.showShortBottom
+ 	@function
+ 	@param {String} message 文本信息
+ 	@param {Function} successCallback 可选参数  执行成功回调函数
+ 	@param {Function} errorCallback 可选参数  执行失败回调函数
+ 	@returns {void}
+ 	@description 在屏幕底部显示信息（显示时间短）
+*/
+
+/**
+	@name cordova-plugin-x-toast.showLongTop
+ 	@function
+ 	@param {String} message 文本信息
+ 	@param {Function} successCallback 可选参数  执行成功回调函数
+ 	@param {Function} errorCallback 可选参数  执行失败回调函数
+ 	@returns {void}
+ 	@description 在屏幕上方显示信息（显示时间长）
+*/
+
+/**
+	@name cordova-plugin-x-toast.showLongCenter
+ 	@function
+ 	@param {String} message 文本信息
+ 	@param {Function} successCallback 可选参数  执行成功回调函数
+ 	@param {Function} errorCallback 可选参数  执行失败回调函数
+ 	@returns {void}
+ 	@description 在屏幕中间显示信息（显示时间长）
+*/
+
+/**
+	@name cordova-plugin-x-toast.showLongBottom
+ 	@function
+ 	@param {String} message 文本信息
+ 	@param {Function} successCallback 可选参数  执行成功回调函数
+ 	@param {Function} errorCallback 可选参数  执行失败回调函数
+ 	@returns {void}
+ 	@description 在屏幕底部显示信息（显示时间长）
+*/
+
+/**
+	@name cordova-plugin-x-toast.hide
+ 	@function
+ 	@param {Function} successCallback 可选参数  执行成功回调函数
+ 	@param {Function} errorCallback 可选参数  执行失败回调函数
+ 	@returns {void}
+ 	@description 隐藏浮动提示框
+*/

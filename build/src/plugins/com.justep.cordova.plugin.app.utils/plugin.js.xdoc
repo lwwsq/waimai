@@ -1,0 +1,45 @@
+/**
+	@name com.justep.cordova.plugin.app.utils
+	@class 
+	@description 提供app更新 资源包更新能力设置首页等相关能力
+	@model Native
+	@category plugin
+	@declareVar navigator.appUtils
+*/
+
+/**
+	@name com.justep.cordova.plugin.app.utils.isWifiConnection
+	@function
+ 	@returns {Boolean}
+ 	@description 判断当前是否为wifi连接
+*/
+
+/**
+	@name com.justep.cordova.plugin.app.utils.getIndexPageUrl
+*/
+
+/**
+	@name com.justep.cordova.plugin.app.utils.getAppVersion
+ 	@description 获取当前app版本
+*/
+
+/**
+	@name com.justep.cordova.plugin.app.utils.setIndexPageUrl
+	@function
+	@param {string} indexPageUrl 首页路径
+ 	@returns {void}
+ 	@description 设置首页
+*/
+/**
+	@name com.justep.cordova.plugin.app.utils.getResourceDirPath
+	@function	
+ 	@returns {string}
+ 	@description 获取资源路径
+*/
+/**
+	@name com.justep.cordova.plugin.app.utils.updateAppResource
+	@function
+	@param {string} resourceDownloadUrl 资源下载路径
+ 	@returns {void}
+ 	@description 更新app资源
+*/

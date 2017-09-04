@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-app-version">
+	<name>获取版本信息</name>
+	<description>获取app版本相关信息</description>
+
+</plugin>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+	xmlns:android="http://schemas.android.com/apk/res/android" id="com.justep.cordova.plugin.bmap"
+	version="5.3.0">
+
+	<name>baidu map</name>
+	<description>百度地图插件</description>
+	<license>MIT</license>
+	<keywords>cordova,baidu map</keywords>
+	
+	<!--require cordova version -->
+	<engines>
+		<engine name="cordova" version=">=3.5.0" />
+	</engines>
+	
+	<!-- ios -->
+	<platform name="ios">
+		<config-file target="config.xml" parent="/*">
+            <allow-intent href="baidumap://*" />
+        </config-file>
+        <config-file platform="ios" target="*-Info.plist" parent="LSApplicationQueriesSchemes">
+        	<array>
+            	<string>baidumap</string>
+        	</array>
+    	</config-file>		
+	</platform>
+
+	<!-- android -->
+	<platform name="android">
+		<config-file target="res/xml/config.xml" parent="/*">
+            <allow-intent href="bdapp://*" />
+        </config-file>
+	</platform>
+</plugin>
+

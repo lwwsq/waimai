@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-appavailability">
+	<name>应用安装状态</name>
+	<description>应用安装状态插件， 通过URI Scheme (iOS) 或者包名(Android)判断指定的应用是否已安装</description>
+
+</plugin>

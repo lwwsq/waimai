@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	<style type="text/css">
+		body, html,#allmap {width: 100%;height: 100%;overflow: hidden;margin:0;}
+		#golist {display: none;}
+		@media (max-device-width: 780px){#golist{display: block !important;}}
+	</style>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?type=quick&ak=EzfQTH533pbevnhohMX4QZRK&v=1.0"></script>
+    <script type="text/javascript" src="../system/lib/jquery/jquery-1.11.1.js"></script>
+    <title>百度地图定位</title>
+    
+</head>
+<body>
+<div id="allmap"></div>
+<script language="javascript">
+    	$(function(){
+    		var premap = new BMap.Map("allmap");
+			var preOriginPoint = new BMap.Point("116.45764191999997","39.8622934399999");
+			premap.addControl(new BMap.ZoomControl());
+			premap.centerAndZoom(preOriginPoint, 20);
+    	});
+	    $(window).on('message',function(message){
+	    	var data = message.originalEvent.data;
+			try{/*这里是为了兼容IE9*/
+				data = JSON.parse(data);
+			}catch(e){}
+			var longitude = data.longitude;
+			var latitude = data.latitude;
+			var address = data.address || "当前位置";
+			var coorType = data.coorType || "gps"
+			// 百度地图API功能
+			var map = new BMap.Map("allmap");
+			var originPoint = new BMap.Point(longitude,latitude);
+			map.addControl(new BMap.ZoomControl());
+			
+			if(coorType == "bd09ll"){
+				var opts = {
+					width : 20,    // 信息窗口宽度
+					height: 20,     // 信息窗口高度
+					title : ""  // 信息窗口标题
+				}
+				var infoWindow = new BMap.InfoWindow(address, opts);  // 创建信息窗口对象
+				map.openInfoWindow(infoWindow,originPoint); //开启信息窗口
+				var gpsPoint = new BMap.Point(longitude,latitude);
+				map.centerAndZoom(gpsPoint, 20);
+			}else if(coorType == "gps"){
+				$.ajax({
+					method: "GET",
+					url:"/baas/bmap/api/convertLocation",
+					cache:false,
+					data:{
+						longitude:longitude,
+						latitude:latitude
+					}
+				}).done(function(result) {
+					var bmapResult = JSON.parse(result);
+					var opts = {
+						width : 20,    // 信息窗口宽度
+						height: 20,     // 信息窗口高度
+						title : ""  // 信息窗口标题
+					}
+					var bmPoint = new BMap.Point(bmapResult.result[0].x,bmapResult.result[0].y);
+					var infoWindow = new BMap.InfoWindow(address, opts);  // 创建信息窗口对象
+					map.openInfoWindow(infoWindow,bmPoint); //开启信息窗口
+					map.centerAndZoom(bmPoint, 20);
+				});
+			}
+		});
+    </script>
+</body>
+</html>

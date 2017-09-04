@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-splashscreen" hide="true">
+	<name>欢迎页</name>
+	<description>欢迎页本地插件，默认建议包含。启动本地应用时显示指定的图片</description>
+	
+</plugin>

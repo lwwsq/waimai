@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-app-preferences" hide="true">
+	<name>AppPreferences</name>
+	<description>存储信息到app中</description>
+
+</plugin>

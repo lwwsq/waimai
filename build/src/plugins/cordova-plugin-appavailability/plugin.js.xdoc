@@ -1,0 +1,27 @@
+/**
+	@name cordova-plugin-appavailability
+	@class 
+	@description 应用安装状态插件， 通过URI Scheme (iOS) 或者包名(Android)判断指定的应用是否已安装
+	@model Native
+	@category plugin
+	@declareVar appAvailability
+*/
+
+/**
+	@name cordova-plugin-appavailability.check
+	@function
+	@param {String} urlScheme URI Scheme，如IOS中 twitter://iOS 或者在Android中 com.twitter.android
+	@param {Function} successCallback 请求成功的回调
+	@param {Function} errorCallback 请求失败的回调
+ 	@returns {void}
+ 	@description 检查应用安装状态
+*/
+
+/**
+	@name cordova-plugin-appavailability.checkBool
+	@function
+	@param {String} urlScheme URI Scheme，如IOS中 twitter://iOS 或者在Android中 com.twitter.android
+	@param {Function} callback 请求成功的回调，回调给出参数availability，取值范围true false
+ 	@returns {void}
+ 	@description 检查应用安装状态，适用于3.0之前的版本 
+*/

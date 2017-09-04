@@ -1,0 +1,524 @@
+/**
+	@name cordova-plugin-file
+	@class 
+	@description 文件操作插件
+	@model Native
+	@category plugin
+	@declareVar window.File
+*/
+
+/**
+	@name cordova-plugin-file.slice
+	@function
+	@param {Number} start 开始分割索引
+	@param {Number} end 结束分割索引
+	@returns {void}
+	@description 文件分割
+*/
+
+/**
+	@name cordova-plugin-file.FileUploadOptions
+	@class 
+	@description 文件上传选项参数
+	@model Native
+	@category EventClass
+	@declareVar window.FileUploadOptions
+*/
+
+/**
+	@name cordova-plugin-file.FileUploadOptions.fileKey
+	@property
+	@type String
+	@description 表单元素的名称，缺省为file
+*/
+
+/**
+	@name cordova-plugin-file.FileUploadOptions.fileName
+	@property
+	@type String
+	@description 文件名，缺省为image.jpg
+*/
+
+/**
+	@name cordova-plugin-file.FileUploadOptions.mimeType
+	@property
+	@type String
+	@description 文件类型，缺省为image/jpeg
+*/
+
+/**
+	@name cordova-plugin-file.FileUploadOptions.headers
+	@property
+	@type String
+	@description 请求标题头设置
+*/
+
+/**
+	@name cordova-plugin-filer.FileUploadOptions.httpMethod
+	@property
+	@type String
+	@description 请求方式，取值范围：POST，PUT，缺省为POST
+*/
+
+/**
+	@name cordova-plugin-file.FileUploadOptions.params
+	@property
+	@type Object
+	@description http请求参数
+*/
+
+/**
+	@name cordova-plugin-file.FileUploadResult
+	@class 
+	@description cordova-plugin-file-transfer.upload()请求成功回调函数返回的对象
+	@model Native
+	@category EventClass
+	@declareVar window.FileUploadResult
+*/
+
+/**
+	@name cordova-plugin-file.FileUploadResult.bytesSent
+	@property
+	@type Long
+	@description 已发送字节数
+*/
+
+/**
+	@name cordova-plugin-file.FileUploadResult.responseCode
+	@property
+	@type Long
+	@description http响应编码
+*/
+
+/**
+	@name cordova-plugin-file.FileUploadResult.response
+	@property
+	@type String
+	@description http响应体
+*/
+
+/**
+	@name cordova-plugin-file.FileEntry
+	@class 
+	@extends cordova-plugin-file.Entry
+	@model Native
+	@category EventClass
+	@description 文件系统上的文件接口
+	@declareVar window.FileEntry
+*/
+
+/**
+	@name cordova-plugin-file.FileEntry.name
+	@property
+	@type String
+	@description 文件名，不包含路径
+*/
+
+/**
+	@name cordova-plugin-file.FileEntry.fullPath
+	@property
+	@type String
+	@description 文件的绝对路径
+*/
+
+/**
+	@name cordova-plugin-file.FileEntry.filesystem
+	@property
+	@see cordova-plugin-file
+	@type FileSystem
+	@description 文件系统对象
+*/
+
+/**
+	@name cordova-plugin-file.FileEntry.nativeURL
+	@property
+	@type String
+	@description 能被原生webview替代的url，如media players
+*/
+
+/**
+	@name cordova-plugin-file.FileEntry.createWriter
+	@function
+ 	@param {Function} successCallback 创建成功的回调，返回cordova-plugin-file.FileWriter对象
+ 	@param {Object} errorCallback 创建失败的回调，返回cordova-plugin-file.FileError对象
+	@returns {void}
+	@description 创建一个FileWriter对象,与FileEntry相关联
+*/
+
+/**
+	@name cordova-plugin-file.FileEntry.file
+	@function
+ 	@param {Function} successCallback 创建成功的回调，返回cordova-plugin-file对象
+ 	@param {Object} errorCallback 创建失败的回调，返回cordova-plugin-file.FileError对象
+	@returns {void}
+	@description 创建一个FileWriter对象,与FileEntry相关联
+*/
+
+/**
+	@name cordova-plugin-file.Entry
+	@class 
+	@model Native
+	@category EventClass
+	@declareVar window.Entry
+	@description 文件对象，表示一个文件或者目录
+*/
+
+/**
+	@name cordova-plugin-file.Entry.isFile
+	@property
+	@type Boolean
+	@description 是否是文件
+*/
+
+/**
+	@name cordova-plugin-file.Entry.isDirectory
+	@property
+	@type Boolean
+	@description 是否是目录
+*/
+
+/**
+	@name cordova-plugin-file.Entry.name
+	@property
+	@type String
+	@description 文件或目录的名字，不包含路径
+*/
+
+/**
+	@name cordova-plugin-file.Entry.fullPath
+	@property
+	@type String
+	@description 文件或目录的绝对路径
+*/
+
+/**
+	@name cordova-plugin-file.Entry.fileSystem
+	@property
+	@type FileSystem
+	@description 文件系统
+*/
+
+/**
+	@name cordova-plugin-file.Entry.nativeURL
+	@property
+	@type Boolean
+	@description 能被原生webview替代的url，如media players
+*/
+
+/**
+	@name cordova-plugin-file.Entry.getMetadata
+	@function
+ 	@param {Function} successCallback 请求成功的回调，返回cordova-plugin-file.Metadata对象
+ 	@param {Function} errorCallback 请求失败的回调，返回cordova-plugin-file.FileError对象
+	@returns {void}
+	@description 查看有关该项的元数据
+*/
+
+/**
+	@name cordova-plugin-file.Entry.setMetadata
+	@function
+ 	@param {Function} successCallback 请求成功的回调，返回cordova-plugin-file.Metadata对象
+ 	@param {Function} errorCallback 请求失败的回调，返回cordova-plugin-file.FileError对象
+ 	@param {Object} 设置的值，格式{key : value}
+	@returns {void}
+	@description 设置有关该项的元数据
+*/
+
+/**
+	@name cordova-plugin-file.Entry.moveTo
+	@function
+ 	@param {DirectoryEntry} parent 源资源的目录
+ 	@param {String} newName 重命名，默认为源资源的名字
+ 	@param {Function} successCallback 移动成功的回调，返回 cordova-plugin-file.DirectoryEntry对象
+    @param {Function} errorCallback 移动失败的回调，返回cordova-plugin-file.FileError对象
+	@returns {void}
+	@description 移动文件或目录
+*/
+
+/**
+	@name cordova-plugin-file.Entry.copyTo
+	@function
+ 	@param {DirectoryEntry} parent 源资源的目录
+ 	@param {String} newName 重命名，默认为源资源的名字
+ 	@param {Function} successCallback 复制成功的回调，返回 cordova-plugin-file.Entry对象
+    @param {Function} errorCallback 复制失败的回调，返回cordova-plugin-file.FileError对象
+	@returns {void}
+	@description 复制文件或目录
+*/
+
+/**
+	@name cordova-plugin-file.Entry.toURL
+	@function
+	@returns {void}
+	@description 返回url
+*/
+
+/**
+	@name cordova-plugin-file.Entry.remove
+	@function
+	@param {Function} successCallback 移动成功的回调
+    @param {Function} errorCallback 移动失败的回调，返回cordova-plugin-file.FileError对象
+	@returns {void}
+	@description 删除文件或目录
+*/
+
+/**
+	@name cordova-plugin-file.Entry.getParent
+	@function
+	@param {Function} successCallback 移动成功的回调，返回cordova-plugin-file.DirectoryEntry对象
+    @param {Function} errorCallback 移动失败的回调，返回cordova-plugin-file.FileError对象
+	@returns {void}
+	@description 获取该资源的父
+*/
+
+/**
+	@name cordova-plugin-file.FileWriter
+	@class 
+	@description 文件写入
+	@model Native
+	@category EventClass
+	@declareVar window.FileWriter
+*/
+
+/**
+	@name cordova-plugin-file.FileWriter.abort
+	@function
+	@returns {void}
+	@description 取消当前操作
+*/
+
+/**
+	@name cordova-plugin-file.FileWriter.write
+	@function
+	@param {Object} data 写入的内容
+	@returns {void}
+	@description 向文件中写入数据
+*/
+
+/**
+	@name cordova-plugin-file.FileWriter.seek
+	@function
+	@param {Long} offset 移动到的位置
+	@returns {void}
+	@description 移动文件指针
+*/
+
+/**
+	@name cordova-plugin-file.FileWriter.truncate
+	@function
+	@param {Long} size 文件大小
+	@returns {void}
+	@description 指定文件的大小
+*/
+
+/**
+	@name cordova-plugin-file.FileError
+	@class 
+	@description 文件异常类
+	@model Native
+	@category EventClass
+	@declareVar window.FileError
+*/
+
+/**
+	@name cordova-plugin-file.FileError.NOT_FOUND_ERR
+	@constant
+	@type Number
+	@description 常量值 1
+*/
+
+/**
+	@name cordova-plugin-file.FileError.SECURITY_ERR
+	@constant
+	@type Number
+	@description 常量值 2
+*/
+
+/**
+	@name cordova-plugin-file.FileError.ABORT_ERR
+	@constant
+	@type Number
+	@description 常量值 3
+*/
+
+/**
+	@name cordova-plugin-file.FileError.NOT_READABLE_ERR
+	@constant
+	@type Number
+	@description 常量值 4
+*/
+
+/**
+	@name cordova-plugin-file.FileError.ENCODING_ERR
+	@constant
+	@type Number
+	@description 常量值 5
+*/
+
+/**
+	@name cordova-plugin-file.FileError.NO_MODIFICATION_ALLOWED_ERR
+	@constant
+	@type Number
+	@description 常量值 6
+*/
+
+/**
+	@name cordova-plugin-file.FileError.INVALID_STATE_ERR
+	@constant
+	@type Number
+	@description 常量值 7
+*/
+
+/**
+	@name cordova-plugin-file.FileError.SYNTAX_ERR
+	@constant
+	@type Number
+	@description 常量值 8
+*/
+
+/**
+	@name cordova-plugin-file.FileError.INVALID_MODIFICATION_ERR
+	@constant
+	@type Number
+	@description 常量值 9
+*/
+
+/**
+	@name cordova-plugin-file.FileError.QUOTA_EXCEEDED_ERR
+	@constant
+	@type Number
+	@description 常量值 10
+*/
+
+/**
+	@name cordova-plugin-file.FileError.TYPE_MISMATCH_ERR
+	@constant
+	@type Number
+	@description 常量值 11
+*/
+
+/**
+	@name cordova-plugin-file.FileError.PATH_EXISTS_ERR
+	@constant
+	@type Number
+	@description 常量值 12
+*/
+
+/**
+	@name cordova-plugin-file.Metadata
+	@class 
+	@description 文件信息
+	@model Native
+	@category EventClass
+	@declareVar window.Metadata
+*/
+
+/**
+	@name cordova-plugin-file.Metadata.modificationTime
+	@property
+	@type Date
+	@description 文件修改时间
+*/
+
+/**
+	@name cordova-plugin-file.Metadata.size
+	@property
+	@type String
+	@description 文件大小
+*/
+
+/**
+	@name cordova-plugin-file.DirectoryEntry
+	@class 
+	@extends cordova-plugin-file.Entry
+	@model Native
+	@category EventClass
+	@declareVar window.DirectoryEntry
+	@description 目录接口
+*/
+
+/**
+	@name cordova-plugin-file.DirectoryEntry.createReader
+	@function
+	@see cordova-plugin-file.DirectoryReader
+	@returns {DirectoryReader}
+	@description 创建cordova-plugin-file.DirectoryReader对象
+*/
+
+/**
+	@name cordova-plugin-file.DirectoryEntry.getDirectory
+	@function
+	@see cordova-plugin-file.Flags
+	@see cordova-plugin-file.Entry
+	@param {String} 查找目录的路径，支持相对路径和绝对路径
+ 	@param {Flags} 读取目录的参数
+ 	@param {Function} successCallback 请求成功的回调，返回cordova-plugin-file.Entry对象
+ 	@param {Function} errorCallback 请求失败的回调，返回FileError对象
+	@returns {void}
+	@description 获取目录
+*/
+
+/**
+	@name cordova-plugin-file.DirectoryEntry.removeRecursively
+	@function
+	@see cordova-plugin-file.FileError
+ 	@param {Function} successCallback 请求成功的回调
+ 	@param {Function} errorCallback 请求失败的回调，返回FileError对象
+	@returns {void}
+	@description 删除目录
+*/
+
+/**
+	@name cordova-plugin-file.DirectoryEntry.getFile
+	@function
+	@see cordova-plugin-file.Entry
+ 	@see cordova-plugin-file.FileError
+	@param {String} 查找文件的路径，支持相对路径和绝对路径
+ 	@param {Flags} 读取文件的参数
+ 	@param {Function} successCallback 请求成功的回调，返回cordova-plugin-file.Entry对象
+ 	@param {Function} errorCallback 请求失败的回调，返回FileError对象
+	@returns {void}
+	@description 删除目录
+*/
+
+/**
+	@name cordova-plugin-file.DirectoryReader
+	@class 
+	@model Native
+	@category EventClass
+	@declareVar window.DirectoryReader
+	@description 目录读取
+*/
+
+/**
+	@name cordova-plugin-file.DirectoryReader.readEntries
+	@function
+	@see cordova-plugin-file.FileError
+ 	@param {Function} successCallback 请求成功的回调，返回Entry的数组
+ 	@param {Function} errorCallback 请求失败的回调，返回FileError对象
+	@returns {void}
+	@description 返回Entry的数组
+*/
+
+/**
+	@name cordova-plugin-file.Flags
+	@class 
+	@model Native
+	@category EventClass
+	@declareVar window.DirectoryReader
+	@description 目录读取的参数
+*/
+
+/**
+	@name cordova-plugin-file.Flags.create
+	@property
+	@type Boolean
+	@description 是否创建，缺省为file
+*/
+
+/**
+	@name cordova-plugin-file.Flags.exclusive
+	@property
+	@type Boolean
+	@description 高级读取，缺省为file
+*/

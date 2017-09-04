@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="com.justep.cordova.plugin.baidulocation" hide="true">
+	<name>百度定位</name>
+	<description>百度定位插件，提供定位相关能力，仅限安卓客户端</description>
+	
+</plugin>

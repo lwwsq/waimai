@@ -1,0 +1,72 @@
+/**
+	@name cordova-plugin-inappbrowser
+	@class 
+	@description 打开新的浏览器窗口
+	@model Native
+	@category plugin
+	@declareVar window.open
+*/
+
+/**
+	@name cordova-plugin-inappbrowser.addEventListener
+	@function
+	@param {String} eventname 监听的事件名称，取值范围:loadstart,loadstop,loaderror,exit
+	@param {Function} f 事件触发时的回调，回调函数给出参数event，{"type":监听事件名称,"url":加载的url,"code":错误编码,"message":错误信息}
+	@returns {void}
+	@description 添加事件监听
+*/
+
+/**
+	@name cordova-plugin-inappbrowser.removeEventListener
+	@function
+	@param {String} eventname 监听的事件名称，取值范围:loadstart,loadstop,loaderror,exit
+	@param {Function} f 事件触发时的回调
+	@returns {void}
+	@description 移除事件监听
+*/
+
+/**
+	@name cordova-plugin-inappbrowser.close
+	@function
+	@returns {void}
+	@description 关闭浏览器窗口
+*/
+
+/**
+	@name cordova-plugin-inappbrowser.show
+	@function
+	@returns {void}
+	@description 显示浏览器窗口
+*/
+
+/**
+	@name cordova-plugin-inappbrowser.executeScript
+	@function
+	@param {Object}injectDetails 脚本信息
+	 <br/><b>参数格式：</b>
+	 <xmp>
+		  {
+			"file":String - 脚本文件的路径,
+			"code":String - 注入的脚本代码
+		  }
+     </xmp>	
+	@param {Function}cb 脚本执行后的回调
+	@returns {void}
+	@description 向浏览器注入JavaScript脚本
+*/
+
+/**
+	@name cordova-plugin-inappbrowser.insertCSS
+	@function
+	@param {Object}injectDetails css信息
+	 <br/><b>参数格式：</b>
+	 <xmp>
+		  {
+			"file":String - css文件的路径,
+			"code":string - 注入的css
+		  }
+     </xmp>	
+	@param {Function}cb 脚本执行后的回调
+	@returns {void}
+	@description 向浏览器注入css
+*/

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="com.justep.cordova.plugin.AFNetworking" version="1.0.0"
+        xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>AFNetworking</name>
+    <description>A delightful networking framework for iOS</description>
+    <author>Justep_Liang</author>
+    <keywords>cordova AFNetworking</keywords>
+    <license>MIT</license>
+    <engines>
+      <engine name="cordova" version=">=3.0" />
+    </engines>
+    
+    <platform name="ios">
+    
+    <!--导入AFNetworking的文件-->
+    <header-file src="AFNetworking/AFNetworking.h" />
+    
+    <header-file src="AFNetworking/AFHTTPSessionManager.h" />
+    <source-file src="AFNetworking/AFHTTPSessionManager.m" />
+
+    <header-file src="AFNetworking/AFNetworkReachabilityManager.h" />
+    <source-file src="AFNetworking/AFNetworkReachabilityManager.m" />
+
+    <header-file src="AFNetworking/AFSecurityPolicy.h" />
+    <source-file src="AFNetworking/AFSecurityPolicy.m" />
+
+    <header-file src="AFNetworking/AFURLRequestSerialization.h" />
+    <source-file src="AFNetworking/AFURLRequestSerialization.m" />
+
+    <header-file src="AFNetworking/AFURLResponseSerialization.h" />
+    <source-file src="AFNetworking/AFURLResponseSerialization.m" />
+
+    <header-file src="AFNetworking/AFURLSessionManager.h" />
+    <source-file src="AFNetworking/AFURLSessionManager.m" />
+    
+    <!--导入AFNetworking需要的类库-->
+    <framework src="Security.framework" />
+	</platform>
+  </plugin>

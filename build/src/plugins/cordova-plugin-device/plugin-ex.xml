@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-device">
+	<name>设备信息</name>
+	<description>设备信息本地插件，获取设备信息，包括操作系统类型和版本、设备uuid等</description>
+	
+</plugin>

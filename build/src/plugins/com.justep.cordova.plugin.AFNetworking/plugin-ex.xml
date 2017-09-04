@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="com.justep.cordova.plugin.AFNetworking" hide="true">
+	<name>AFNetworking</name>
+	<description>AFNetworking插件，提供AFNetworking类库，只支持iOS平台。不在插件列表中出现，如需该类库，只需要依赖此插件即可。</description>
+	
+</plugin>

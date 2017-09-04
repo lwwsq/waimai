@@ -1,0 +1,663 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<preference name=\"AndroidPersistentFileLocation\" value=\"Internal\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"File\"><param name=\"ios-package\" value=\"CDVFile\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"CordovaHttpPlugin\"><param name=\"ios-package\" value=\"CordovaHttpPlugin\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Weixin\"><param name=\"ios-package\" value=\"CDVWeixinV3\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<preference name=\"weixin_appid\" value=\"wx7f1cf94ef1ea9163\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<preference name=\"weixin_secret\" value=\"取用户信息必填\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<preference name=\"weixin_partner_id\" value=\"1260525001\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<preference name=\"weixin_api_key\" value=\"C6B64B44003000013DD711AF15089430\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"JPushPlugin\"><param name=\"ios-package\" value=\"JPushPlugin\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<preference name=\"unionpay_mmode\" value=\"00\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Unionpay\"><param name=\"ios-package\" value=\"CDVUnionpay\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<preference name=\"partner\" value=\"2088811446024912\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<preference name=\"alipay_scheme\" value=\"alipay20888114460249121\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<preference name=\"rsa_private\" value=\"MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAM3NsYcFbce3omzhiXY1Mr8nkxuHkpVFky9JBb+vnLzje+mjZIxbHDGIU//3c88H5F6CO6CPNMa036QJ9nhS6Ea7xmEGQ2JxY0JMM2bnQxhRtwwe1nV67boFzkjrOWD1loThzK3pgVkb6D6gLqANXcPSe3JAqrvouNUYvK/+75O1AgMBAAECgYBy3IdlZUlE+x+DB0lyGPTOrSa0abEM8LzZ2jaEKl4fKhOBbXjzwPH2TzEaniAbfzsc6DChRuvcrxxWcF0IALWzqyJdGNxZjlhwyVhKc4BJnn90AUXohvB83AFd2+cHurHkAE8sEO8ihDsSOon0YpKKkA/haQ8RKshTCO8RZIlugQJBAP2WkR3BbPzgHZxKR8u0woe0ZzIkUCa/+dMr8XELE6ZBj1w3uPTq4ePHto5W9MLwzN3p3lN+WcUkAM/BdzlbUyECQQDPwsf4SYCjV5hTNY7sj1sqcO4O8Ti7HnINHkefb90TsIrQjaBYNYxeEjj028yLxKkNkNUoLZQekt0jDast24IVAkBDvM5yplJYkf0W3HilH1m/Kh9Os4h9cVZoZBqQWaccB/MlbPUI5x0D3TsUdoHW+L+gn3H115BfKqjU1hbkyVJBAkEAryckVTMKayrG9aeahd7Z2e75E8nTrRUey+ZyNX0mYZodfXNY8eS7IPe14uCHEnJKn3Ax9DxwulHQcuPsI64CfQJBAPYgBMhCX6HXpLTKUuIID1dy1ENZyEEUZCouQsuPYwirOO6z4NIi8wSa98wgM0/2NJrVs1W2/l2fn8xVycd4Ykk=\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<preference name=\"rsa_public\" value=\"MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCnxj/9qwVfgoUh/y2W89L6BkRAFljhNhgPdyPuBV64bfQNN1PjbCzkIM6qRdKBoLPXmKKMiFYnkd6rAoprih3/PrQEB/VsW8OoM8fxn67UDYuyBTqA23MML9q1+ilIZwBC2AQ2UBVOrFXfFl75p6/B5KsiNG9zpgmLCUYuLkxpLQIDAQAB\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Alipay\"><param name=\"ios-package\" value=\"CDVAlipay\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"SplashScreen\"><param name=\"ios-package\" value=\"CDVSplashScreen\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"AppPreferences\"><param name=\"ios-package\" value=\"AppPreferences\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"FileTransfer\"><param name=\"ios-package\" value=\"CDVFileTransfer\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"NetworkStatus\"><param name=\"ios-package\" value=\"CDVConnection\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"InAppBrowser\"><param name=\"ios-package\" value=\"CDVInAppBrowser\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Toast\"><param name=\"ios-package\" value=\"Toast\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Device\"><param name=\"ios-package\" value=\"CDVDevice\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"AppVersion\"><param name=\"ios-package\" value=\"AppVersion\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"SpinnerDialog\"><param name=\"ios-package\" value=\"CDVSpinnerDialog\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Keyboard\"><param name=\"ios-package\" onload=\"true\" value=\"CDVKeyboard\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<allow-intent href=\"baidumap://*\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Geolocation\"><param name=\"ios-package\" value=\"CDVLocation\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"AppAvailability\"><param name=\"ios-package\" value=\"AppAvailability\" /></feature>",
+                            "count": 1
+                        }
+                    ],
+                    "/widget": [
+                        {
+                            "xml": "<feature name=\"Zip\"><param name=\"ios-package\" value=\"ZipPlugin\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "*-Info.plist": {
+                "parents": {
+                    "LSApplicationQueriesSchemes": [
+                        {
+                            "xml": "<array><string>weixin</string><string>wechat</string></array>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<array><string>alipay</string></array>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<array><string>baidumap</string></array>",
+                            "count": 1
+                        }
+                    ],
+                    "CFBundleURLTypes": [
+                        {
+                            "xml": "<array><dict><key>CFBundleTypeRole</key><string>Editor</string><key>CFBundleURLIconFile</key><string>icon-50@2x</string><key>CFBundleURLName</key><string>weixin</string><key>CFBundleURLSchemes</key><array><string>wx7f1cf94ef1ea9163</string></array></dict></array>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<array><dict><key>CFBundleTypeRole</key><string>Editor</string><key>CFBundleURLIconFile</key><string>icon-50@2x</string><key>CFBundleURLName</key><string>alipay</string><key>CFBundleURLSchemes</key><array><string>alipay20888114460249121</string></array></dict></array>",
+                            "count": 1
+                        }
+                    ],
+                    "NSLocationWhenInUseUsageDescription": [
+                        {
+                            "xml": "<string />",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "*PushConfig.plist": {
+                "parents": {
+                    "APP_KEY": [
+                        {
+                            "xml": "<string>07ffdfc4ffb965d80480a40c</string>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.justep.x5.v3"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.wex5.takeout"
+        },
+        "com.justep.cordova.plugin.AFNetworking": {
+            "PACKAGE_NAME": "com.wex5.takeout"
+        },
+        "cordova-plugin-http": {
+            "PACKAGE_NAME": "com.wex5.takeout"
+        },
+        "com.justep.cordova.plugin.weixin.v3": {
+            "PACKAGE_NAME": "com.wex5.takeout"
+        },
+        "cn.jpush.phonegap.JPushPlugin": {
+            "PACKAGE_NAME": "com.wex5.takeout"
+        },
+        "com.justep.cordova.plugin.unionpay": {
+            "PACKAGE_NAME": "com.wex5.takeout"
+        },
+        "com.justep.cordova.plugin.alipay": {
+            "PACKAGE_NAME": "com.wex5.takeout"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.wex5.takeout"
+        },
+        "cordova-plugin-app-preferences": {
+            "PACKAGE_NAME": "com.wex5.takeout"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.wex5.takeout"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.wex5.takeout"
+        },
+        "cordova-plugin-zip": {
+            "PACKAGE_NAME": "com.wex5.takeout"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.wex5.takeout"
+        },
+        "cordova-plugin-x-toast": {
+            "PACKAGE_NAME": "com.wex5.takeout"
+        },
+        "com.justep.cordova.plugin.app.utils": {
+            "PACKAGE_NAME": "com.wex5.takeout"
+        },
+        "com.justep.cordova.plugin.engine.tencent": {
+            "PACKAGE_NAME": "com.wex5.takeout"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.wex5.takeout"
+        },
+        "cordova-plugin-app-version": {
+            "PACKAGE_NAME": "com.wex5.takeout"
+        },
+        "com.justep.cordova.plugin.baidulocation": {
+            "PACKAGE_NAME": "com.wex5.takeout"
+        },
+        "cordova-plugin-spinner-dialog": {
+            "PACKAGE_NAME": "com.wex5.takeout"
+        },
+        "cordova-plugin-keyboard": {
+            "PACKAGE_NAME": "com.wex5.takeout"
+        },
+        "com.justep.cordova.plugin.bmap": {
+            "PACKAGE_NAME": "com.wex5.takeout"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.wex5.takeout"
+        },
+        "cordova-plugin-appavailability": {
+            "PACKAGE_NAME": "com.wex5.takeout"
+        }
+    },
+    "dependent_plugins": {},
+    "modules": [
+        {
+            "file": "plugins/cordova-plugin-file/www/DirectoryEntry.js",
+            "id": "cordova-plugin-file.DirectoryEntry",
+            "pluginId": "cordova-plugin-file",
+            "clobbers": [
+                "window.DirectoryEntry"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-file/www/DirectoryReader.js",
+            "id": "cordova-plugin-file.DirectoryReader",
+            "pluginId": "cordova-plugin-file",
+            "clobbers": [
+                "window.DirectoryReader"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-file/www/Entry.js",
+            "id": "cordova-plugin-file.Entry",
+            "pluginId": "cordova-plugin-file",
+            "clobbers": [
+                "window.Entry"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-file/www/File.js",
+            "id": "cordova-plugin-file.File",
+            "pluginId": "cordova-plugin-file",
+            "clobbers": [
+                "window.File"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-file/www/FileEntry.js",
+            "id": "cordova-plugin-file.FileEntry",
+            "pluginId": "cordova-plugin-file",
+            "clobbers": [
+                "window.FileEntry"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-file/www/FileError.js",
+            "id": "cordova-plugin-file.FileError",
+            "pluginId": "cordova-plugin-file",
+            "clobbers": [
+                "window.FileError"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-file/www/FileReader.js",
+            "id": "cordova-plugin-file.FileReader",
+            "pluginId": "cordova-plugin-file",
+            "clobbers": [
+                "window.FileReader"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-file/www/FileSystem.js",
+            "id": "cordova-plugin-file.FileSystem",
+            "pluginId": "cordova-plugin-file",
+            "clobbers": [
+                "window.FileSystem"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-file/www/FileUploadOptions.js",
+            "id": "cordova-plugin-file.FileUploadOptions",
+            "pluginId": "cordova-plugin-file",
+            "clobbers": [
+                "window.FileUploadOptions"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-file/www/FileUploadResult.js",
+            "id": "cordova-plugin-file.FileUploadResult",
+            "pluginId": "cordova-plugin-file",
+            "clobbers": [
+                "window.FileUploadResult"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-file/www/FileWriter.js",
+            "id": "cordova-plugin-file.FileWriter",
+            "pluginId": "cordova-plugin-file",
+            "clobbers": [
+                "window.FileWriter"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-file/www/Flags.js",
+            "id": "cordova-plugin-file.Flags",
+            "pluginId": "cordova-plugin-file",
+            "clobbers": [
+                "window.Flags"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-file/www/LocalFileSystem.js",
+            "id": "cordova-plugin-file.LocalFileSystem",
+            "pluginId": "cordova-plugin-file",
+            "clobbers": [
+                "window.LocalFileSystem"
+            ],
+            "merges": [
+                "window"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-file/www/Metadata.js",
+            "id": "cordova-plugin-file.Metadata",
+            "pluginId": "cordova-plugin-file",
+            "clobbers": [
+                "window.Metadata"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-file/www/ProgressEvent.js",
+            "id": "cordova-plugin-file.ProgressEvent",
+            "pluginId": "cordova-plugin-file",
+            "clobbers": [
+                "window.ProgressEvent"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-file/www/fileSystems.js",
+            "id": "cordova-plugin-file.fileSystems",
+            "pluginId": "cordova-plugin-file"
+        },
+        {
+            "file": "plugins/cordova-plugin-file/www/requestFileSystem.js",
+            "id": "cordova-plugin-file.requestFileSystem",
+            "pluginId": "cordova-plugin-file",
+            "clobbers": [
+                "window.requestFileSystem"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-file/www/resolveLocalFileSystemURI.js",
+            "id": "cordova-plugin-file.resolveLocalFileSystemURI",
+            "pluginId": "cordova-plugin-file",
+            "merges": [
+                "window"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-file/www/ios/FileSystem.js",
+            "id": "cordova-plugin-file.iosFileSystem",
+            "pluginId": "cordova-plugin-file",
+            "merges": [
+                "FileSystem"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-file/www/fileSystems-roots.js",
+            "id": "cordova-plugin-file.fileSystems-roots",
+            "pluginId": "cordova-plugin-file",
+            "runs": true
+        },
+        {
+            "file": "plugins/cordova-plugin-file/www/fileSystemPaths.js",
+            "id": "cordova-plugin-file.fileSystemPaths",
+            "pluginId": "cordova-plugin-file",
+            "merges": [
+                "cordova"
+            ],
+            "runs": true
+        },
+        {
+            "file": "plugins/cordova-plugin-http/www/cordovaHTTP.js",
+            "id": "cordova-plugin-http.CordovaHttpPlugin",
+            "pluginId": "cordova-plugin-http",
+            "clobbers": [
+                "CordovaHttpPlugin"
+            ]
+        },
+        {
+            "file": "plugins/com.justep.cordova.plugin.weixin.v3/www/weixin.js",
+            "id": "com.justep.cordova.plugin.weixin.v3.weixin",
+            "pluginId": "com.justep.cordova.plugin.weixin.v3",
+            "clobbers": [
+                "navigator.weixin"
+            ]
+        },
+        {
+            "file": "plugins/cn.jpush.phonegap.JPushPlugin/www/JPushPlugin.js",
+            "id": "cn.jpush.phonegap.JPushPlugin.JPushPlugin",
+            "pluginId": "cn.jpush.phonegap.JPushPlugin",
+            "clobbers": [
+                "window.plugins.jPushPlugin"
+            ]
+        },
+        {
+            "file": "plugins/com.justep.cordova.plugin.unionpay/www/unionpay.js",
+            "id": "com.justep.cordova.plugin.unionpay.unionpay",
+            "pluginId": "com.justep.cordova.plugin.unionpay",
+            "clobbers": [
+                "navigator.unionpay"
+            ]
+        },
+        {
+            "file": "plugins/com.justep.cordova.plugin.alipay/www/alipay.js",
+            "id": "com.justep.cordova.plugin.alipay.alipay",
+            "pluginId": "com.justep.cordova.plugin.alipay",
+            "clobbers": [
+                "navigator.alipay"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
+            "id": "cordova-plugin-splashscreen.SplashScreen",
+            "pluginId": "cordova-plugin-splashscreen",
+            "clobbers": [
+                "navigator.splashscreen"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-app-preferences/www/apppreferences.js",
+            "id": "cordova-plugin-app-preferences.apppreferences",
+            "pluginId": "cordova-plugin-app-preferences",
+            "clobbers": [
+                "plugins.appPreferences"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-file-transfer/www/FileTransferError.js",
+            "id": "cordova-plugin-file-transfer.FileTransferError",
+            "pluginId": "cordova-plugin-file-transfer",
+            "clobbers": [
+                "window.FileTransferError"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-file-transfer/www/FileTransfer.js",
+            "id": "cordova-plugin-file-transfer.FileTransfer",
+            "pluginId": "cordova-plugin-file-transfer",
+            "clobbers": [
+                "window.FileTransfer"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-network-information/www/network.js",
+            "id": "cordova-plugin-network-information.network",
+            "pluginId": "cordova-plugin-network-information",
+            "clobbers": [
+                "navigator.connection",
+                "navigator.network.connection"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-network-information/www/Connection.js",
+            "id": "cordova-plugin-network-information.Connection",
+            "pluginId": "cordova-plugin-network-information",
+            "clobbers": [
+                "Connection"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-zip/zip.js",
+            "id": "cordova-plugin-zip.Zip",
+            "pluginId": "cordova-plugin-zip",
+            "clobbers": [
+                "zip"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
+            "id": "cordova-plugin-inappbrowser.inappbrowser",
+            "pluginId": "cordova-plugin-inappbrowser",
+            "clobbers": [
+                "cordova.InAppBrowser.open",
+                "window.open"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-x-toast/www/Toast.js",
+            "id": "cordova-plugin-x-toast.Toast",
+            "pluginId": "cordova-plugin-x-toast",
+            "clobbers": [
+                "window.plugins.toast"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-x-toast/test/tests.js",
+            "id": "cordova-plugin-x-toast.tests",
+            "pluginId": "cordova-plugin-x-toast"
+        },
+        {
+            "file": "plugins/com.justep.cordova.plugin.app.utils/www/appUtils.js",
+            "id": "com.justep.cordova.plugin.app.utils.AppUtils",
+            "pluginId": "com.justep.cordova.plugin.app.utils",
+            "clobbers": [
+                "navigator.appUtils"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-device/www/device.js",
+            "id": "cordova-plugin-device.device",
+            "pluginId": "cordova-plugin-device",
+            "clobbers": [
+                "device"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-app-version/www/AppVersionPlugin.js",
+            "id": "cordova-plugin-app-version.AppVersionPlugin",
+            "pluginId": "cordova-plugin-app-version",
+            "clobbers": [
+                "cordova.getAppVersion"
+            ]
+        },
+        {
+            "file": "plugins/com.justep.cordova.plugin.baidulocation/www/geolocationExtends.js",
+            "id": "com.justep.cordova.plugin.baidulocation.geolocationExtends",
+            "pluginId": "com.justep.cordova.plugin.baidulocation",
+            "merges": [
+                "navigator.geolocation"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-spinner-dialog/www/spinner.js",
+            "id": "cordova-plugin-spinner-dialog.SpinnerDialog",
+            "pluginId": "cordova-plugin-spinner-dialog",
+            "merges": [
+                "window.plugins.spinnerDialog"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-keyboard/www/keyboard.js",
+            "id": "cordova-plugin-keyboard.keyboard",
+            "pluginId": "cordova-plugin-keyboard",
+            "clobbers": [
+                "window.Keyboard"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-geolocation/www/Coordinates.js",
+            "id": "cordova-plugin-geolocation.Coordinates",
+            "pluginId": "cordova-plugin-geolocation",
+            "clobbers": [
+                "Coordinates"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-geolocation/www/PositionError.js",
+            "id": "cordova-plugin-geolocation.PositionError",
+            "pluginId": "cordova-plugin-geolocation",
+            "clobbers": [
+                "PositionError"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-geolocation/www/Position.js",
+            "id": "cordova-plugin-geolocation.Position",
+            "pluginId": "cordova-plugin-geolocation",
+            "clobbers": [
+                "Position"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-geolocation/www/geolocation.js",
+            "id": "cordova-plugin-geolocation.geolocation",
+            "pluginId": "cordova-plugin-geolocation",
+            "clobbers": [
+                "navigator.baiduLocation"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-appavailability/www/ios/AppAvailability.js",
+            "id": "cordova-plugin-appavailability.AppAvailability",
+            "pluginId": "cordova-plugin-appavailability",
+            "clobbers": [
+                "appAvailability"
+            ]
+        }
+    ],
+    "plugin_metadata": {
+        "cordova-plugin-whitelist": "1.2.0",
+        "cordova-plugin-file": "3.0.0",
+        "com.justep.cordova.plugin.AFNetworking": "1.0.0",
+        "cordova-plugin-http": "0.2.0",
+        "com.justep.cordova.plugin.weixin.v3": "5.3.0",
+        "cn.jpush.phonegap.JPushPlugin": "2.2.0",
+        "com.justep.cordova.plugin.unionpay": "5.3.0",
+        "com.justep.cordova.plugin.alipay": "5.3.0",
+        "cordova-plugin-splashscreen": "3.0.0",
+        "cordova-plugin-app-preferences": "0.7.5",
+        "cordova-plugin-file-transfer": "1.5.0",
+        "cordova-plugin-network-information": "1.2.0",
+        "cordova-plugin-zip": "3.0.0",
+        "cordova-plugin-inappbrowser": "1.1.1",
+        "cordova-plugin-x-toast": "2.4.0",
+        "com.justep.cordova.plugin.app.utils": "5.3.0",
+        "com.justep.cordova.plugin.engine.tencent": "5.3.6",
+        "cordova-plugin-device": "1.1.0",
+        "cordova-plugin-app-version": "0.1.8",
+        "com.justep.cordova.plugin.baidulocation": "5.3.0",
+        "cordova-plugin-spinner-dialog": "1.3.1",
+        "cordova-plugin-keyboard": "1.1.3",
+        "com.justep.cordova.plugin.bmap": "5.3.0",
+        "cordova-plugin-geolocation": "1.0.1",
+        "cordova-plugin-appavailability": "0.4.2"
+    }
+}

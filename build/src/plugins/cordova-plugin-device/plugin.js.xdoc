@@ -1,0 +1,52 @@
+/**
+	@name cordova-plugin-device
+	@class 
+	@description 本地设备插件
+	@model Native
+	@category plugin
+	@declareVar device
+*/
+
+/**
+	@name cordova-plugin-device.cordova
+	@property
+	@type string
+	@description 获得Cordova版本
+*/
+
+/**
+	@name cordova-plugin-device.model
+	@property
+	@type string
+	@description 获得产品型号或者产品名称
+*/
+
+/**
+	@name cordova-plugin-device.platform
+	@property
+	@type string
+	@description 获得本机运行系统
+*/
+
+/**
+	@name cordova-plugin-device.uuid
+	@property
+	@type string
+	@description 获得本机唯一标识码
+*/
+
+/**
+	@name cordova-plugin-device.version
+	@property
+	@type string
+	@description 获得操作系统版本
+*/
+
+/**
+	@name cordova-plugin-device.getInfo
+	@function
+	@param {Function} onSuccess 执行成功回调函数
+	@param {Function} onError 执行失败回调函数
+	@returns {object}
+	@description 获得设备信息
+*/

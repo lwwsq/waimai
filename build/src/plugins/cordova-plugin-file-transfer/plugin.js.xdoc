@@ -1,0 +1,149 @@
+/**
+	@name cordova-plugin-file-transfer
+	@class 
+	@description 文件操作插件
+	@model Native
+	@category plugin
+	@declareVar window.FileTransfer
+*/
+
+/**
+	@name cordova-plugin-file-transfer
+	@function
+	@returns cordova-plugin-file-transfer
+	@description 构造方法
+*/
+
+/**
+	@name cordova-plugin-file-transfer.saveToAlbum
+	@function
+	@param {String} filePath 源文件的路径
+ 	@param {Function} successCallback 保存成功的回调，Android端会返回相册中图片的路径，iOS没有返回值
+ 	@param {Function} errorCallback  保存失败的回调
+	@returns {void}
+	@description 保存到相册
+*/
+
+/**
+	@name cordova-plugin-file-transfer.upload
+	@function
+	@see org.apache.cordova.file.FileUploadOptions
+	@see org.apache.cordova.file.FileUploadResult
+	@see cordova-plugin-file-transfer.FileTransferError
+	@param {String} filePath  文件的全路径
+	@param {String} server    接收文件的服务器url，需要encodeURI()编码
+	@param (Function} successCallback 上传完成时的回调，返回org.apache.cordova.file.FileUploadResult对象
+	@param {Function} errorCallback  上传失败的回调，返回cordova-plugin-file-transfer.FileTransferError对象
+	@param {FileUploadOptions} options 可选参数 org.apache.cordova.file.FileUploadOptions对象
+	@param {Boolean} trustAllHosts 是否接收安全证书，缺省为false
+	@returns {void}
+	@description 文件上传
+*/
+
+/**
+	@name cordova-plugin-file-transfer.download
+	@function
+	@see org.apache.cordova.file.FileEntry
+	@see cordova-plugin-file-transfer.FileTransferError
+	@param {String} source 下载文件的服务器地址，需要encodeURI()编码
+ 	@param {String} target  保存到设备上的url
+ 	@param {Function} successCallback 下载成功的回调,返回org.apache.cordova.file.FileEntry对象
+ 	@param {Function} errorCallback  下载失败的回调，返回cordova-plugin-file-transfer.FileTransferError对象
+ 	@param {Boolean} trustAllHosts 可选参数  是否接收安全证书，缺省为false
+ 	@param {Object} options 可选参数 当前请求消息头
+	@returns {void}
+	@description 文件下载
+*/
+
+/**
+	@name cordova-plugin-file-transfer.abort
+	@function
+	@returns {void}
+	@description 终止文件传输
+*/
+
+/**
+	@name cordova-plugin-file-transfer.FileTransferError
+	@class 
+	@description 请求失败回调函数返回的对象
+	@model Native
+	@category EventClass
+	@declareVar window.FileTransferError
+*/
+
+/**
+	@name cordova-plugin-file-transfer.FileTransferError.source
+	@property
+	@type String
+	@description 源文件的url
+*/
+
+/**
+	@name cordova-plugin-file-transfer.FileTransferError.exception
+	@property
+	@type String
+	@description 异常信息
+*/
+
+/**
+	@name cordova-plugin-file-transfer.FileTransferError.target
+	@property
+	@type String
+	@description 目标url
+*/
+
+/**
+	@name cordova-plugin-file-transfer.FileTransferError.http_status
+	@property
+	@type Number
+	@description http状态码 
+*/
+
+/**
+	@name cordova-plugin-file-transfer.FileTransferError.body
+	@property
+	@type String
+	@description 返回主体，仅当有http连接返回有效
+*/
+
+/**
+	@name cordova-plugin-file-transfer.FileTransferError.code
+	@property
+	@type Number
+	@description 错误代码
+*/
+
+/**
+	@name cordova-plugin-file-transfer.FileTransferError.FILE_NOT_FOUND_ERR
+	@constant
+	@type Number
+	@description 常量值 1
+*/
+
+/**
+	@name cordova-plugin-file-transfer.FileTransferError.INVALID_URL_ERR
+	@constant
+	@type Number
+	@description 常量值 2
+*/
+
+/**
+	@name cordova-plugin-file-transfer.FileTransferError.CONNECTION_ERR
+	@constant
+	@type Number
+	@description 常量值 3
+*/
+
+/**
+	@name cordova-plugin-file-transfer.FileTransferError.ABORT_ERR
+	@constant
+	@type Number
+	@description 常量值 4
+*/
+
+/**
+	@name cordova-plugin-file-transfer.FileTransferError.NOT_MODIFIED_ERR
+	@constant
+	@type Number
+	@description 常量值 5
+*/

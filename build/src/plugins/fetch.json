@@ -1,0 +1,202 @@
+{
+    "cordova-plugin-whitelist": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-whitelist@1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-file": {
+        "source": {
+            "type": "local",
+            "path": "F:\\WX5\\model\\Native\\plugins\\cordova-plugin-file"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com.justep.cordova.plugin.AFNetworking": {
+        "source": {
+            "type": "local",
+            "path": "F:\\WX5\\model\\Native\\plugins\\com.justep.cordova.plugin.AFNetworking"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-http": {
+        "source": {
+            "type": "local",
+            "path": "F:\\WX5\\model\\Native\\plugins\\cordova-plugin-http"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com.justep.cordova.plugin.weixin.v3": {
+        "source": {
+            "type": "local",
+            "path": "F:\\WX5\\model\\Native\\外卖\\build\\plugins\\com.justep.cordova.plugin.weixin.v3"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cn.jpush.phonegap.JPushPlugin": {
+        "source": {
+            "type": "local",
+            "path": "F:\\WX5\\model\\Native\\外卖\\build\\plugins\\cn.jpush.phonegap.JPushPlugin"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com.justep.cordova.plugin.unionpay": {
+        "source": {
+            "type": "local",
+            "path": "F:\\WX5\\model\\Native\\外卖\\build\\plugins\\com.justep.cordova.plugin.unionpay"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com.justep.cordova.plugin.alipay": {
+        "source": {
+            "type": "local",
+            "path": "F:\\WX5\\model\\Native\\外卖\\build\\plugins\\com.justep.cordova.plugin.alipay"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-splashscreen": {
+        "source": {
+            "type": "local",
+            "path": "F:\\WX5\\model\\Native\\plugins\\cordova-plugin-splashscreen"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-app-preferences": {
+        "source": {
+            "type": "local",
+            "path": "F:\\WX5\\model\\Native\\plugins\\cordova-plugin-app-preferences"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-file-transfer": {
+        "source": {
+            "type": "local",
+            "path": "F:\\WX5\\model\\Native\\plugins\\cordova-plugin-file-transfer"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-network-information": {
+        "source": {
+            "type": "local",
+            "path": "F:\\WX5\\model\\Native\\plugins\\cordova-plugin-network-information"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-zip": {
+        "source": {
+            "type": "local",
+            "path": "F:\\WX5\\model\\Native\\plugins\\cordova-plugin-zip"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-inappbrowser": {
+        "source": {
+            "type": "local",
+            "path": "F:\\WX5\\model\\Native\\plugins\\cordova-plugin-inappbrowser"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-x-toast": {
+        "source": {
+            "type": "local",
+            "path": "F:\\WX5\\model\\Native\\plugins\\cordova-plugin-x-toast"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com.justep.cordova.plugin.app.utils": {
+        "source": {
+            "type": "local",
+            "path": "F:\\WX5\\model\\Native\\plugins\\com.justep.cordova.plugin.app.utils"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com.justep.cordova.plugin.engine.tencent": {
+        "source": {
+            "type": "local",
+            "path": "F:\\WX5\\model\\Native\\外卖\\build\\plugins\\com.justep.cordova.plugin.engine.tencent"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-device": {
+        "source": {
+            "type": "local",
+            "path": "F:\\WX5\\model\\Native\\plugins\\cordova-plugin-device"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-app-version": {
+        "source": {
+            "type": "local",
+            "path": "F:\\WX5\\model\\Native\\plugins\\cordova-plugin-app-version"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com.justep.cordova.plugin.baidulocation": {
+        "source": {
+            "type": "local",
+            "path": "F:\\WX5\\model\\Native\\plugins\\com.justep.cordova.plugin.baidulocation"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-spinner-dialog": {
+        "source": {
+            "type": "local",
+            "path": "F:\\WX5\\model\\Native\\plugins\\cordova-plugin-spinner-dialog"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-keyboard": {
+        "source": {
+            "type": "local",
+            "path": "F:\\WX5\\model\\Native\\plugins\\cordova-plugin-keyboard"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com.justep.cordova.plugin.bmap": {
+        "source": {
+            "type": "local",
+            "path": "F:\\WX5\\model\\Native\\plugins\\com.justep.cordova.plugin.bmap"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-geolocation": {
+        "source": {
+            "type": "local",
+            "path": "F:\\WX5\\model\\Native\\plugins\\cordova-plugin-geolocation"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-appavailability": {
+        "source": {
+            "type": "local",
+            "path": "F:\\WX5\\model\\Native\\plugins\\cordova-plugin-appavailability"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}

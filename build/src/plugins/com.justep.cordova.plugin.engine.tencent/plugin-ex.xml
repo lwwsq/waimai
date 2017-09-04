@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="com.justep.cordova.plugin.engine.tencent" hide="true">
+	<name>x5浏览器</name>
+	<description>基于Tencent引擎的浏览器，能力比自带webview强</description>
+
+	<!-- common -->
+	<platform name="common">
+	</platform>
+
+	<!-- ios -->
+	<platform name="ios">
+	</platform>
+
+	<!-- android -->
+	<platform name="android">
+		<param name="webViewEngine" displayName="引擎选择方式" defaultValue="auto"/>
+	</platform>
+
+</plugin>

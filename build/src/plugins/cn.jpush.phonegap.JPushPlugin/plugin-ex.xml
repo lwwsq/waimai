@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cn.jpush.phonegap.JPushPlugin">
+	<name>极光推送</name>
+	<description>集成了JPush.SDK,提供推送通知与消息的能力</description>
+	<!-- common -->
+	<platform name="common">
+		<param name="jpush_appkey" displayName="jpush应用标识(AppKey)" />
+	</platform>
+</plugin>

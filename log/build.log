@@ -1,0 +1,2094 @@
+开始......
+   
+保存配置信息:
+   
+init
+   
+编译UI资源:
+   开始......
+      
+   [JUSTEP_HOME in UIServer]: F:\WX5
+   2017-09-04 15:16:26 参数1: F:\WX5/runtime/UIServer
+   2017-09-04 15:16:26 参数2: /UI2/takeout
+   2017-09-04 15:16:26 参数3: F:/WX5/model/Native/外卖/www/takeout
+   2017-09-04 15:16:26 参数4: 
+   2017-09-04 15:16:26 参数5: 
+   2017-09-04 15:16:26 参数6: /UI2/takeout/index.w
+   2017-09-04 15:16:26 参数7: 1
+   2017-09-04 15:16:26 参数8: v-YfAVJ3-zh_CN-
+   [JUSTEP_HOME in UIServer]: F:\WX5
+   2017-09-04 15:16:26 参数0: F:\WX5/runtime/UIServer
+   2017-09-04 15:16:26 参数1: /UI2/takeout
+   2017-09-04 15:16:26 参数2: F:/WX5/model/Native/外卖/www/takeout
+   2017-09-04 15:16:26 参数3: 
+   2017-09-04 15:16:26 参数4: 
+   2017-09-04 15:16:26 参数5: /UI2/takeout/index.w
+   2017-09-04 15:16:26 参数6: 1
+   2017-09-04 15:16:26 参数7: v-YfAVJ3-zh_CN-
+   2017-09-04 15:16:26 输出目录：F:\WX5\model\Native\外卖\www\takeout
+   2017-09-04 15:16:26 开始清空输出目录...
+   2017-09-04 15:16:26 清空输出目录成功
+   2017-09-04 15:16:26 开始编译...
+   2017-09-04 15:16:27 std html: /UI2/takeout/intro.html
+   2017-09-04 15:16:27 std html: /UI2/takeout/intro.html--end
+   2017-09-04 15:16:27 std html: /UI2/takeout/map.html
+   2017-09-04 15:16:27 std html: /UI2/takeout/map.html--end
+   2017-09-04 15:16:27 开始编译WINDOW文件: /UI2/takeout/mapActivity.w
+   2017-09-04 15:16:27 开始-WINDOW生成中间文件: /UI2/takeout/mapActivity.w
+   2017-09-04 15:16:27 加载模块：/UI2/system/components/justep/window/server ...
+   2017-09-04 15:16:27 加载模块：/UI2/system/components/justep/window/server 
+   2017-09-04 15:16:27 加载模块：/UI2/system/components/justep/model/server ...
+   2017-09-04 15:16:27 加载模块：/UI2/system/components/justep/model/server 
+   2017-09-04 15:16:27 加载模块：/UI2/system/components/justep/panel/server ...
+   2017-09-04 15:16:27 加载模块：/UI2/system/components/justep/common/server ...
+   2017-09-04 15:16:27 加载模块：/UI2/system/resources ...
+   2017-09-04 15:16:27 加载模块：/UI2/system/resources 
+   2017-09-04 15:16:27 加载模块：/UI2/system/components/justep/common/server 
+   2017-09-04 15:16:27 加载模块：/UI2/system/components/justep/panel/server 
+   2017-09-04 15:16:27 加载模块：/UI2/system/components/justep/titleBar/server ...
+   2017-09-04 15:16:27 加载模块：/UI2/system/components/justep/titleBar/server 
+   2017-09-04 15:16:27 结束-WINDOW生成中间文件: /UI2/takeout/mapActivity.w
+   2017-09-04 15:16:27 开始-中间文件生成缓存文件: /UI2/takeout/mapActivity.w
+   2017-09-04 15:16:28 结束-中间文件生成缓存文件: /UI2/takeout/mapActivity.w
+   2017-09-04 15:16:28 结束编译WINDOW文件: /UI2/takeout/mapActivity.w
+   2017-09-04 15:16:28 开始编译WINDOW文件: /UI2/takeout/index.w
+   2017-09-04 15:16:28 开始-WINDOW生成中间文件: /UI2/takeout/index.w
+   2017-09-04 15:16:28 加载模块：/UI2/system/components/justep/data/server ...
+   2017-09-04 15:16:28 加载模块：/UI2/system/components/justep/data/server 
+   2017-09-04 15:16:28 加载模块：/UI2/system/components/justep/windowDialog/server ...
+   2017-09-04 15:16:28 加载模块：/UI2/system/components/justep/windowDialog/server 
+   2017-09-04 15:16:28 加载模块：/UI2/system/components/justep/contents/server ...
+   2017-09-04 15:16:28 加载模块：/UI2/system/components/justep/contents/server 
+   2017-09-04 15:16:28 加载模块：/UI2/system/components/justep/list/server ...
+   2017-09-04 15:16:28 加载模块：/UI2/system/components/justep/list/server 
+   2017-09-04 15:16:28 加载模块：/UI2/system/components/justep/select/server ...
+   2017-09-04 15:16:28 加载模块：/UI2/system/components/justep/select/server 
+   2017-09-04 15:16:28 加载模块：/UI2/system/components/justep/button/server ...
+   2017-09-04 15:16:28 加载模块：/UI2/system/components/justep/button/server 
+   2017-09-04 15:16:28 结束-WINDOW生成中间文件: /UI2/takeout/index.w
+   2017-09-04 15:16:28 开始-中间文件生成缓存文件: /UI2/takeout/index.w
+   2017-09-04 15:16:29 结束-中间文件生成缓存文件: /UI2/takeout/index.w
+   2017-09-04 15:16:29 结束编译WINDOW文件: /UI2/takeout/index.w
+   2017-09-04 15:16:30 开始编译WINDOW文件: /UI2/system/components/justep/bmap/bmapActivity.w
+   2017-09-04 15:16:30 开始-WINDOW生成中间文件: /UI2/system/components/justep/bmap/bmapActivity.w
+   2017-09-04 15:16:30 结束-WINDOW生成中间文件: /UI2/system/components/justep/bmap/bmapActivity.w
+   2017-09-04 15:16:30 开始-中间文件生成缓存文件: /UI2/system/components/justep/bmap/bmapActivity.w
+   2017-09-04 15:16:31 结束-中间文件生成缓存文件: /UI2/system/components/justep/bmap/bmapActivity.w
+   2017-09-04 15:16:31 结束编译WINDOW文件: /UI2/system/components/justep/bmap/bmapActivity.w
+   2017-09-04 15:16:31 编译Window数：3
+   2017-09-04 15:16:31 编译Window成功数：3
+   2017-09-04 15:16:31 编译Window失败数：0
+   2017-09-04 15:16:31 编译成功
+   2017-09-04 15:16:31 开始复制资源...
+   2017-09-04 15:16:33 复制资源成功
+   2017-09-04 15:16:33 开始生成首页...
+   2017-09-04 15:16:33 生成首页成功
+   2017-09-04 15:16:33 cordova plugin: cordova-plugin-device,cordova-plugin-app-version,com.justep.cordova.plugin.baidulocation,cordova-plugin-spinner-dialog,cordova-plugin-keyboard,com.justep.cordova.plugin.weixin.v3,com.justep.cordova.plugin.alipay,com.justep.cordova.plugin.bmap,cordova-plugin-geolocation,com.justep.cordova.plugin.unionpay,cordova-plugin-x-toast,cordova-plugin-inappbrowser,cordova-plugin-appavailability,cn.jpush.phonegap.JPushPlugin,
+   编译UI资源:
+      
+   完成。
+   
+init
+   
+   开始......
+      
+   生成应用环境准备:
+      
+   复制模版工程:
+      
+   复制工程:
+      
+   复制WWW资源:
+      
+   更新工程信息:
+      
+   增加插件:
+      使用到的插件: [com.justep.cordova.plugin.weixin.v3, cn.jpush.phonegap.JPushPlugin, com.justep.cordova.plugin.unionpay, com.justep.cordova.plugin.alipay, cordova-plugin-whitelist, cordova-plugin-splashscreen, cordova-plugin-app-preferences, com.justep.cordova.plugin.app.utils, com.justep.cordova.plugin.engine.tencent, cordova-plugin-device, cordova-plugin-app-version, com.justep.cordova.plugin.baidulocation, cordova-plugin-spinner-dialog, cordova-plugin-keyboard, com.justep.cordova.plugin.weixin.v3, com.justep.cordova.plugin.alipay, com.justep.cordova.plugin.bmap, cordova-plugin-geolocation, com.justep.cordova.plugin.unionpay, cordova-plugin-x-toast, cordova-plugin-inappbrowser, cordova-plugin-appavailability, cn.jpush.phonegap.JPushPlugin]
+      开始安装插件......
+      开始准备插件参数......
+      插件 "cordova-plugin-file" 参数如下：
+      插件 "com.justep.cordova.plugin.AFNetworking" 参数如下：
+      插件 "cordova-plugin-http" 参数如下：
+      插件 "com.justep.cordova.plugin.weixin.v3" 参数如下：
+           微信应用ID(weixin_appid)：wx7f1cf94ef1ea9163
+           微信应用密钥(weixin_secret)：取用户信息必填
+           微信商户ID(weixin_partner_id)：1260525001
+           微信api_key(weixin_api_key)：C6B64B44003000013DD711AF15089430
+      插件 "cn.jpush.phonegap.JPushPlugin" 参数如下：
+           jpush应用标识(AppKey)(jpush_appkey)：07ffdfc4ffb965d80480a40c
+      插件 "com.justep.cordova.plugin.unionpay" 参数如下：
+           控件模式(00:生产模式 01:测试模式)(unionpay_mmode)：00
+      插件 "com.justep.cordova.plugin.alipay" 参数如下：
+           阿里商户(partner)：2088811446024912
+           阿里支付私钥(rsa_private)：MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAM3NsYcFbce3omzhiXY1Mr8nkxuHkpVFky9JBb+vnLzje+mjZIxbHDGIU//3c88H5F6CO6CPNMa036QJ9nhS6Ea7xmEGQ2JxY0JMM2bnQxhRtwwe1nV67boFzkjrOWD1loThzK3pgVkb6D6gLqANXcPSe3JAqrvouNUYvK/+75O1AgMBAAECgYBy3IdlZUlE+x+DB0lyGPTOrSa0abEM8LzZ2jaEKl4fKhOBbXjzwPH2TzEaniAbfzsc6DChRuvcrxxWcF0IALWzqyJdGNxZjlhwyVhKc4BJnn90AUXohvB83AFd2+cHurHkAE8sEO8ihDsSOon0YpKKkA/haQ8RKshTCO8RZIlugQJBAP2WkR3BbPzgHZxKR8u0woe0ZzIkUCa/+dMr8XELE6ZBj1w3uPTq4ePHto5W9MLwzN3p3lN+WcUkAM/BdzlbUyECQQDPwsf4SYCjV5hTNY7sj1sqcO4O8Ti7HnINHkefb90TsIrQjaBYNYxeEjj028yLxKkNkNUoLZQekt0jDast24IVAkBDvM5yplJYkf0W3HilH1m/Kh9Os4h9cVZoZBqQWaccB/MlbPUI5x0D3TsUdoHW+L+gn3H115BfKqjU1hbkyVJBAkEAryckVTMKayrG9aeahd7Z2e75E8nTrRUey+ZyNX0mYZodfXNY8eS7IPe14uCHEnJKn3Ax9DxwulHQcuPsI64CfQJBAPYgBMhCX6HXpLTKUuIID1dy1ENZyEEUZCouQsuPYwirOO6z4NIi8wSa98wgM0/2NJrVs1W2/l2fn8xVycd4Ykk=
+           阿里支付公钥(rsa_public)：MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCnxj/9qwVfgoUh/y2W89L6BkRAFljhNhgPdyPuBV64bfQNN1PjbCzkIM6qRdKBoLPXmKKMiFYnkd6rAoprih3/PrQEB/VsW8OoM8fxn67UDYuyBTqA23MML9q1+ilIZwBC2AQ2UBVOrFXfFl75p6/B5KsiNG9zpgmLCUYuLkxpLQIDAQAB
+           阿里url_scheme(alipay_scheme)：alipay20888114460249121
+      插件 "cordova-plugin-splashscreen" 参数如下：
+      插件 "cordova-plugin-app-preferences" 参数如下：
+      插件 "cordova-plugin-file-transfer" 参数如下：
+      插件 "cordova-plugin-network-information" 参数如下：
+      插件 "cordova-plugin-zip" 参数如下：
+      插件 "cordova-plugin-inappbrowser" 参数如下：
+      插件 "cordova-plugin-x-toast" 参数如下：
+      插件 "com.justep.cordova.plugin.app.utils" 参数如下：
+      插件 "com.justep.cordova.plugin.engine.tencent" 参数如下：
+           引擎选择方式(webViewEngine)：auto
+      插件 "cordova-plugin-device" 参数如下：
+      插件 "cordova-plugin-app-version" 参数如下：
+      插件 "com.justep.cordova.plugin.baidulocation" 参数如下：
+      插件 "cordova-plugin-spinner-dialog" 参数如下：
+      插件 "cordova-plugin-keyboard" 参数如下：
+      插件 "com.justep.cordova.plugin.bmap" 参数如下：
+      插件 "cordova-plugin-geolocation" 参数如下：
+      插件 "cordova-plugin-appavailability" 参数如下：
+      插件参数准备完成
+      Installing "cordova-plugin-file" for android
+      Installing "cordova-plugin-file" for ios
+      Installing "com.justep.cordova.plugin.AFNetworking" for android
+      Installing "com.justep.cordova.plugin.AFNetworking" for ios
+      Installing "cordova-plugin-http" for android
+      Dependent plugin "cordova-plugin-file" already installed on android.
+      Installing "cordova-plugin-http" for ios
+      Dependent plugin "cordova-plugin-file" already installed on ios.
+      Dependent plugin "com.justep.cordova.plugin.AFNetworking" already installed on ios.
+      Installing "com.justep.cordova.plugin.weixin.v3" for android
+      Dependent plugin "cordova-plugin-http" already installed on android.
+      The module "ConfigParser" has been factored into "cordova-common". Consider update your plugin hooks.
+      F:\WX5\model\Native\澶栧崠\build\src\platforms\android
+      F:\WX5\model\Native\澶栧崠\build\src\platforms\android
+      Installing "com.justep.cordova.plugin.weixin.v3" for ios
+      Dependent plugin "cordova-plugin-http" already installed on ios.
+      Dependent plugin "com.justep.cordova.plugin.AFNetworking" already installed on ios.
+      Installing "cn.jpush.phonegap.JPushPlugin" for android
+      Running android-install.Hook: after_plugin_install, Package: com.wex5.takeout, Path: F:\WX5\model\Native\澶栧崠\build\src.
+      F:\WX5\model\Native\澶栧崠\build\src\platforms\android\src\cn\jpush\phonegap
+      Installing "cn.jpush.phonegap.JPushPlugin" for ios
+      Installing "com.justep.cordova.plugin.unionpay" for android
+      Installing "com.justep.cordova.plugin.unionpay" for ios
+      Installing "com.justep.cordova.plugin.alipay" for android
+      Installing "com.justep.cordova.plugin.alipay" for ios
+      Installing "cordova-plugin-splashscreen" for android
+      Installing "cordova-plugin-splashscreen" for ios
+      Installing "cordova-plugin-app-preferences" for android
+      Installing "cordova-plugin-app-preferences" for ios
+      Installing "cordova-plugin-file-transfer" for android
+      Dependent plugin "cordova-plugin-file" already installed on android.
+      Installing "cordova-plugin-file-transfer" for ios
+      Dependent plugin "cordova-plugin-file" already installed on ios.
+      Installing "cordova-plugin-network-information" for android
+      Installing "cordova-plugin-network-information" for ios
+      Installing "cordova-plugin-zip" for android
+      Dependent plugin "cordova-plugin-file" already installed on android.
+      Installing "cordova-plugin-zip" for ios
+      Dependent plugin "cordova-plugin-file" already installed on ios.
+      Installing "cordova-plugin-inappbrowser" for android
+      Installing "cordova-plugin-inappbrowser" for ios
+      Installing "cordova-plugin-x-toast" for android
+      Installing "cordova-plugin-x-toast" for ios
+      Installing "com.justep.cordova.plugin.app.utils" for android
+      Dependent plugin "cordova-plugin-file" already installed on android.
+      Dependent plugin "cordova-plugin-file-transfer" already installed on android.
+      Dependent plugin "cordova-plugin-network-information" already installed on android.
+      Dependent plugin "cordova-plugin-zip" already installed on android.
+      Dependent plugin "cordova-plugin-inappbrowser" already installed on android.
+      Dependent plugin "cordova-plugin-x-toast" already installed on android.
+      Installing "com.justep.cordova.plugin.app.utils" for ios
+      Dependent plugin "cordova-plugin-file" already installed on ios.
+      Dependent plugin "cordova-plugin-file-transfer" already installed on ios.
+      Dependent plugin "cordova-plugin-network-information" already installed on ios.
+      Dependent plugin "cordova-plugin-zip" already installed on ios.
+      Dependent plugin "cordova-plugin-inappbrowser" already installed on ios.
+      Dependent plugin "cordova-plugin-x-toast" already installed on ios.
+      Installing "com.justep.cordova.plugin.engine.tencent" for android
+      Installing "com.justep.cordova.plugin.engine.tencent" for ios
+      Installing "cordova-plugin-device" for android
+      Installing "cordova-plugin-device" for ios
+      Installing "cordova-plugin-app-version" for android
+      Installing "cordova-plugin-app-version" for ios
+      Installing "com.justep.cordova.plugin.baidulocation" for android
+      Installing "com.justep.cordova.plugin.baidulocation" for ios
+      Installing "cordova-plugin-spinner-dialog" for android
+      Installing "cordova-plugin-spinner-dialog" for ios
+      Installing "cordova-plugin-keyboard" for android
+      Installing "cordova-plugin-keyboard" for ios
+      Installing "com.justep.cordova.plugin.bmap" for android
+      Installing "com.justep.cordova.plugin.bmap" for ios
+      Installing "cordova-plugin-geolocation" for android
+      Dependent plugin "com.justep.cordova.plugin.baidulocation" already installed on android.
+      Installing "cordova-plugin-geolocation" for ios
+      Dependent plugin "com.justep.cordova.plugin.baidulocation" already installed on ios.
+      Installing "cordova-plugin-appavailability" for android
+      Installing "cordova-plugin-appavailability" for ios
+      Running android-install.Hook: after_plugin_add, Package: com.wex5.takeout, Path: F:\WX5\model\Native\澶栧崠\build\src.
+      F:\WX5\model\Native\澶栧崠\build\src\platforms\android\src\cn\jpush\phonegap
+      插件安装完成
+      
+   创建源代码工程:
+      
+   生成源代码:
+      
+   完成。
+init
+   
+   开始......
+      
+   生成应用环境准备:
+      
+   android应用环境准备:
+      
+   ios应用环境准备:
+      
+   生成android应用包:
+      Running command: cmd "/s /c "F:\WX5\model\Native\澶栧崠\build\src\platforms\android\cordova\build.bat --debug --gradleArg=--offline""
+      ANDROID_HOME=F:\WX5\tools\adt-sdk
+      JAVA_HOME=F:\WX5\java\jre1.8
+      Running: F:\WX5\model\Native\澶栧崠\build\src\platforms\android\gradlew cdvBuildDebug -b F:\WX5\model\Native\澶栧崠\build\src\platforms\android\build.gradle -Dorg.gradle.daemon=true --offline
+      Starting a new Gradle Daemon for this build (subsequent builds will be faster).
+      Incremental java compilation is an incubating feature.
+      :preBuild UP-TO-DATE
+      :preDebugBuild UP-TO-DATE
+      :checkDebugManifest
+      :CordovaLib:preBuild UP-TO-DATE
+      :CordovaLib:preDebugBuild UP-TO-DATE
+      :CordovaLib:compileDebugNdk UP-TO-DATE
+      :CordovaLib:compileLint
+      :CordovaLib:copyDebugLint UP-TO-DATE
+      :CordovaLib:checkDebugManifest
+      :CordovaLib:preDebugAndroidTestBuild UP-TO-DATE
+      :CordovaLib:preDebugUnitTestBuild UP-TO-DATE
+      :CordovaLib:preReleaseBuild UP-TO-DATE
+      :CordovaLib:preReleaseUnitTestBuild UP-TO-DATE
+      :JustepGetContent:preBuild UP-TO-DATE
+      :JustepGetContent:preReleaseBuild UP-TO-DATE
+      :JustepGetContent:compileReleaseNdk UP-TO-DATE
+      :JustepGetContent:compileLint
+      :JustepGetContent:copyReleaseLint UP-TO-DATE
+      :JustepGetContent:checkReleaseManifest
+      :JustepGetContent:preDebugAndroidTestBuild UP-TO-DATE
+      :JustepGetContent:preDebugBuild UP-TO-DATE
+      :JustepGetContent:preDebugUnitTestBuild UP-TO-DATE
+      :JustepGetContent:preReleaseUnitTestBuild UP-TO-DATE
+      :JustepGetContent:prepareComAndroidSupportAppcompatV72220Library
+      :JustepGetContent:prepareComAndroidSupportSupportV42220Library
+      :JustepGetContent:prepareReleaseDependencies
+      :JustepGetContent:compileReleaseAidl
+      :JustepGetContent:compileReleaseRenderscript
+      :JustepGetContent:generateReleaseBuildConfig
+      :JustepGetContent:generateReleaseAssets UP-TO-DATE
+      :JustepGetContent:mergeReleaseAssets
+      :JustepGetContent:generateReleaseResValues
+      :JustepGetContent:generateReleaseResources
+      :JustepGetContent:mergeReleaseResources
+      :JustepGetContent:processReleaseManifest
+      :JustepGetContent:processReleaseResources
+      :JustepGetContent:generateReleaseSources
+      注: 某些输入文件使用或覆盖了已过时的 API。
+      注: 有关详细信息, 请使用 -Xlint:deprecation 重新编译。
+      注: F:\WX5\model\Native\外卖\build\src\platforms\android\JustepGetContent\src\main\java\com\justep\x5\support\chooser\FileUploadChooserActivity.java使用了未经检查或不安全的操作。
+      注: 有关详细信息, 请使用 -Xlint:unchecked 重新编译。
+      :JustepGetContent:compileReleaseJavaWithJavac
+      :JustepGetContent:extractReleaseAnnotations
+      :JustepGetContent:mergeReleaseProguardFiles
+      :JustepGetContent:packageReleaseRenderscript UP-TO-DATE
+      :JustepGetContent:packageReleaseResources
+      :JustepGetContent:processReleaseJavaRes UP-TO-DATE
+      :JustepGetContent:transformResourcesWithMergeJavaResForRelease
+      :JustepGetContent:transformClassesAndResourcesWithSyncLibJarsForRelease
+      :JustepGetContent:mergeReleaseJniLibFolders
+      :JustepGetContent:transformNative_libsWithMergeJniLibsForRelease
+      :JustepGetContent:transformNative_libsWithSyncJniLibsForRelease
+      :JustepGetContent:bundleRelease
+      :CordovaLib:prepareAndroidJustepGetContentUnspecifiedLibrary
+      :CordovaLib:prepareComAndroidSupportAppcompatV72220Library
+      :CordovaLib:prepareComAndroidSupportSupportV42220Library
+      :CordovaLib:prepareDebugDependencies
+      :CordovaLib:compileDebugAidl
+      :CordovaLib:compileDebugRenderscript
+      :CordovaLib:generateDebugBuildConfig
+      :CordovaLib:generateDebugAssets UP-TO-DATE
+      :CordovaLib:mergeDebugAssets
+      :CordovaLib:generateDebugResValues
+      :CordovaLib:generateDebugResources
+      :CordovaLib:mergeDebugResources
+      :CordovaLib:processDebugManifest
+      :CordovaLib:processDebugResources
+      :CordovaLib:generateDebugSources
+      注: 某些输入文件使用或覆盖了已过时的 API。
+      注: 有关详细信息, 请使用 -Xlint:deprecation 重新编译。
+      :CordovaLib:compileDebugJavaWithJavac
+      :CordovaLib:extractDebugAnnotations
+      :CordovaLib:mergeDebugProguardFiles
+      :CordovaLib:packageDebugRenderscript UP-TO-DATE
+      :CordovaLib:packageDebugResources
+      :CordovaLib:processDebugJavaRes UP-TO-DATE
+      :CordovaLib:transformResourcesWithMergeJavaResForDebug
+      :CordovaLib:transformClassesAndResourcesWithSyncLibJarsForDebug
+      :CordovaLib:mergeDebugJniLibFolders
+      :CordovaLib:transformNative_libsWithMergeJniLibsForDebug
+      :CordovaLib:transformNative_libsWithSyncJniLibsForDebug
+      :CordovaLib:bundleDebug
+      :prepareAndroidCordovaLibUnspecifiedDebugLibrary
+      :preReleaseBuild UP-TO-DATE
+      :CordovaLib:compileReleaseNdk UP-TO-DATE
+      :CordovaLib:copyReleaseLint UP-TO-DATE
+      :CordovaLib:checkReleaseManifest
+      :CordovaLib:prepareReleaseDependencies
+      :CordovaLib:compileReleaseAidl
+      :CordovaLib:compileReleaseRenderscript
+      :CordovaLib:generateReleaseBuildConfig
+      :CordovaLib:generateReleaseAssets UP-TO-DATE
+      :CordovaLib:mergeReleaseAssets
+      :CordovaLib:generateReleaseResValues
+      :CordovaLib:generateReleaseResources
+      :CordovaLib:mergeReleaseResources
+      :CordovaLib:processReleaseManifest
+      :CordovaLib:processReleaseResources
+      :CordovaLib:generateReleaseSources
+      注: 某些输入文件使用或覆盖了已过时的 API。
+      注: 有关详细信息, 请使用 -Xlint:deprecation 重新编译。
+      :CordovaLib:compileReleaseJavaWithJavac
+      :CordovaLib:extractReleaseAnnotations
+      :CordovaLib:mergeReleaseProguardFiles
+      :CordovaLib:packageReleaseRenderscript UP-TO-DATE
+      :CordovaLib:packageReleaseResources
+      :CordovaLib:processReleaseJavaRes UP-TO-DATE
+      :CordovaLib:transformResourcesWithMergeJavaResForRelease
+      :CordovaLib:transformClassesAndResourcesWithSyncLibJarsForRelease
+      :CordovaLib:mergeReleaseJniLibFolders
+      :CordovaLib:transformNative_libsWithMergeJniLibsForRelease
+      :CordovaLib:transformNative_libsWithSyncJniLibsForRelease
+      :CordovaLib:bundleRelease
+      :prepareAndroidJustepGetContentUnspecifiedLibrary
+      :prepareComAndroidSupportAppcompatV72220Library
+      :prepareComAndroidSupportSupportV42220Library
+      :prepareDebugDependencies
+      :compileDebugAidl
+      :compileDebugRenderscript
+      :generateDebugBuildConfig
+      :generateDebugAssets UP-TO-DATE
+      :mergeDebugAssets
+      :generateDebugResValues
+      :generateDebugResources
+      :mergeDebugResources
+      :processDebugManifest
+      :processDebugResources
+      :generateDebugSources
+      注: 某些输入文件使用或覆盖了已过时的 API。
+      注: 有关详细信息, 请使用 -Xlint:deprecation 重新编译。
+      注: 某些输入文件使用了未经检查或不安全的操作。
+      注: 有关详细信息, 请使用 -Xlint:unchecked 重新编译。
+      :compileDebugJavaWithJavac
+      :compileDebugNdk UP-TO-DATE
+      :compileDebugSources
+      :prePackageMarkerForDebug
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.app.H5PayActivity$1) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.app.H5PayActivity$MyWebChromeClient$1) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.app.H5PayActivity$MyWebChromeClient$2) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.app.H5PayActivity$MyWebChromeClient$3) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.app.H5PayActivity$MyWebChromeClient$4) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.app.H5PayActivity$MyWebChromeClient$5) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.app.H5PayActivity$MyWebChromeClient$6) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.app.H5PayActivity$MyWebViewClient$1) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.app.PayTask$1$1) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.app.PayTask$1$2) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.app.PayTask$1) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.app.PayTask$2) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.app.PayTask$3) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.app.PayTask$4$1) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.app.PayTask$4$2) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.app.PayTask$4) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.app.PayTask$5$1) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.app.PayTask$5) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.app.PayTask$6$1) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.app.PayTask$6$2) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.app.PayTask$6) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.auth.AuthActivity$1) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.auth.AuthActivity$10$1) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.auth.AuthActivity$10) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.auth.AuthActivity$11) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.auth.AuthActivity$12) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.auth.AuthActivity$13) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.auth.AuthActivity$14) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.auth.AuthActivity$2) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.auth.AuthActivity$3) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.auth.AuthActivity$4) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.auth.AuthActivity$5) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.auth.AuthActivity$6) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.auth.AuthActivity$7) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.auth.AuthActivity$8) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.auth.AuthActivity$9) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.authjs.JsBridge$1) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.authjs.JsBridge$2) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.util.FileDownloader$1) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.util.PayHelper$1) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.util.PayHelper$2) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.widget.Loading$1) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.widget.Loading$2) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.alipay.sdk.widget.SystemDefaultDialog$1) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.tencent.mm.sdk.b.b) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.UCMobile.PayPlugin.a) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.utils.e) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.c) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.d) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.e) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.f) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.h) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.i) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.j) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.k) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.m) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.n) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.p) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.q) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.r) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.s) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.t) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.u) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.v) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.w) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.x) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.y) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.z) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.aa) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.ab) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.ac) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.ad) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.ae) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.ag) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.ah) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.aj) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.al) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.am) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.an) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.ap) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.aq) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.ar) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.at) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.au) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.av) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.aw) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.ax) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.ay) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.az) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.ba) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.bb) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.bd) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.be) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.bf) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.nocard.views.bi) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.views.order.a) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.views.order.c) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.views.order.d) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.views.order.e) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.views.order.f) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.views.order.g) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.views.order.h) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.views.order.j) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.views.order.k) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.views.order.n) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.upviews.b) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.upviews.c) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.upviews.e) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.upwidget.b) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.upwidget.d) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.upwidget.f) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.upwidget.g) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.upwidget.i) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.upwidget.j) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.upwidget.k) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.upwidget.l) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.upwidget.m) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.upwidget.n) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.upwidget.p) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.upwidget.q) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.upwidget.r) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.upwidget.s) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.upwidget.t) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.widgets.b) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.widgets.c) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.widgets.d) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.widgets.h) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.widgets.i) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.widgets.j) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.widgets.l) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.widgets.n) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.widgets.q) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.widgets.r) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.widgets.s) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.widgets.u) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.widgets.v) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.widgets.w) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.widgets.aa) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.widgets.ab) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.widgets.af) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.widgets.ah) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.widgets.aj) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.widgets.ak) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.widgets.al) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.widgets.am) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.widgets.ap) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.widgets.aq) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.widgets.av) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.widgets.aw) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.widgets.ay) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.unionpay.mobile.android.widgets.bb) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.baidu.location.BDLocation$1) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.baidu.location.al$1) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.baidu.location.al$2) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.baidu.location.o$1) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.baidu.location.GeofenceClient$1) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.baidu.location.ax$1) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.baidu.location.ax$2) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.baidu.location.ax$3) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.baidu.location.z$1) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.baidu.location.LocationClient$1) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.baidu.location.am$1) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.baidu.location.am$2) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.baidu.location.t$1) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.baidu.location.t$2) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.baidu.location.t$3) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.baidu.location.t$4) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.baidu.location.t$5) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.baidu.location.t$a$1) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.baidu.location.a1$1) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.baidu.location.af$1) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.baidu.location.af$2) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.baidu.location.af$3) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.baidu.location.d$1) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.baidu.location.d$2) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.baidu.location.d$3) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.baidu.location.l$1) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.tencent.smtt.sdk.d) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.tencent.smtt.sdk.c) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.tencent.smtt.sdk.e) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.tencent.smtt.sdk.f) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.tencent.smtt.sdk.g) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.tencent.smtt.sdk.h) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.tencent.smtt.sdk.m) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.tencent.smtt.sdk.n) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.tencent.smtt.sdk.o) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.tencent.smtt.sdk.q) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.tencent.smtt.sdk.r) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.tencent.smtt.sdk.s) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.tencent.smtt.sdk.t) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.tencent.smtt.sdk.u) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.tencent.smtt.sdk.x) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.tencent.smtt.sdk.y) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.tencent.smtt.sdk.ab) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.tencent.smtt.sdk.ac) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.tencent.smtt.sdk.ad) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.tencent.smtt.sdk.af) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.tencent.smtt.sdk.aj) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.tencent.smtt.sdk.ak) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.tencent.smtt.sdk.al) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.tencent.smtt.sdk.am) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.tencent.smtt.sdk.an) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.tencent.smtt.sdk.ao) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.tencent.smtt.sdk.ap) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.tencent.smtt.sdk.a.c) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.tencent.smtt.utils.d) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.tencent.smtt.utils.e) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.tencent.smtt.utils.f) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.tencent.smtt.utils.c) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.tencent.smtt.utils.g) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      warning: Ignoring InnerClasses attribute for an anonymous inner class
+      (com.tencent.smtt.utils.i) that doesn't come with an
+      associated EnclosingMethod attribute. This class was probably produced by a
+      compiler that did not target the modern .class file format. The recommended
+      solution is to recompile the class from source, using an up-to-date compiler
+      and without specifying any "-target" type options. The consequence of ignoring
+      this warning is that reflective operations on this class will incorrectly
+      indicate that it is *not* an inner class.
+      :transformClassesWithDexForDebug
+      :mergeDebugJniLibFolders
+      :transformNative_libsWithMergeJniLibsForDebug
+      :processDebugJavaRes UP-TO-DATE
+      :transformResourcesWithMergeJavaResForDebug
+      :validateDebugSigning
+      :packageDebug
+      :zipalignDebug
+      :assembleDebug
+      :cdvBuildDebug
+      
+      BUILD SUCCESSFUL
+      
+      Total time: 1 mins 0.083 secs
+      Built the following apk(s):
+          F:\WX5\model\Native\澶栧崠\build\src\platforms\android\build\outputs\apk\android-debug.apk
+      
+   生成ios应用包:
+      
+   完成。
+发布版本更新文件:
+   
+完成。

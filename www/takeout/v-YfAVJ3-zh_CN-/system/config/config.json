@@ -1,0 +1,8 @@
+{
+	"wxAppId" : "wx3453bdac5bce0385",
+	"wxJSApiUrl" : "/baas/weixin/weixin/jsapi",
+	"wxUserInfoUrl" : "/baas/weixin/weixin/userinfo",
+	"wxShareHintMsg": "请点击右上角“微信菜单”中的按钮分享",
+	"uploadActionUrl" : "$UI/system/service/doc/common/simpleFileStore.j",
+	"mchId" : "1305137601"
+}

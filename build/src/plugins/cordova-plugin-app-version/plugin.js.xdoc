@@ -1,0 +1,34 @@
+/**
+	@cordova-plugin-app-version
+	@class 
+	@description 获取当前应用的版本信息
+	@model Native
+	@category plugin
+	@declareVar cordova.getAppVersion
+*/
+
+/**
+	@cordova-plugin-app-version.getAppVersion.getAppName
+	@function
+ 	@returns {string} AppName 应用名称
+ 	@description 获取应用名称
+*/
+
+/**
+	@cordova-plugin-app-version.getAppVersion.getPackageName
+	@function
+	@returns {string} PackageName 包名
+ 	@description 获取包名
+*/
+/**
+	@cordova-plugin-app-version.getAppVersion.getVersionNumber
+	@function
+	@returns {string} VersionNumber 应用软件版本号码 比如：1.0.1
+ 	@description 获取应用版本号码
+*/
+/**
+	@cordova-plugin-app-version.getAppVersion.getVersionCode
+	@function
+	@returns {string} AppName 应用软件版本
+ 	@description 获取应用版本
+*/

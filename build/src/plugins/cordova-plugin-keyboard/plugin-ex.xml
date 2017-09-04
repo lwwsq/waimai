@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-keyboard">
+	<name>键盘插件</name>
+	<description>键盘插件，用来显示隐藏键盘及其他关于键盘的操作</description>
+	
+</plugin>
